@@ -1,0 +1,164 @@
+\documentclass[
+  tucolor,
+  BCOR=12mm,     % 12mm binding corrections, adjust to fit your binding
+  parskip=half,  % new paragraphs start with half line vertical space
+  open=any,      % chapters start on both odd and even pages
+  cleardoublepage=plain,  % no header/footer on blank pages
+]{tudothesis}
+
+
+% Warning, if another latex run is needed
+\usepackage[aux]{rerunfilecheck}
+
+% just list chapters and sections in the toc, not subsections or smaller
+\setcounter{tocdepth}{1}
+
+%------------------------------------------------------------------------------
+%------------------------------ Sprache und Schrift: --------------------------
+%------------------------------------------------------------------------------
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}  % -- becomes en-dash etc.
+
+% german language
+\usepackage{polyglossia}
+\setdefaultlanguage{german}
+
+% for english abstract and english titles in the toc
+\setotherlanguages{english}
+
+% intelligent quotation marks, language and nesting sensitive
+\usepackage[autostyle]{csquotes}
+
+% microtypographical features, makes the text look nicer on the small scale
+\usepackage{microtype}
+
+%------------------------------------------------------------------------------
+%------------------------ Für die Matheumgebung--------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+% Enable Unicode-Math and follow the ISO-Standards for typesetting math
+\usepackage[
+  math-style=ISO,
+  bold-style=ISO,
+  sans-style=italic,
+  nabla=upright,
+  partial=upright,
+]{unicode-math}
+\setmathfont{Latin Modern Math}
+
+% nice, small fracs for the text with \sfrac{}{}
+\usepackage{xfrac}
+
+
+%------------------------------------------------------------------------------
+%---------------------------- Numbers and Units -------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  locale=DE,
+  separate-uncertainty=true,
+  per-mode=symbol-or-fraction,
+]{siunitx}
+\sisetup{math-micro=\text{µ},text-micro=µ}
+
+%------------------------------------------------------------------------------
+%-------------------------------- tables  -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{booktabs}       % stellt \toprule, \midrule, \bottomrule
+
+%------------------------------------------------------------------------------
+%-------------------------------- graphics -------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{graphicx}
+\usepackage{grffile}
+
+% allow figures to be placed in the running text by default:
+\usepackage{scrhack}
+\usepackage{float}
+\floatplacement{figure}{htbp}
+\floatplacement{table}{htbp}
+
+% keep figures and tables in the section
+\usepackage[section, below]{placeins}
+
+
+%------------------------------------------------------------------------------
+%---------------------- customize list environments ---------------------------
+%------------------------------------------------------------------------------
+
+\usepackage{enumitem}
+
+%------------------------------------------------------------------------------
+%------------------------------ Bibliographie ---------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[
+  backend=biber,   % use modern biber backend
+  autolang=hyphen, % load hyphenation rules for if language of bibentry is not
+                   % german, has to be loaded with \setotherlanguages
+                   % in the references.bib use langid={en} for english sources
+]{biblatex}
+\addbibresource{references.bib}  % die Bibliographie einbinden
+\DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}
+
+%------------------------------------------------------------------------------
+%------------------------------ Sonstiges: ------------------------------------
+%------------------------------------------------------------------------------
+
+\usepackage[pdfusetitle,unicode,linkbordercolor=tugreen]{hyperref}
+\usepackage{bookmark}
+\usepackage[shortcuts]{extdash}
+
+%------------------------------------------------------------------------------
+%-------------------------    Angaben zur Arbeit   ----------------------------
+%------------------------------------------------------------------------------
+
+\author{Kevin Sedlaczek}
+\title{\texorpdfstring{Suche nach dem Zerfall $\mathrm{J}/\mathrm{\Psi}\rightarrow e^{\pm}\mu^{\mp}$ bei LHCb}{J/Psi to e µ}}
+\date{2016}
+\birthplace{Dortmund}
+\chair{Lehrstuhl für Experimentelle Physik V}
+\division{Fakultät Physik}
+\thesisclass{Bachelor of Science}
+\submissiondate{04. Juli 2016}
+\firstcorrector{Dr.~Johannes Albrecht}
+\secondcorrector{Prof.~Dr.~Zweitgutachter}
+
+% tu logo on top of the titlepage
+\titlehead{\includegraphics[height=1.5cm]{logos/tu-logo.pdf}}
+
+\begin{document}
+\frontmatter
+
+\maketitle
+
+% Gutachterseite
+\makecorrectorpage
+
+% hier beginnt der Vorspann, nummeriert in römischen Zahlen
+\input{content/00_abstract.tex}
+\tableofcontents
+
+\mainmatter
+% Hier beginnt der Inhalt mit Seite 1 in arabischen Ziffern
+\input{content/01_einleitung.tex}
+\input{content/02_struktur.tex}
+\input{content/03_grundlagen.tex}
+\input{content/04_figs_tabs.tex}
+
+\appendix
+% Hier beginnt der Anhang, nummeriert in lateinischen Buchstaben
+\input{content/a_anhang.tex}
+
+\backmatter
+\printbibliography
+
+\cleardoublepage
+\input{content/eid_versicherung.tex}
+\end{document}
