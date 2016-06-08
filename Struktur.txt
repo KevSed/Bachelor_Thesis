@@ -1,0 +1,21 @@
+Struktur:
+0) Zusammenfassung + abstract (1 Seite)
+1) Einleitung (1 Seite)
+2) "Hintergrund-Infos" (5/7 Seiten)
+  - Das Standardmodell der Teilchenphysik (1,5/2 Seiten)
+  - Der betrachtete Zerfall (1,5/2 Seiten)
+  - Der Detektor (2/3 Seiten (Mit Grafiken))
+3) Suche nach J/Psi2mumu bei LHCb (4 Seiten)
+  - bereits publizierte Analysen (?)
+  - was zu Maiks Analyse
+  - ...
+4) Analyse des Kontrollkanals mit Bestimmung der Normierungskonstante (10/15 Seiten je nachdem mit plots & Co)
+  - Datensätze
+  - Vergleich Signalkanal & Kontrollkanal
+  - Selektion (Schnitte, crop und Co)
+  - Effizienzen
+  - Kandidaten
+  - Normierungskonstante
+5) Ergebnis der Analyse (3/4 Seiten)
+  - Obere Ausschlussgrenzen der Zerfallsbreite
+  - Ausblick
