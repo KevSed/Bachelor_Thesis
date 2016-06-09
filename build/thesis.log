@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  9 JUN 2016 11:00
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  9 JUN 2016 10:56
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.055 seconds)
+luaotfload | main : initialization completed in 0.056 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -1754,7 +1754,7 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
-(./thesis.aux
+(./build/thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 \openout1 = thesis.aux
@@ -1861,13 +1861,13 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout3 = thesis.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' not found.
-
-No file thesis.bbl.
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (./build/thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 137.
 Package biblatex Info: Reference segment=0 on input line 137.
 \AtBeginShipoutBox=\box57
 Package hyperref Info: Link coloring OFF on input line 137.
+
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2006,7 +2006,7 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
 Language ngerman already loaded; id is 8) [3]
 Package tocbasic Info: character protrusion at toc deactivated on input line 147
 .
- (./thesis.toc
+ (./build/thesis.toc
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 \tf@toc=\write4
@@ -2082,9 +2082,14 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf") (./content/03_lhc.tex [2
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [2
 
-<./content/SM.pdf>] [3]
+<./content/SM.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+) (./content/03_lhc.tex [3]
 chapter 3.
 ) (./content/04_analyse.tex [4
 
@@ -2122,7 +2127,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
  [9]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
- (./thesis.aux
+ (./build/thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
@@ -2138,14 +2143,14 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43907 strings out of 495009
+ 43914 strings out of 495009
  100000,1648299 words of node,token memory allocated
- 432 words of node memory still in use:
+ 433 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 61 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:4,2:451,3:101,4:825,5:216,6:2762,7:203,8:11,9:197,10:405,11:1
- 46142 multiletter control sequences out of 65536+600000
- 220 fonts using 61639327 bytes
+   avail lists: 1:4,2:441,3:102,4:659,5:154,6:1918,7:148,8:11,9:184,10:291,11:1
+ 46144 multiletter control sequences out of 65536+600000
+ 220 fonts using 61639043 bytes
  60i,19n,81p,939b,883s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-i
 talic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
