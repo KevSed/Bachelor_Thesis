@@ -385,8 +385,6 @@ INPUT ./content/01_einleitung.tex
 INPUT ./content/01_einleitung.tex
 INPUT ./content/02_physikalischer_hintergrund.tex
 INPUT ./content/02_physikalischer_hintergrund.tex
-INPUT ./content/SM.pdf
-INPUT content/SM.pdf
 INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman8-regular.luc
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -454,6 +452,8 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./content/SM.pdf
+INPUT content/SM.pdf
 INPUT ./content/03_lhc.tex
 INPUT ./content/03_lhc.tex
 INPUT ./content/04_analyse.tex
@@ -469,3 +469,5 @@ INPUT build/thesis.aux
 INPUT build/thesis.toc
 INPUT build/thesis.run.xml
 OUTPUT build/thesis.run.xml
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb

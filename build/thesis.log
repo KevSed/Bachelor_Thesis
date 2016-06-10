@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  9 JUN 2016 10:56
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  9 JUN 2016 13:02
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.056 seconds)
+luaotfload | main : initialization completed in 0.076 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -1759,33 +1759,33 @@ Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 \openout1 = thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 145.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 145.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1822,7 +1822,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 Language ngerman already loaded; id is 8
-LaTeX Info: Redefining \microtypecontext on input line 137.
+LaTeX Info: Redefining \microtypecontext on input line 145.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1863,10 +1863,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./build/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 137.
-Package biblatex Info: Reference segment=0 on input line 137.
+Package biblatex Info: Reference section=0 on input line 145.
+Package biblatex Info: Reference segment=0 on input line 145.
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 137.
+Package hyperref Info: Link coloring OFF on input line 145.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1877,9 +1877,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count382
 )
-LaTeX Info: Redefining \ref on input line 137.
-LaTeX Info: Redefining \pageref on input line 137.
-LaTeX Info: Redefining \nameref on input line 137.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
 \c__siunitx_mathsf_int=\count383
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LatinModernMath' (encoding: EU2).
@@ -1888,31 +1888,31 @@ Package microtype Info: Loading generic settings for font family
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 137.
+(Font)              scaled to size 10.95015pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.67863pt on input line 137.
+(Font)              scaled to size 7.67863pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.45398pt on input line 137.
+(Font)              scaled to size 5.45398pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 137.
+(Font)              scaled to size 10.94983pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.6784pt on input line 137.
+(Font)              scaled to size 7.6784pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.45381pt on input line 137.
+(Font)              scaled to size 5.45381pt on input line 145.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
+LaTeX Font Info:    Try loading font information for U+msa on input line 145.
  (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
+LaTeX Font Info:    Try loading font information for U+msb on input line 145.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1933,7 +1933,7 @@ Package microtype Info: Loading generic settings for font family
 <logos/tu-logo.pdf, id=4, 339.2675pt x 55.20625pt>
 File: logos/tu-logo.pdf Graphic file (type pdf)
  <use logos/tu-logo.pdf>
-Package pdftex.def Info: logos/tu-logo.pdf used on input line 141.
+Package pdftex.def Info: logos/tu-logo.pdf used on input line 149.
 (pdftex.def)             Requested size: 262.29283pt x 42.67912pt.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman12-bold.luc)
@@ -1947,52 +1947,52 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 20.74031pt on input line 141.
+(Font)              scaled to size 20.74031pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 14.4002pt on input line 141.
+(Font)              scaled to size 14.4002pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 141.
+(Font)              scaled to size 12.00018pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 20.73969pt on input line 141.
+(Font)              scaled to size 20.73969pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.39977pt on input line 141.
+(Font)              scaled to size 14.39977pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 141.
+(Font)              scaled to size 11.99982pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 141.
+(Font)              scaled to size 8.00012pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 141.
+(Font)              scaled to size 6.00009pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 141.
+(Font)              scaled to size 7.99988pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 141.
+(Font)              scaled to size 5.99991pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"(loa
 d luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/
 lmroman12-regular.luc)
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 141.
+(Font)              scaled to size 10.00015pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 141.
+(Font)              scaled to size 7.0001pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 141.
+(Font)              scaled to size 9.99985pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 141.
+(Font)              scaled to size 6.9999pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
 
 
@@ -2004,7 +2004,7 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
 
 ] (./content/00_abstract.tex
 Language ngerman already loaded; id is 8) [3]
-Package tocbasic Info: character protrusion at toc deactivated on input line 147
+Package tocbasic Info: character protrusion at toc deactivated on input line 155
 .
  (./build/thesis.toc
 Language ngerman already loaded; id is 8
@@ -2022,34 +2022,29 @@ chapter 1.
 
 ]
 chapter 2.
-<content/SM.pdf, id=55, 187.65591pt x 126.1323pt>
-File: content/SM.pdf Graphic file (type pdf)
- <use content/SM.pdf>
-Package pdftex.def Info: content/SM.pdf used on input line 10.
-(pdftex.def)             Requested size: 236.61555pt x 159.05261pt.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman8-regular.luc)
-LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.63441pt on input line 15.
+(Font)              scaled to size 7.63441pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.34406pt on input line 15.
+(Font)              scaled to size 5.34406pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 3.8172pt on input line 15.
+(Font)              scaled to size 3.8172pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.63419pt on input line 15.
+(Font)              scaled to size 7.63419pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.34389pt on input line 15.
+(Font)              scaled to size 5.34389pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 3.8171pt on input line 15.
+(Font)              scaled to size 3.8171pt on input line 5.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
@@ -2082,14 +2077,16 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [2
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+<content/SM.pdf, id=58, 187.65591pt x 126.1323pt>
+File: content/SM.pdf Graphic file (type pdf)
+ <use content/SM.pdf>
+Package pdftex.def Info: content/SM.pdf used on input line 9.
+(pdftex.def)             Requested size: 236.61555pt x 159.05261pt.
+)
+(./content/03_lhc.tex [2
 
-<./content/SM.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-) (./content/03_lhc.tex [3]
+<./content/SM.pdf>] [3]
 chapter 3.
 ) (./content/04_analyse.tex [4
 
@@ -2107,7 +2104,7 @@ chapter A.
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 162.
+LaTeX Warning: Empty bibliography on input line 170.
 
 [8
 
@@ -2124,14 +2121,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./build/thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
 (rerunfilecheck)             Checksum: EDE4D4512DFD8D8A5AF325DC2414DABD;5753.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
@@ -2139,35 +2136,37 @@ Package rerunfilecheck Info: File `thesis.toc' has not changed.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43914 strings out of 495009
+ 43916 strings out of 495009
  100000,1648299 words of node,token memory allocated
- 433 words of node memory still in use:
+ 432 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 61 glue_spec, 4 attrib
 ute_list, 1 write nodes
-   avail lists: 1:4,2:441,3:102,4:659,5:154,6:1918,7:148,8:11,9:184,10:291,11:1
- 46144 multiletter control sequences out of 65536+600000
- 220 fonts using 61639043 bytes
- 60i,19n,81p,939b,883s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-i
-talic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
-mromanslant10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/open
-type/public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-
-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/kevin/.local/texlive/201
+   avail lists: 1:4,2:519,3:101,4:922,5:226,6:3032,7:408,8:11,9:219,10:437,11:1
+ 46146 multiletter control sequences out of 65536+600000
+ 220 fonts using 61639895 bytes
+ 60i,19n,81p,979b,883s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromanslan
+t10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/publi
+c/lm/lmroman10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/openty
+pe/public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-di
+st/fonts/opentype/public/lm/lmroman10-italic.otf></home/kevin/.local/texlive/201
 5/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/kevin/.local/
 texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/ke
 vin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-mat
 h.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/
 latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/
 public/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/op
-entype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (13 pages, 96488 bytes).
+entype/public/lm/lmroman12-bold.otf><</home/kevin/.local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb><</home/kevin/.local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on thesis.pdf (13 pages, 105288 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+PDF statistics: 201 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 131072)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

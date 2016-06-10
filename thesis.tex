@@ -114,21 +114,29 @@
 \usepackage[pdfusetitle,unicode,linkbordercolor=tugreen]{hyperref}
 \usepackage{bookmark}
 \usepackage[shortcuts]{extdash}
+% make bar horizontal, use \hslash for slashed h
+\let\hbar\relax
+\DeclareMathSymbol{\hbar}{\mathord}{AMSb}{"7E}
+\DeclareMathSymbol{ℏ}{\mathord}{AMSb}{"7E}
+
+% Self-made commands.
+\newcommand{\upD}{\symup{\Delta}}
+\newcommand{\upd}{\symup{d}}
 
 %------------------------------------------------------------------------------
 %-------------------------    Angaben zur Arbeit   ----------------------------
 %------------------------------------------------------------------------------
 
 \author{Kevin Sedlaczek}
-\title{\texorpdfstring{Suche nach dem Zerfall $\mathrm{J}/\mathrm{\Psi}\rightarrow e^{\pm}\mu^{\mp}$ bei LHCb}{J/Psi to e µ}}
-\subtitle{\texorpdfstring{Normierung über den Kontrollkanal $\mathrm{J}/\mathrm{\Psi}\rightarrow \mu^{\pm}\mu^{\mp}$}{J/Psi to µ µ}}
+\title{\texorpdfstring{Suche nach dem Zerfall $\symup{J}/\symup{\Psi}\rightarrow e^{\pm}\mu^{\mp}$ bei LHCb}{J/Psi to e µ}}
+\subtitle{\texorpdfstring{Normierung über den Kontrollkanal $\symup{J}/\symup{\Psi}\rightarrow \mu^{\pm}\mu^{\mp}$}{J/Psi to µ µ}}
 \date{2016}
 \birthplace{Dortmund}
 \chair{Lehrstuhl für Experimentelle Physik V}
 \division{Fakultät Physik}
 \thesisclass{Bachelor of Science}
 \submissiondate{04. Juli 2016}
-\firstcorrector{Dr.~Johannes Albrecht}
+\firstcorrector{Dr.~Jo$\symup{\hbar}$annes Albrecht}
 \secondcorrector{Prof.~Dr.~Zweitgutachter}
 
 % tu logo on top of the titlepage
