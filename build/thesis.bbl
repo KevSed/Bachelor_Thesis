@@ -16,5 +16,83 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \sortlist[entry]{nty/global}
+    \entry{susy_gut1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
+           family={Dimopoulos},
+           family_i={D\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{%
+           family={Georgi},
+           family_i={G\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cb5bb1d4589bc2654485cee4cd2857c}
+      \strng{fullhash}{0cb5bb1d4589bc2654485cee4cd2857c}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
+      \field{volume}{B193}
+      \field{year}{1981}
+      \field{pages}{150}
+      \range{pages}{1}
+    \endentry
+    \entry{zprime}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15b5704ce0371fd996135838e1abf533}{%
+           family={J.\bibnamedelimi Bernabeu},
+           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={E.\bibnamedelimi Nardi},
+           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{%
+           family={Tomasini},
+           family_i={T\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{98c126e1e79d63309f6c649bb90d00f5}
+      \strng{fullhash}{98c126e1e79d63309f6c649bb90d00f5}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
+      \field{volume}{B409}
+      \field{year}{1993}
+      \field{pages}{69}
+      \range{pages}{1}
+    \endentry
+    \entry{susy_gut2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0675885353972699d6ea10a428a22720}{%
+           family={Sakai},
+           family_i={S\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{0675885353972699d6ea10a428a22720}
+      \strng{fullhash}{0675885353972699d6ea10a428a22720}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Physik C Particles and Fields}
+      \field{title}{{Naturalnes in supersymmetric GUTS}}
+      \field{volume}{11}
+      \field{year}{1981}
+      \field{pages}{153}
+      \range{pages}{1}
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
 

@@ -1,9 +1,18 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[31] biber:290> INFO - === Thu Jun  9, 2016, 13:02:12
-[43] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[121] Biber.pm:741> INFO - Found 0 citekeys in bib section 0
-[122] Utils.pm:147> WARN - The file 'build/thesis.bcf' does not contain any citations!
-[135] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[135] bbl.pm:615> INFO - Output to build/thesis.bbl
-[135] Biber.pm:108> INFO - WARNINGS: 1
+[32] biber:290> INFO - === Sat Jun 11, 2016, 11:45:40
+[44] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
+[120] Biber.pm:741> INFO - Found 3 citekeys in bib section 0
+[130] Biber.pm:3150> INFO - Processing section 0
+[174] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
+[175] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[178] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
+[215] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[215] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[263] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[263] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[263] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[263] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
+[269] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[270] bbl.pm:615> INFO - Output to build/thesis.bbl
+[270] Biber.pm:108> INFO - WARNINGS: 2
