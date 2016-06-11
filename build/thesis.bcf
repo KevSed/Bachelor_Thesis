@@ -2052,6 +2052,12 @@
     <bcf:citekey order="1">zprime</bcf:citekey>
     <bcf:citekey order="2">susy_gut1</bcf:citekey>
     <bcf:citekey order="3">susy_gut2</bcf:citekey>
+    <bcf:citekey order="4">lhc</bcf:citekey>
+    <bcf:citekey order="5">higgs</bcf:citekey>
+    <bcf:citekey order="6">lhc</bcf:citekey>
+    <bcf:citekey order="7">rad</bcf:citekey>
+    <bcf:citekey order="8">rad_pic</bcf:citekey>
+    <bcf:citekey order="9">rad_pic</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global" type="entry" sortscheme="nty" sortnamekeyscheme="global">
   <bcf:sorting>

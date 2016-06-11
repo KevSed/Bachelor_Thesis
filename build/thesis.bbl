@@ -71,6 +71,75 @@
       \field{pages}{69}
       \range{pages}{1}
     \endentry
+    \entry{rad_pic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{note}{Abbildung \ref{fig:lhcb_angle}}
+      \field{urlday}{11}
+      \field{urlmonth}{06}
+      \field{urlyear}{2016}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles/08_rad_acc_scheme_left.pdf
+      \endverb
+    \endentry
+    \entry{rad}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{urlday}{11}
+      \field{urlmonth}{06}
+      \field{urlyear}{2016}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles.html
+      \endverb
+    \endentry
+    \entry{lhc}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LHC- Large Hadron Collider}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.lhc-facts.ch/
+      \endverb
+    \endentry
     \entry{susy_gut2}{article}{}
       \name{author}{1}{}{%
         {{hash=0675885353972699d6ea10a428a22720}{%
@@ -90,6 +159,29 @@
       \field{volume}{11}
       \field{year}{1981}
       \field{pages}{153}
+      \range{pages}{1}
+    \endentry
+    \entry{higgs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=258d7cae79976cac62d88c68fd47185f}{%
+           prefix={n},
+           prefix_i={n\bibinitperiod},
+           family={stuff},
+           family_i={s\bibinitperiod},
+           given={ATLAS},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{258d7cae79976cac62d88c68fd47185f}
+      \strng{fullhash}{258d7cae79976cac62d88c68fd47185f}
+      \field{sortinit}{s}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv:1207.7214}
+      \field{title}{{yay we found higgs}}
+      \field{volume}{D86}
+      \field{year}{2012}
+      \field{pages}{010001}
       \range{pages}{1}
     \endentry
   \endsortlist
