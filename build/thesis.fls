@@ -586,6 +586,8 @@ INPUT ./Plots/SM.pdf
 INPUT Plots/SM.pdf
 INPUT ./content/03_lhc.tex
 INPUT ./content/03_lhc.tex
+INPUT ./Plots/lhcb.pdf
+INPUT Plots/lhcb.pdf
 INPUT ./Plots/08_rad_acc_scheme_left.pdf
 INPUT Plots/08_rad_acc_scheme_left.pdf
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -593,6 +595,8 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./Plots/VELO-beam-view.jpg
+INPUT Plots/VELO-beam-view.jpg
 INPUT ./content/04_analyse.tex
 INPUT ./content/04_analyse.tex
 INPUT ./content/05_ergebnisse.tex

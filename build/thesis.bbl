@@ -45,6 +45,24 @@
       \field{pages}{150}
       \range{pages}{1}
     \endentry
+    \entry{lhcb}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5eec92a69fe2331d7c4fac82c4203ca1}{%
+           family={\textit{et\;al}.},
+           family_i={\\bibinitperiod},
+           given={R.\bibnamedelimi Nobrega},
+           given_i={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{5eec92a69fe2331d7c4fac82c4203ca1}
+      \strng{fullhash}{5eec92a69fe2331d7c4fac82c4203ca1}
+      \field{sortinit}{e}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LHCb Reoptimized Detector Design and Performance Technical Design Report}}
+      \field{volume}{CERN-LHCC/2003-030}
+      \field{year}{2003}
+    \endentry
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
         {{hash=15b5704ce0371fd996135838e1abf533}{%
@@ -70,6 +88,29 @@
       \field{year}{1993}
       \field{pages}{69}
       \range{pages}{1}
+    \endentry
+    \entry{velo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{urlday}{11}
+      \field{urlmonth}{06}
+      \field{urlyear}{2016}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://lhcb-public.web.cern.ch/lhcb-public/en/Detector/VELO2-en.html
+      \endverb
     \endentry
     \entry{rad_pic}{online}{}
       \name{author}{1}{}{%

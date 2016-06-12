@@ -2053,11 +2053,19 @@
     <bcf:citekey order="2">susy_gut1</bcf:citekey>
     <bcf:citekey order="3">susy_gut2</bcf:citekey>
     <bcf:citekey order="4">lhc</bcf:citekey>
-    <bcf:citekey order="5">higgs</bcf:citekey>
-    <bcf:citekey order="6">lhc</bcf:citekey>
-    <bcf:citekey order="7">rad</bcf:citekey>
-    <bcf:citekey order="8">rad_pic</bcf:citekey>
-    <bcf:citekey order="9">rad_pic</bcf:citekey>
+    <bcf:citekey order="5">lhc</bcf:citekey>
+    <bcf:citekey order="6">higgs</bcf:citekey>
+    <bcf:citekey order="7">lhc</bcf:citekey>
+    <bcf:citekey order="8">lhcb</bcf:citekey>
+    <bcf:citekey order="9">lhcb</bcf:citekey>
+    <bcf:citekey order="10">rad</bcf:citekey>
+    <bcf:citekey order="11">rad_pic</bcf:citekey>
+    <bcf:citekey order="12">rad_pic</bcf:citekey>
+    <bcf:citekey order="13">velo</bcf:citekey>
+    <bcf:citekey order="14">velo</bcf:citekey>
+    <bcf:citekey order="15">velo</bcf:citekey>
+    <bcf:citekey order="16">lhcb</bcf:citekey>
+    <bcf:citekey order="17">velo</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global" type="entry" sortscheme="nty" sortnamekeyscheme="global">
   <bcf:sorting>
