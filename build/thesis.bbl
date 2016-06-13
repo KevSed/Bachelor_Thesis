@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.6 $
+% $ biblatex bbl format version 2.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,14 +18,10 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global}
+  \sortlist{nty}{nty}
     \entry{ba-maik}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=482c816efa70a2b357aeb0589be3e435}{%
-           family={Becker},
-           family_i={B\bibinitperiod},
-           given={Maik},
-           given_i={M\bibinitperiod}}}%
+        {{hash=482c816efa70a2b357aeb0589be3e435}{Becker}{B\bibinitperiod}{Maik}{M\bibinitperiod}{}{}{}{}}%
       }
       \list{institution}{1}{%
         {TU Dortmund}%
@@ -43,11 +39,7 @@
     \endentry
     \entry{higgs}{article}{}
       \name{author}{1}{}{%
-        {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{%
-           family={Collaboration},
-           family_i={C\bibinitperiod},
-           given={The\bibnamedelima ATLAS},
-           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{Collaboration}{C\bibinitperiod}{The\bibnamedelima ATLAS}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{d1d766722e3aa1a2bb2d62f62c9844f6}
       \strng{fullhash}{d1d766722e3aa1a2bb2d62f62c9844f6}
@@ -68,16 +60,8 @@
     \endentry
     \entry{susy_gut1}{article}{}
       \name{author}{2}{}{%
-        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
-           family={Dimopoulos},
-           family_i={D\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{%
-           family={Georgi},
-           family_i={G\bibinitperiod},
-           given={H.},
-           given_i={H\bibinitperiod}}}%
+        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{Dimopoulos}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{Georgi}{G\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{0cb5bb1d4589bc2654485cee4cd2857c}
       \strng{fullhash}{0cb5bb1d4589bc2654485cee4cd2857c}
@@ -94,11 +78,7 @@
     \endentry
     \entry{lhcb}{article}{}
       \name{author}{1}{}{%
-        {{hash=5eec92a69fe2331d7c4fac82c4203ca1}{%
-           family={\textit{et\;al}.},
-           family_i={\\bibinitperiod},
-           given={R.\bibnamedelimi Nobrega},
-           given_i={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=5eec92a69fe2331d7c4fac82c4203ca1}{\textit{et\;al}.}{\\bibinitperiod}{R.\bibnamedelimi Nobrega}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{5eec92a69fe2331d7c4fac82c4203ca1}
       \strng{fullhash}{5eec92a69fe2331d7c4fac82c4203ca1}
@@ -112,16 +92,8 @@
     \endentry
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
-        {{hash=15b5704ce0371fd996135838e1abf533}{%
-           family={J.\bibnamedelimi Bernabeu},
-           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={E.\bibnamedelimi Nardi},
-           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{%
-           family={Tomasini},
-           family_i={T\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
+        {{hash=15b5704ce0371fd996135838e1abf533}{J.\bibnamedelimi Bernabeu}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{E.\bibnamedelimi Nardi}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{Tomasini}{T\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{98c126e1e79d63309f6c649bb90d00f5}
       \strng{fullhash}{98c126e1e79d63309f6c649bb90d00f5}
@@ -138,16 +110,10 @@
     \endentry
     \entry{velo}{online}{}
       \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
       }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -161,16 +127,10 @@
     \endentry
     \entry{rad_pic}{online}{}
       \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
       }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -185,16 +145,10 @@
     \endentry
     \entry{rad}{online}{}
       \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
       }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -208,16 +162,10 @@
     \endentry
     \entry{lhc}{manual}{}
       \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
       }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -230,11 +178,7 @@
     \endentry
     \entry{susy_gut2}{article}{}
       \name{author}{1}{}{%
-        {{hash=0675885353972699d6ea10a428a22720}{%
-           family={Sakai},
-           family_i={S\bibinitperiod},
-           given={N.},
-           given_i={N\bibinitperiod}}}%
+        {{hash=0675885353972699d6ea10a428a22720}{Sakai}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{0675885353972699d6ea10a428a22720}
       \strng{fullhash}{0675885353972699d6ea10a428a22720}

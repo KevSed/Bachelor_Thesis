@@ -1,18 +1,18 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[32] biber:290> INFO - === Mon Jun 13, 2016, 17:58:22
-[44] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[121] Biber.pm:741> INFO - Found 10 citekeys in bib section 0
-[131] Biber.pm:3150> INFO - Processing section 0
-[165] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[167] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[169] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[245] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[245] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[340] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[340] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[341] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'de-DE'
-[341] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
-[364] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[365] bbl.pm:615> INFO - Output to build/thesis.bbl
-[365] Biber.pm:108> INFO - WARNINGS: 2
+[0] Config.pm:327> INFO - This is Biber 2.3
+[1] Config.pm:330> INFO - Logfile is 'build\thesis.blg'
+[40] biber-MSWIN:284> INFO - === 
+[65] Biber.pm:346> INFO - Reading 'build\thesis.bcf'
+[176] Biber.pm:689> INFO - Found 10 citekeys in bib section 0
+[181] Biber.pm:3066> INFO - Processing section 0
+[228] Biber.pm:3206> INFO - Looking for bibtex format file 'references.bib' for section 0
+[232] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[235] bibtex.pm:923> INFO - Found BibTeX data source 'references.bib'
+[269] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[269] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[399] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[399] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[399] Biber.pm:2943> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[400] Biber.pm:2947> INFO - No sort tailoring available for locale 'de-DE'
+[422] bbl.pm:505> INFO - Writing 'build\thesis.bbl' with encoding 'UTF-8'
+[423] bbl.pm:596> INFO - Output to build\thesis.bbl
+[426] Biber.pm:107> INFO - WARNINGS: 2
