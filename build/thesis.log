@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  13 JUN 2016 16:50
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  13 JUN 2016 17:58
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.068 seconds)
+luaotfload | main : initialization completed in 0.063 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2418,27 +2418,27 @@ chapter 1.
 chapter 2.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman8-regular.luc)
-LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 5.
+LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.63441pt on input line 5.
+(Font)              scaled to size 7.63441pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.34406pt on input line 5.
+(Font)              scaled to size 5.34406pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 3.8172pt on input line 5.
+(Font)              scaled to size 3.8172pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.63419pt on input line 5.
+(Font)              scaled to size 7.63419pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.34389pt on input line 5.
+(Font)              scaled to size 5.34389pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 3.8171pt on input line 5.
+(Font)              scaled to size 3.8171pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
@@ -2472,51 +2472,51 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-<Plots/SM.pdf, id=72, 187.65591pt x 126.1323pt>
+<Plots/SM.pdf, id=77, 187.65591pt x 126.1323pt>
 File: Plots/SM.pdf Graphic file (type pdf)
  <use Plots/SM.pdf>
-Package pdftex.def Info: Plots/SM.pdf used on input line 9.
+Package pdftex.def Info: Plots/SM.pdf used on input line 10.
 (pdftex.def)             Requested size: 236.61555pt x 159.05261pt.
  [2
 
 <./Plots/SM.pdf>] [3]) (./content/03_lhc.tex [4]
 chapter 3.
-<Plots/lhcb.pdf, id=108, 886.51201pt x 470.55798pt>
+<Plots/lhcb.pdf, id=117, 886.51201pt x 470.55798pt>
 File: Plots/lhcb.pdf Graphic file (type pdf)
  <use Plots/lhcb.pdf>
-Package pdftex.def Info: Plots/lhcb.pdf used on input line 12.
+Package pdftex.def Info: Plots/lhcb.pdf used on input line 13.
 (pdftex.def)             Requested size: 394.35527pt x 209.32225pt.
 
 [5
 
-] <Plots/08_rad_acc_scheme_left.pdf, id=120, 569.12625pt x 552.0625pt>
+] <Plots/08_rad_acc_scheme_left.pdf, id=129, 569.12625pt x 552.0625pt>
 File: Plots/08_rad_acc_scheme_left.pdf Graphic file (type pdf)
 
 <use Plots/08_rad_acc_scheme_left.pdf>
-Package pdftex.def Info: Plots/08_rad_acc_scheme_left.pdf used on input line 21.
+Package pdftex.def Info: Plots/08_rad_acc_scheme_left.pdf used on input line 22.
 
 (pdftex.def)             Requested size: 315.48541pt x 306.03609pt.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 22.
+(Font)              scaled to size 5.00008pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 22.
+(Font)              scaled to size 4.99992pt on input line 23.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-Underfull \hbox (badness 10000) in paragraph at lines 17--24
+Underfull \hbox (badness 10000) in paragraph at lines 18--25
 
  []
 
 [6<./Plots/lhcb.pdf>]
-<Plots/VELO-beam-view.jpg, id=137, 296.10625pt x 221.82875pt>
+<Plots/VELO-beam-view.jpg, id=146, 296.10625pt x 221.82875pt>
 File: Plots/VELO-beam-view.jpg Graphic file (type jpg)
 
 <use Plots/VELO-beam-view.jpg>
-Package pdftex.def Info: Plots/VELO-beam-view.jpg used on input line 37.
+Package pdftex.def Info: Plots/VELO-beam-view.jpg used on input line 38.
 (pdftex.def)             Requested size: 236.61555pt x 177.26689pt.
  [7<./Plots/08_rad_acc_scheme_left.pdf>]
 
-LaTeX Warning: Reference `velo' on page 8 undefined on input line 42.
+LaTeX Warning: Reference `velo' on page 8 undefined on input line 43.
 
 ) (./content/04_analyse.tex [8<./Plots/VELO-beam-view.jpg>]
 chapter 4.
@@ -2578,7 +2578,7 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: C84A1B2BD490B33A03E4DCD99D21C870;9261.
+(rerunfilecheck)             Checksum: 50846FCA327F17C935887EB624FA278C;9456.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
 (rerunfilecheck)             Checksum: 31EFD62208DC9FCB084ABD6152D3289D;1216.
 
@@ -2592,15 +2592,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58245 strings out of 495009
+ 58248 strings out of 495009
  100000,1977958 words of node,token memory allocated
  460 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 62 glue_spec, 4 attrib
 ute_list, 3 action, 1 write nodes
-   avail lists: 1:2,2:1945,3:570,4:1311,5:275,6:3718,7:473,8:24,9:266,10:533,11:
+   avail lists: 1:2,2:1957,3:575,4:1325,5:267,6:3763,7:515,8:24,9:266,10:539,11:
 1,12:1
- 59900 multiletter control sequences out of 65536+600000
- 230 fonts using 64369599 bytes
+ 59903 multiletter control sequences out of 65536+600000
+ 230 fonts using 64369303 bytes
  79i,21n,106p,1180b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
@@ -2617,10 +2617,10 @@ c/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts
 exmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/kevin/.local/texlive
 /2015/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><</home/kevin/.loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (17 pages, 443198 bytes).
+Output written on thesis.pdf (17 pages, 443908 bytes).
 
-PDF statistics: 361 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
+PDF statistics: 370 PDF objects out of 1000 (max. 8388607)
+ 275 compressed objects within 3 object streams
  52 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
