@@ -615,4 +615,3 @@ INPUT build/thesis.toc
 INPUT build/thesis.run.xml
 OUTPUT build/thesis.run.xml
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb

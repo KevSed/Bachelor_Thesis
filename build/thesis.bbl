@@ -19,6 +19,53 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global}
+    \entry{ba-maik}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=482c816efa70a2b357aeb0589be3e435}{%
+           family={Becker},
+           family_i={B\bibinitperiod},
+           given={Maik},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {TU Dortmund}%
+      }
+      \strng{namehash}{482c816efa70a2b357aeb0589be3e435}
+      \strng{fullhash}{482c816efa70a2b357aeb0589be3e435}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{Optimierte Signalselektion}
+      \field{title}{Suche nach dem Lepton-Flavor verletztenden Zerfall \signal am LHCb-Experiment}
+      \field{type}{Bachlorarbeit}
+      \field{year}{2016}
+    \endentry
+    \entry{higgs}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima ATLAS},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1d766722e3aa1a2bb2d62f62c9844f6}
+      \strng{fullhash}{d1d766722e3aa1a2bb2d62f62c9844f6}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{howpublished}{Phys.Lett. B716 (2012) 1-29}
+      \field{title}{Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2012.08.020
+      \endverb
+      \verb{eprint}
+      \verb 1207.7214
+      \endverb
+    \endentry
     \entry{susy_gut1}{article}{}
       \name{author}{2}{}{%
         {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
@@ -200,29 +247,6 @@
       \field{volume}{11}
       \field{year}{1981}
       \field{pages}{153}
-      \range{pages}{1}
-    \endentry
-    \entry{higgs}{article}{}
-      \name{author}{1}{}{%
-        {{hash=258d7cae79976cac62d88c68fd47185f}{%
-           prefix={n},
-           prefix_i={n\bibinitperiod},
-           family={stuff},
-           family_i={s\bibinitperiod},
-           given={ATLAS},
-           given_i={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{258d7cae79976cac62d88c68fd47185f}
-      \strng{fullhash}{258d7cae79976cac62d88c68fd47185f}
-      \field{sortinit}{s}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv:1207.7214}
-      \field{title}{{yay we found higgs}}
-      \field{volume}{D86}
-      \field{year}{2012}
-      \field{pages}{010001}
       \range{pages}{1}
     \endentry
   \endsortlist
