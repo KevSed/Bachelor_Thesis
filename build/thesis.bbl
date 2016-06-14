@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.5 $
+% $ biblatex bbl format version 2.6 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,10 +18,69 @@
 
 
 \refsection{0}
-  \sortlist{nty}{nty}
+  \sortlist[entry]{nty/global}
+    \entry{lhcb}{book}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=95b2ec4b1a747c870bfaaa035d8601b7}{%
+           family={Antunes-Nobrega},
+           family_i={A\bibinithyphendelim N\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{707cbf274dab29727f5911af859908a1}
+      \strng{fullhash}{707cbf274dab29727f5911af859908a1}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Technical Design Report LHCb}
+      \field{title}{{LHCb reoptimized detector design and performance: Technical Design Report}}
+      \field{year}{2003}
+      \verb{url}
+      \verb https://cds.cern.ch/record/630827
+      \endverb
+    \endentry
+    \entry{tracker}{book}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=ce178fd3d3859ffc7727873749d342be}{%
+           family={Barbosa-Marinho},
+           family_i={B\bibinithyphendelim M\bibinitperiod},
+           given={P\bibnamedelima R},
+           given_i={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{54f616e601dcde7f53f0b90eebfdc7d3}
+      \strng{fullhash}{54f616e601dcde7f53f0b90eebfdc7d3}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{note}{revised version number 1 submitted on 2002-11-13 14:14:34}
+      \field{series}{Technical Design Report LHCb}
+      \field{year}{2002}
+      \verb{url}
+      \verb http://cds.cern.ch/record/582793
+      \endverb
+    \endentry
     \entry{ba-maik}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=482c816efa70a2b357aeb0589be3e435}{Becker}{B\bibinitperiod}{Maik}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=482c816efa70a2b357aeb0589be3e435}{%
+           family={Becker},
+           family_i={B\bibinitperiod},
+           given={Maik},
+           given_i={M\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {TU Dortmund}%
@@ -34,12 +93,16 @@
       \field{labeltitlesource}{title}
       \field{subtitle}{Optimierte Signalselektion}
       \field{title}{Suche nach dem Lepton-Flavor verletztenden Zerfall \signal am LHCb-Experiment}
-      \field{type}{Bachlorarbeit}
+      \field{type}{Bachelorarbeit}
       \field{year}{2016}
     \endentry
     \entry{higgs}{article}{}
       \name{author}{1}{}{%
-        {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{Collaboration}{C\bibinitperiod}{The\bibnamedelima ATLAS}{T\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima ATLAS},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
       \strng{namehash}{d1d766722e3aa1a2bb2d62f62c9844f6}
       \strng{fullhash}{d1d766722e3aa1a2bb2d62f62c9844f6}
@@ -60,8 +123,16 @@
     \endentry
     \entry{susy_gut1}{article}{}
       \name{author}{2}{}{%
-        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{Dimopoulos}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{Georgi}{G\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
+           family={Dimopoulos},
+           family_i={D\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{%
+           family={Georgi},
+           family_i={G\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
       }
       \strng{namehash}{0cb5bb1d4589bc2654485cee4cd2857c}
       \strng{fullhash}{0cb5bb1d4589bc2654485cee4cd2857c}
@@ -76,24 +147,18 @@
       \field{pages}{150}
       \range{pages}{1}
     \endentry
-    \entry{lhcb}{article}{}
-      \name{author}{1}{}{%
-        {{hash=5eec92a69fe2331d7c4fac82c4203ca1}{\textit{et\;al}.}{\\bibinitperiod}{R.\bibnamedelimi Nobrega}{R\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{5eec92a69fe2331d7c4fac82c4203ca1}
-      \strng{fullhash}{5eec92a69fe2331d7c4fac82c4203ca1}
-      \field{sortinit}{e}
-      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{LHCb Reoptimized Detector Design and Performance Technical Design Report}}
-      \field{volume}{CERN-LHCC/2003-030}
-      \field{year}{2003}
-    \endentry
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
-        {{hash=15b5704ce0371fd996135838e1abf533}{J.\bibnamedelimi Bernabeu}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{E.\bibnamedelimi Nardi}{E\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
-        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{Tomasini}{T\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=15b5704ce0371fd996135838e1abf533}{%
+           family={J.\bibnamedelimi Bernabeu},
+           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={E.\bibnamedelimi Nardi},
+           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{%
+           family={Tomasini},
+           family_i={T\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
       }
       \strng{namehash}{98c126e1e79d63309f6c649bb90d00f5}
       \strng{fullhash}{98c126e1e79d63309f6c649bb90d00f5}
@@ -110,10 +175,16 @@
     \endentry
     \entry{velo}{online}{}
       \name{author}{1}{}{%
-        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
-      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
-      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -127,10 +198,16 @@
     \endentry
     \entry{rad_pic}{online}{}
       \name{author}{1}{}{%
-        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
-      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
-      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -145,10 +222,16 @@
     \endentry
     \entry{rad}{online}{}
       \name{author}{1}{}{%
-        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
-      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
-      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -162,10 +245,16 @@
     \endentry
     \entry{lhc}{manual}{}
       \name{author}{1}{}{%
-        {{hash=48c02183219b2e7548020d3f54fdce04}{Kernforschung}{K\bibinitperiod}{Europäische\bibnamedelima Organisation}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{für}{f\bibinitperiod}{}{}}%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
-      \strng{namehash}{48c02183219b2e7548020d3f54fdce04}
-      \strng{fullhash}{48c02183219b2e7548020d3f54fdce04}
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \field{sortinit}{K}
       \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
       \field{labelnamesource}{author}
@@ -176,9 +265,38 @@
       \verb http://www.lhc-facts.ch/
       \endverb
     \endentry
+    \entry{pdg}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=e280547009da55f6adb450e346a8fdc6}{%
+           family={Olive},
+           family_i={O\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chin. Phys.}
+      \field{title}{{Review of Particle Physics}}
+      \field{volume}{C38}
+      \field{year}{2014}
+      \field{pages}{090001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1674-1137/38/9/090001
+      \endverb
+    \endentry
     \entry{susy_gut2}{article}{}
       \name{author}{1}{}{%
-        {{hash=0675885353972699d6ea10a428a22720}{Sakai}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=0675885353972699d6ea10a428a22720}{%
+           family={Sakai},
+           family_i={S\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
       }
       \strng{namehash}{0675885353972699d6ea10a428a22720}
       \strng{fullhash}{0675885353972699d6ea10a428a22720}

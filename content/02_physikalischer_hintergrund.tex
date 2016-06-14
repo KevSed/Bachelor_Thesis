@@ -53,4 +53,49 @@ Es gibt einige theoretische Vorhersagen über Mechanismen und Möglichkeiten der
   \label{fig:lfv_nu}
 \end{figure}
 %
-Da die Masse der Neutrinos nicht verschwindend ist, können so gennante Oszillationen in andere \textit{flavors} stattfinden. Über diesen Mechanismus ist ein Zerfall möglich der an jedem Vertex \textit{lepton-flavor}-erhaltend ist. Da die Massen der Neutrinos allerdings als sehr klein abgeschätzt werden können, sind die Beiträge dieses Zerfallskanals zu gering, als dass sie experimentell nachgewiesen werden können. Experimentelle Evidenz deutete daher auf Physik jenseits des Stadardmodells hin. Andere theoretische Beschreibungen gehen etwa von Zerfällen über ein $Z'$-Boson aus.\cite{zprime} Auch Prozesse über SUSY Teilchen sind nicht ausgeschlossen\cite{susy_gut1}\cite{susy_gut2}.
+Da die Masse der Neutrinos nicht verschwindend ist, können so gennante Oszillationen in andere \textit{lepton flavors} stattfinden. Über diesen Mechanismus ist ein Zerfall möglich der an jedem Vertex \textit{lepton-flavor}-erhaltend ist. Da die Massen der Neutrinos allerdings als sehr klein abgeschätzt werden können, sind die Beiträge dieses Zerfallskanals zu gering, als dass sie experimentell nachgewiesen werden können. Die Wahrscheinlichkeit für diesen Zerfall ist proportional zum Verhältnis von W-Masse und Neutrinomasse hoch vier (Gleichung~\ref{eq:BRmuega}), was zu einer theoretischen Abschätzung führt, die nicht messbar ist. Experimentelle Evidenz deutete daher auf Physik jenseits des Stadardmodells hin.
+%
+\begin{equation}\label{eq:BRmuega}
+  \text{BR}(\mu\rightarrow e\gamma)=\frac{3\alpha}{32\pi}\left|\sum_i U_{\mu i}^*U_{ei}\frac{m^2_{\nu_i}}{M^2_W}\right|^2
+\end{equation}
+%
+Andere theoretische Beschreibungen gehen etwa von Zerfällen über ein $Z'$-Boson aus\cite{zprime}. Das dazugehörige Feynman-Diagramm ist in Abbildung~\ref{fig:Zprime} dargestellt.
+%
+\begin{figure}
+  \centering
+  \feynmandiagram[horizontal=a to b] {
+  i1 [particle=\(c\)] -- [fermion] a -- [fermion] i2 [particle=\(\bar{c}\)],
+  a -- [scalar, edge label=\(Z'\)] b,
+  f1 [particle=\(e^{+}\)] -- [fermion] b -- [fermion] f2 [particle=\(\mu^{-}\)],
+};
+\caption{Zerfall über ein Z'}
+\label{fig:Zprime}
+\end{figure}
+%
+Auch Prozesse über aus der Theorie der Supersymmetrie postulierte Teilchen sind nicht ausgeschlossen\cite{susy_gut1}\cite{susy_gut2}. Andere theoretische Erklärungsansätze benötigen etwa sogenannte Leptoquarks. Diese Spin 1 Eichbosonen würden sowohl Farbladung, als auch einen \textit{lepton flavor} tragen. Eine Kopplung an beide Teilchensorten, sowie Änderungen ihrer Quantenzahlen wären damit möglich (Abbildung~\ref{fig:lepto}).
+%
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}
+    \tikzfeynmanset{ every vertex={ black, dot}}
+    \begin{feynman}
+      \vertex (a1) {\(c\)};
+      \vertex[right=2cm of a1] (a2);
+      \vertex[right=2cm of a2] (a3){\(\mu^{-}\)};
+      \vertex[above=2cm of a1] (a4){\(\bar{c}\)};
+      \vertex[right=2cm of a4] (a5);
+      \vertex[right=2cm of a5] (a6){\(e^{+}\)};
+      \diagram*{
+              (a1) -- [fermion](a2),
+              (a2) -- [fermion](a3),
+              (a2) -- [scalar, edge label=\(LQ\)](a5),
+              (a5) -- [fermion](a4),
+              (a6) -- [fermion](a5);
+              };
+      \end{feynman}
+    \end{tikzpicture}
+    \caption{Der Signalzerfall über ein Leptoquark.}
+    \label{fig:lepto}
+  \end{figure}
+%
+Der hier untersuchte Zerfall \kontroll stellt mit einer Wahrscheinlichkeit von $\SI{5,986}{\percent}$ einen sehr kleinen Teil aller gemessenen $J/\!\psi$-Zerfälle dar\cite{pdg}. Allerdings liegt diese im Vergleich zum Signalzerfall \signal mit $\SI{1,6e-5}{\percent}$ einige Größenordnungen höher\cite{pdg}.

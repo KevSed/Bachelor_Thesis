@@ -1,10 +1,11 @@
-\chapter{Der Zerfall bei LHCb}
+\chapter{Der Large Hadron Collider und der Detektor LHCb}
 \label{chap:3}
 %
 \section{Der Large Hadron Collider}
 %
 Der \textit{Large Hadron Collider} (LHC) am CERN (Meyrin, Schweiz) ist der derzeit leistungsstärkste Teilchenbeschleuniger der Welt. Er dient der Erzeugung von Proton-Proton-Kollisionen ($pp$-Kollisionen) einer Schwerpunktenergie von bis zu $\sqrt{s}=\SI{14}{\tera\electronvolt}$\cite{lhc}. Diese Energien werden nach dem letzten Update mit $\SI{13}{\tera\electronvolt}$ beinahe ausgereizt\cite{lhc}. Durch die Ausweitung des zu untersuchenden Energiebereiches auf diese Größenordnung eignet sich der LHC zur Entdeckung von Physik jenseits des SM, wie etwa unbekannter Teilchen. Im Jahre 2012 gelang der ATLAS- und der CMS-Kollaboration die Entdeckung des in den 60er-Jahren von Higgs und Englert vorhergesagten Higgs-Bosons\cite{higgs}.
-Bevor die Protonen im bis zu $\SI{90}{\meter}$ unter der Erde liegenden, $\SI{27}{\kilo\meter}$ langen Speicherring auf die maximale Schwerpunktsenergie beschleunigt werden, durchlaufen sie ein vielschrittiges System aus Vorbeschleunigern. Dessen letzte Stufe ist der \textit{Super Proton Synchrotron} (SPS), welcher die Protonen auf etwa $\SI{99,99978}{\percent}$ der Lichtgeschwindigkeit beschleunigt\cite{lhc}. Diese Protonen werden mit einer Schwerpunktsenergie von $\SI{0,45}{\tera\electronvolt}$ über zwei Transferlinien in den LHC injiziert, wo sie in entgegengesetzter Richtung beschleunigt werden. Die Beschleunigung und Kreisführung findet dabei in einem ultrahoch Vakuum über supraleitende Magnete, welche von flüssigem Helium auf etwa $\SI{1,9}{\kelvin}$ gekühlt werden, statt. So werden Hunderte einzelner Protonenbündel (\textit{bunches}) auf beinahe Lichtgeschwindigkeit beschleunigt und anschließend in Abständen von $\SI{25}{\nano\second}$ ($\SI{40}{\mega\hertz}$) in einem der vier großen Experimente durch Strahlkreuzung zur Kollision gebracht.
+Bevor die Protonen im bis zu $\SI{90}{\meter}$ unter der Erde liegenden, $\SI{27}{\kilo\meter}$ langen Speicherring auf die maximale Schwerpunktsenergie beschleunigt werden, durchlaufen sie ein vielschrittiges System aus Vorbeschleunigern. Dessen letzte Stufe ist der \textit{Super Proton Synchrotron} (SPS), welcher die Protonen auf etwa $\SI{99,99978}{\percent}$ der Lichtgeschwindigkeit beschleunigt\cite{lhc}. Diese Protonen werden mit einer Schwerpunktsenergie von $\SI{0,45}{\tera\electronvolt}$ über zwei Transferlinien in den LHC injiziert, wo sie in entgegengesetzter Richtung beschleunigt werden. Die Beschleunigung und Kreisführung findet dabei in einem ultrahoch Vakuum über supraleitende Magnete, welche von flüssigem Helium auf etwa $\SI{1,9}{\kelvin}$ gekühlt werden, statt. So werden Hunderte einzelner Protonenbündel (\textit{bunches}) auf beinahe Lichtgeschwindigkeit beschleunigt und anschließend in Abständen von $\SI{25}{\nano\second}$
+($\SI{40}{\mega\hertz}$) in einem der vier großen Experimente durch Strahlkreuzung zur Kollision gebracht.
 %
 \section{Der LHCb Detektor}
 %
@@ -19,7 +20,7 @@ Der LHCb Detektor deckt im Gegensatz zu den anderen drei Experimenten am LHC bei
 %
 \begin{figure}[H]
   \centering
-      \includegraphics[width=0.8\textwidth]{Plots/08_rad_acc_scheme_left.pdf}
+      \includegraphics[width=0.7\textwidth]{Plots/08_rad_acc_scheme_left.pdf}
   \caption{Verteilung der $b$-Quarks auf den Raumwinkel, sowie in rot der Akzeptanzbereich von LHCb\cite{rad_pic}.}
   \label{fig:lhcb_angle}
 \end{figure}
@@ -31,15 +32,18 @@ Der etwa $\SI{20}{\meter}$ lange Detektor ist aus mehreren Schichten verschieden
   \item Teilchenidentifikation (PID): erster und zweiter Cherenkovdetektor (RICH 1 und RICH 2), elektromagnetisches und hadronisches Kalorimeter (ECAL und HCAL) sowie die Myondetektoren.
 \end{enumerate}
 %
-Der dem Kollisionspunkt am nächsten liegende Detektor ist der \textit{vertex locator}, kurz VELO. Seine Aufgabe ist die möglichst exakte Ermittlung der Zerfallsvertices der B-Mesonen. Die in den Kollisionen entstehenden B-Mesonen zerfallen innerhalb von Strecken einiger Millimeter, weswegen die Detektoren unmittelbar um den Kollisionspunkt liegen, wenn Daten genommen werden\cite{velo}. Da diese Region auch die am intensivsten von Strahlenschäden betroffene Region ist, ist der Detektor bei Bedarf mechanisch auf Abstand zu bringen.
+Der dem Kollisionspunkt am nächsten liegende Detektor ist der \textbf{vertex locator}, kurz VELO. Seine Aufgabe ist die möglichst exakte Ermittlung der Zerfallsvertices der B-Mesonen. Die in den Kollisionen entstehenden B-Mesonen zerfallen innerhalb von Strecken einiger Millimeter, weswegen die Detektoren unmittelbar um den Kollisionspunkt liegen, wenn Daten genommen werden\cite{velo}. Da diese Region auch die am intensivsten von Strahlenschäden betroffene Region ist, ist der Detektor bei Bedarf mechanisch auf Abstand zu bringen.\\
+Der VELO umgibt den Strahlengang von zwei Seiten. Er besteht dabei im Einzelnen aus halbmondförmigen, $\SI{0.3}{\milli\meter}$ starken Scheiben von Spurdetektoren, die entlang des Strahlenganges angeordnet sind\cite{velo}. Die Messung der Zerfallspunkte findet dabei über die Bestimmung der $(r, \phi)$-Koordinaten innerhalb der Silikonsensoren statt. Dazu sind radial nach außen laufende Silikonstreifen ($\phi$) mit zirkular laufenden ($r$) kombiniert\cite{lhcb}. Durchqueren geladene Teilchen die Fasern, so erzeugen sie im Festkörper Elektron-Loch-Paare, welche elektronisch gemessen werden können und analog ausgelesen werden. Der während der Datennahme lediglich $\SI{7}{\milli\meter}$ vom \textit{beam} entfernte VELO stellt den Hauptspurdetektor vor Einsatz des Magneten dar\cite{velo}. \\
+
+Direkt vor der durch den Magneten beeinflussten Region des Detektors liegen die \textbf{Trigger Tracker} (TT in Abbildung~\ref{fig:lhcb}). Dieser zweigeteilte Detektor besteht aus zwei über insgesamt etwa $\SI{8.4}{\meter\squared}$ den gesmaten Akzeptanzbereich des Detektors abdeckenden Silikon-Streifen-Detektoren\cite{lhcb}. Sie befinden sich um den Strahlengang in zwei Flächen in einem Abstand von $\SI{27}{\centi\meter}$ hintereinander. Die Silikon-Streifen fungieren hier als Driftkammern: gleadene Teilchen ionisieren das Gas in den Streifen, was einen messbaren elektrischen Impuls in einem elektrischen Potential auslöst. Ihre Aufgabe ist die dreidimensionale Rekonstruktion von Teilchenspuren, sowie die Identifikation von neutralen Teilchen, die so lange leben, dass sie den VELO verlassen können (hauptsächlich das $K_s^0$). Außerdem findet eine grobe Messung der Impulse der durchquerenden Teilchen statt. Diese ist möglich, da im Bereich des Trigger Trackers bereits ein Magnetfeld anliegt, welches für eine impulsabhängige Krümmung der Flugbahnen sorgt. Spuren mit besonders hohem Impuls werden hier für den Trigger vorselektiert. Außerdem lassen sich über diesen Weg auch Abschätzungen der Impulse von Teilchen treffen, die den Akzeptanzbereich des Detektors verlassen.\\
+
 %
 \begin{figure}[H]
   \centering
-      \includegraphics[width=0.6\textwidth]{Plots/VELO-beam-view.jpg}
-  \caption{Ansicht des VELO-Detektors aus Strahlrichtung. Die halbmondförmigen Scheiben sind rechts und links vom Strahlengang angeordnet\cite{velo}.}
-  \label{fig:velo}
+      \includegraphics[width=0.6\textwidth]{Plots/tracker.png}
+  \caption{Schematische Darstellung der Tracker T1-T3. Mittig befindet sich in orange dargestellt der IT, während die blau eingefärbte Fläche den OT darstellt\cite{tracker}.}
+  \label{fig:tracker}
 \end{figure}
 %
-Wie in Abbildung~\ref{fig:velo} rechts und links erkennbar, umgibt der VELO den Strahlengang von zwei Seiten. Er besteht dabei im Einzelnen aus halbmondförmigen, $\SI{0.3}{\milli\meter}$ starken Scheiben von Spurdetektoren, die entlang des Strahlenganges angeordnet sind\cite{velo}. Die Messung der Zerfallspunkte findet dabei über die Bestimmung der $(r, \phi)$-Koordinaten innerhalb der Silikonsensoren statt. Dazu sind radial nach außen laufende Silikonstreifen ($\phi$) mit zirkular laufenden ($r$) kombiniert\cite{lhcb}. Durchqueren geladene Teilchen die Fasern, so erzeugen sie im Festkörper Elektron-Loch-Paare, welche eektronisch gemessen werden können und analog ausgelesen werden. Der während der Datennahme lediglich $\SI{7}{\milli\meter}$ vom \textit{beam} entfernte VELO stellt den Hauptspurdetektor vor Einsatz des Magneten dar\cite{velo}. \\
-%
-Dann Trigger Tracker.
+Das Trackingsystem T1-T3 besteht aus den \textbf{inneren Trackern} (IT) und den \textbf{äußeren Trackern} (OT), welche auf dieselbe Weise wie die Trigger Tracker arbeiten\cite{tracker}. Die IT bilden den direkt am Strahlengang liegenden Teil der T-Tracker (Abbildung~\ref{fig:tracker} mittig) und zeigen damit das höchste Aufkommen an geladenen Teilchen. Sie führen wie die TT über einzelne Silikon-Detektor Module Spurmessungen mit einer Auflösung von etwa $\SI{50}{\micro\meter}$ durch. Diese Module sind in einem Bereich von $\SI{125}{\centi\meter}$ Weite und $\SI{40}{\centi\meter}$ Höhe kreuzförmig um den Strahlengang ausgerichtet\cite{tracker}.\\
+Die \textbf{äußeren Tracker} stellen den letzten Spurdetektor im LHCb dar. Sie decken, wie in Abbildung~\ref{fig:tracker} in blau dargestellt, den weitaus größeren Bereich der T1-T3 Tracker ab, der außerhalb der Akzeptanz der IT liegt; dabei übernehmen sie die gleiche Aufgabe, wie die Inneren Tracker.
