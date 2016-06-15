@@ -196,30 +196,6 @@
       \verb http://lhcb-public.web.cern.ch/lhcb-public/en/Detector/VELO2-en.html
       \endverb
     \endentry
-    \entry{rad_pic}{online}{}
-      \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
-      \field{labelnamesource}{author}
-      \field{note}{Abbildung \ref{fig:lhcb_angle}}
-      \field{urlday}{11}
-      \field{urlmonth}{06}
-      \field{urlyear}{2016}
-      \field{year}{2014}
-      \verb{url}
-      \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles/08_rad_acc_scheme_left.pdf
-      \endverb
-    \endentry
     \entry{rad}{online}{}
       \name{author}{1}{}{%
         {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%

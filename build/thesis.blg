@@ -1,19 +1,19 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[31] biber:290> INFO - === Tue Jun 14, 2016, 22:31:31
-[43] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[120] Biber.pm:741> INFO - Found 12 citekeys in bib section 0
-[130] Biber.pm:3150> INFO - Processing section 0
-[166] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[170] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[173] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[173] Utils.pm:147> WARN - Duplicate entry key: 'pdg' in file 'references.bib', skipping ...
-[265] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[265] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[367] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[367] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[368] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'de-DE'
-[368] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
-[389] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[391] bbl.pm:615> INFO - Output to build/thesis.bbl
-[391] Biber.pm:108> INFO - WARNINGS: 3
+[32] biber:290> INFO - === Wed Jun 15, 2016, 14:06:08
+[45] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
+[148] Biber.pm:741> INFO - Found 11 citekeys in bib section 0
+[158] Biber.pm:3150> INFO - Processing section 0
+[198] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
+[200] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[202] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
+[203] Utils.pm:147> WARN - Duplicate entry key: 'pdg' in file 'references.bib', skipping ...
+[295] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[295] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[397] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[397] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[397] Biber.pm:3027> INFO - Sorting list 'nty/global' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[397] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
+[416] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[418] bbl.pm:615> INFO - Output to build/thesis.bbl
+[418] Biber.pm:108> INFO - WARNINGS: 3
