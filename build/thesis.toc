@@ -7,11 +7,13 @@
 \contentsline {chapter}{\numberline {2}Physikalischer Hintergrund}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Das Standardmodell der Teilchenphysik}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}LFV und der Zerfall $\symup {J}/\symup {\mitpsi }\rightarrow e^{\pm }\mitmu ^{\mp }$}{3}{section.2.2}
-\contentsline {chapter}{\numberline {3}Der Large Hadron Collider und der LHCb Detektor}{6}{chapter.3}
+\contentsline {chapter}{\numberline {3}Der Large Hadron Collider und der LHCb-Detektor}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}Der Large Hadron Collider}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Der LHCb Detektor}{7}{section.3.2}
-\contentsline {chapter}{\numberline {4}Analyse des Kontrollkanals}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Datensatz}{11}{section.4.1}
-\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{12}{chapter.5}
-\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{13}{appendix.A}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{14}{chapter*.10}
+\contentsline {chapter}{\numberline {4}Analyse des Kontrollkanals}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}Datensätze}{10}{section.4.1}
+\contentsline {section}{\numberline {4.2}Selektion des Kontrollkanals}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Massenfit}{13}{section.4.3}
+\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{16}{chapter.5}
+\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{17}{appendix.A}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{18}{chapter*.13}

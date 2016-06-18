@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  9 JUN 2016 11:00
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  16 JUN 2016 16:34
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.055 seconds)
+luaotfload | main : initialization completed in 0.071 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -1415,13 +1415,397 @@ Package scrhack Info: undefining \float@addtolists on input line 161.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikz-feynman
+.sty
+Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.st
+y (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-c
+ommon.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen198
+\pgfutil@tempdimb=\dimen199
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-c
+ommon-lists.tex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-l
+atex.def
+\pgfutil@abb=\box55
+ (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.co
+de.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.st
+y
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.st
+y
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.
+code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.c
+ode.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfi
+ltered.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen256
+\pgf@y=\dimen257
+\pgf@xa=\dimen258
+\pgf@ya=\dimen259
+\pgf@xb=\dimen260
+\pgf@yb=\dimen261
+\pgf@xc=\dimen262
+\pgf@yc=\dimen263
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count181
+\c@pgf@countb=\count182
+\c@pgf@countc=\count183
+\c@pgf@countd=\count184
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-
+pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-
+common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyss
+oftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count185
+\pgfsyssoftpath@bigbuffer@items=\count186
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysp
+rotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.
+code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.t
+ex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.co
+de.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.co
+de.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.
+code.tex
+\pgfmath@dimen=\dimen264
+\pgfmath@count=\count187
+\pgfmath@box=\box56
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.basic.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.trigonometric.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.random.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.comparison.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.base.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.round.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.misc.code.tex)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.c
+ode.tex
+\c@pgfmathroundto@lastzeros=\count188
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorep
+oints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen265
+\pgf@picmaxx=\dimen266
+\pgf@picminy=\dimen267
+\pgf@picmaxy=\dimen268
+\pgf@pathminx=\dimen269
+\pgf@pathmaxx=\dimen270
+\pgf@pathminy=\dimen271
+\pgf@pathmaxy=\dimen272
+\pgf@xx=\dimen273
+\pgf@xy=\dimen274
+\pgf@yx=\dimen275
+\pgf@yy=\dimen276
+\pgf@zx=\dimen277
+\pgf@zy=\dimen278
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorep
+athconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen279
+\pgf@path@lasty=\dimen280
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorep
+athusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen281
+\pgf@shorten@start@additional=\dimen282
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcores
+copes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count189
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreg
+raphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen283
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoret
+ransformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen284
+\pgf@pt@y=\dimen285
+\pgf@pt@temp=\dimen286
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreq
+uick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreo
+bjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorep
+athprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorea
+rrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen287
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcores
+hade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count190
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorei
+mage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoree
+xternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box60
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorel
+ayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoret
+ransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorep
+atterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulesh
+apes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box61
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulepl
+ot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp
+-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp
+-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.c
+ode.tex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.t
+ex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.co
+de.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.t
+ex)
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibrar
+yplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count191
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count192
+\tikznumberofchildren=\count193
+\tikznumberofcurrentchild=\count194
+\tikz@fig@count=\count195
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulema
+trix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count196
+\pgfmatrixcurrentcolumn=\count197
+\pgf@matrix@numberofcolumns=\count198
+)
+\tikz@expandcount=\count199
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks42
+\pgfopts@list@add@b@toks=\toks43
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikzlibraryf
+eynman.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibrar
+yarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen300
+\pgfarrowlength=\dimen301
+\pgfarrowwidth=\dimen302
+\pgfarrowlinewidth=\dimen303
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulede
+corations.code.tex
+\pgfdecoratedcompleteddistance=\dimen304
+\pgfdecoratedremainingdistance=\dimen305
+\pgfdecoratedinputsegmentcompleteddistance=\dimen306
+\pgfdecoratedinputsegmentremainingdistance=\dimen307
+\pgf@decorate@distancetomove=\dimen308
+\pgf@decorate@repeatstate=\count266
+\pgfdecorationsegmentamplitude=\dimen309
+\pgfdecorationsegmentlength=\dimen310
+)
+\tikz@lib@dec@box=\box66
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.markings.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.markings.code.tex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.pathmorphing.code.tex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/decoratio
+ns/pgflibrarydecorations.pathreplacing.code.tex))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/graphs/tikzlibrarygraphs.code.tex
+File: tikzlibrarygraphs.code.tex 2015/06/05 v3.0.1a (rcs-revision 1.44)
+\tikz@lib@auto@number=\count267
+\tikz@qnode@count=\count268
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibrar
+ypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/
+libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pg
+flibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/graphdrawing/tex/ti
+kzlibrarygraphdrawing.code.tex
+File: tikzlibrarygraphdrawing.code.tex 2013/08/05 v3.0.1a (rcs-revision 1.20)
+
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/graphdrawing/tex/pg
+flibrarygraphdrawing.code.tex
+File: pgflibrarygraphdrawing.code.tex 2015/06/08 v3.0.1a (rcs-revision 1.39)
+\pgf@gd@parameter@stack@height=\count269
+\pgf@gd@node@box=\box67
+\pgf@gd@edge@box=\box68
+\pgf@gd@prekind@box=\box69
+\pgf@gd@postkind@box=\box70
+))
+(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.
+keys.code.tex)))
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen198
-\enit@toks=\toks30
-\enit@inbox=\box55
-\enitdp@description=\count181
+\enit@outerparindent=\dimen311
+\enit@toks=\toks44
+\enit@inbox=\box71
+\enitdp@description=\count270
 )
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
@@ -1432,7 +1816,7 @@ Package: biblatex_ 2016/03/03 v3.3 programmable bibliographies (biber) (PK/JW/AB
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count182
+\lrq@indent=\count271
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1444,44 +1828,44 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip21
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count183
-\c@listtotal=\count184
-\c@listcount=\count185
-\c@liststart=\count186
-\c@liststop=\count187
-\c@citecount=\count188
-\c@citetotal=\count189
-\c@multicitecount=\count190
-\c@multicitetotal=\count191
-\c@instcount=\count192
-\c@maxnames=\count193
-\c@minnames=\count194
-\c@maxitems=\count195
-\c@minitems=\count196
-\c@citecounter=\count197
-\c@savedcitecounter=\count198
-\c@uniquelist=\count199
-\c@uniquename=\count266
-\c@refsection=\count267
-\c@refsegment=\count268
-\c@maxextratitle=\count269
-\c@maxextratitleyear=\count270
-\c@maxextrayear=\count271
-\c@maxextraalpha=\count272
-\c@abbrvpenalty=\count273
-\c@highnamepenalty=\count274
-\c@lownamepenalty=\count275
-\c@maxparens=\count276
-\c@parenlevel=\count277
-\blx@tempcnta=\count278
-\blx@tempcntb=\count279
-\blx@tempcntc=\count280
-\blx@maxsection=\count281
-\blx@maxsegment@0=\count282
-\blx@notetype=\count283
-\blx@parenlevel@text=\count284
-\blx@parenlevel@foot=\count285
-\blx@sectionciteorder@0=\count286
+\c@tabx@nest=\count272
+\c@listtotal=\count273
+\c@listcount=\count274
+\c@liststart=\count275
+\c@liststop=\count276
+\c@citecount=\count277
+\c@citetotal=\count278
+\c@multicitecount=\count279
+\c@multicitetotal=\count280
+\c@instcount=\count281
+\c@maxnames=\count282
+\c@minnames=\count283
+\c@maxitems=\count284
+\c@minitems=\count285
+\c@citecounter=\count286
+\c@savedcitecounter=\count287
+\c@uniquelist=\count288
+\c@uniquename=\count289
+\c@refsection=\count290
+\c@refsegment=\count291
+\c@maxextratitle=\count292
+\c@maxextratitleyear=\count293
+\c@maxextrayear=\count294
+\c@maxextraalpha=\count295
+\c@abbrvpenalty=\count296
+\c@highnamepenalty=\count297
+\c@lownamepenalty=\count298
+\c@maxparens=\count299
+\c@parenlevel=\count300
+\blx@tempcnta=\count301
+\blx@tempcntb=\count302
+\blx@tempcntc=\count303
+\blx@maxsection=\count304
+\blx@maxsegment@0=\count305
+\blx@notetype=\count306
+\blx@parenlevel@text=\count307
+\blx@parenlevel@foot=\count308
+\blx@sectionciteorder@0=\count309
 \labelnumberwidth=\skip70
 \labelalphawidth=\skip71
 \biblabelsep=\skip72
@@ -1490,83 +1874,83 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip75
 \bibparsep=\skip76
 \bibhang=\skip77
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\c@mincomprange=\count287
-\c@maxcomprange=\count288
-\c@mincompwidth=\count289
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\c@mincomprange=\count310
+\c@maxcomprange=\count311
+\c@mincompwidth=\count312
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count290
-\c@savedafterword=\count291
-\c@annotator=\count292
-\c@savedannotator=\count293
-\c@author=\count294
-\c@savedauthor=\count295
-\c@bookauthor=\count296
-\c@savedbookauthor=\count297
-\c@commentator=\count298
-\c@savedcommentator=\count299
-\c@editor=\count300
-\c@savededitor=\count301
-\c@editora=\count302
-\c@savededitora=\count303
-\c@editorb=\count304
-\c@savededitorb=\count305
-\c@editorc=\count306
-\c@savededitorc=\count307
-\c@foreword=\count308
-\c@savedforeword=\count309
-\c@holder=\count310
-\c@savedholder=\count311
-\c@introduction=\count312
-\c@savedintroduction=\count313
-\c@namea=\count314
-\c@savednamea=\count315
-\c@nameb=\count316
-\c@savednameb=\count317
-\c@namec=\count318
-\c@savednamec=\count319
-\c@translator=\count320
-\c@savedtranslator=\count321
-\c@shortauthor=\count322
-\c@savedshortauthor=\count323
-\c@shorteditor=\count324
-\c@savedshorteditor=\count325
-\c@labelname=\count326
-\c@savedlabelname=\count327
-\c@institution=\count328
-\c@savedinstitution=\count329
-\c@lista=\count330
-\c@savedlista=\count331
-\c@listb=\count332
-\c@savedlistb=\count333
-\c@listc=\count334
-\c@savedlistc=\count335
-\c@listd=\count336
-\c@savedlistd=\count337
-\c@liste=\count338
-\c@savedliste=\count339
-\c@listf=\count340
-\c@savedlistf=\count341
-\c@location=\count342
-\c@savedlocation=\count343
-\c@organization=\count344
-\c@savedorganization=\count345
-\c@origlocation=\count346
-\c@savedoriglocation=\count347
-\c@origpublisher=\count348
-\c@savedorigpublisher=\count349
-\c@publisher=\count350
-\c@savedpublisher=\count351
-\c@language=\count352
-\c@savedlanguage=\count353
-\c@pageref=\count354
-\c@savedpageref=\count355
+\c@afterword=\count313
+\c@savedafterword=\count314
+\c@annotator=\count315
+\c@savedannotator=\count316
+\c@author=\count317
+\c@savedauthor=\count318
+\c@bookauthor=\count319
+\c@savedbookauthor=\count320
+\c@commentator=\count321
+\c@savedcommentator=\count322
+\c@editor=\count323
+\c@savededitor=\count324
+\c@editora=\count325
+\c@savededitora=\count326
+\c@editorb=\count327
+\c@savededitorb=\count328
+\c@editorc=\count329
+\c@savededitorc=\count330
+\c@foreword=\count331
+\c@savedforeword=\count332
+\c@holder=\count333
+\c@savedholder=\count334
+\c@introduction=\count335
+\c@savedintroduction=\count336
+\c@namea=\count337
+\c@savednamea=\count338
+\c@nameb=\count339
+\c@savednameb=\count340
+\c@namec=\count341
+\c@savednamec=\count342
+\c@translator=\count343
+\c@savedtranslator=\count344
+\c@shortauthor=\count345
+\c@savedshortauthor=\count346
+\c@shorteditor=\count347
+\c@savedshorteditor=\count348
+\c@labelname=\count349
+\c@savedlabelname=\count350
+\c@institution=\count351
+\c@savedinstitution=\count352
+\c@lista=\count353
+\c@savedlista=\count354
+\c@listb=\count355
+\c@savedlistb=\count356
+\c@listc=\count357
+\c@savedlistc=\count358
+\c@listd=\count359
+\c@savedlistd=\count360
+\c@liste=\count361
+\c@savedliste=\count362
+\c@listf=\count363
+\c@savedlistf=\count364
+\c@location=\count365
+\c@savedlocation=\count366
+\c@organization=\count367
+\c@savedorganization=\count368
+\c@origlocation=\count369
+\c@savedoriglocation=\count370
+\c@origpublisher=\count371
+\c@savedorigpublisher=\count372
+\c@publisher=\count373
+\c@savedpublisher=\count374
+\c@language=\count375
+\c@savedlanguage=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
 \shorthandwidth=\skip78
 \shortjournalwidth=\skip79
 \shortserieswidth=\skip80
@@ -1584,13 +1968,13 @@ Package biblatex Info: ... file 'biblatex_.def' found.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex_.def
 File: biblatex_.def 
-\c@textcitecount=\count356
-\c@textcitetotal=\count357
-\c@textcitemaxnames=\count358
-\c@biburlnumpenalty=\count359
-\c@biburlucpenalty=\count360
-\c@biburllcpenalty=\count361
-\c@smartand=\count362
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlnumpenalty=\count382
+\c@biburlucpenalty=\count383
+\c@biburllcpenalty=\count384
+\c@smartand=\count385
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1602,8 +1986,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count363
-\c@bbx:relatedtotal=\count364
+\c@bbx:relatedcount=\count386
+\c@bbx:relatedtotal=\count387
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1630,7 +2014,7 @@ File: biblatex.cfg
 )))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 115.
+(scrhack)             need that hack, on input line 117.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1672,14 +2056,14 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen199
-\Hy@linkcounter=\count365
-\Hy@pagecounter=\count366
+\@linkdim=\dimen312
+\Hy@linkcounter=\count388
+\Hy@pagecounter=\count389
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count367
+\Hy@SavedSpaceFactor=\count390
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1697,12 +2081,12 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count368
+\c@Hy@tempcnt=\count391
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen256
-\Fld@menulength=\count369
-\Field@Width=\dimen257
-\Fld@charsize=\dimen258
+\XeTeXLinkMargin=\dimen313
+\Fld@menulength=\count392
+\Field@Width=\dimen314
+\Fld@charsize=\dimen315
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1712,17 +2096,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count370
-\c@Item=\count371
-\c@Hfootnote=\count372
+\Hy@abspage=\count393
+\c@Item=\count394
+\c@Hfootnote=\count395
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count373
-\c@bookmark@seq@number=\count374
+\Fld@listcount=\count396
+\c@bookmark@seq@number=\count397
 \Hy@SectionHShift=\skip84
 )
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/oberdiek/bookmark.sty
@@ -1730,7 +2114,7 @@ Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count375
+\BKM@id=\count398
 ))
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2005/01/29 v1.2 Extended Dash Package (NCC)
@@ -1759,47 +2143,47 @@ Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 \openout1 = thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 137.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 137.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 149.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 149.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
-LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count376
-\scratchdimen=\dimen259
-\scratchbox=\box56
-\nofMPsegments=\count377
-\nofMParguments=\count378
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count379
-\MPscratchDim=\dimen260
-\MPnumerator=\count380
-\makeMPintoPDFobject=\count381
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count399
+\scratchdimen=\dimen316
+\scratchbox=\box72
+\nofMPsegments=\count400
+\nofMParguments=\count401
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count402
+\MPscratchDim=\dimen317
+\MPnumerator=\count403
+\makeMPintoPDFobject=\count404
+\everyMPtoPDFconversion=\toks46
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1822,7 +2206,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 Language ngerman already loaded; id is 8
-LaTeX Info: Redefining \microtypecontext on input line 137.
+LaTeX Info: Redefining \microtypecontext on input line 149.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1853,21 +2237,25 @@ Dictionary: translator-basic-dictionary, Language: English
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviat
 ions.cfg
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
-)
+) ABD: EveryShipout initializing macros
+
+Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[com
+pat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on i
+nput line 149.
+
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 
-\openout3 = thesis.bcf
+\openout4 = thesis.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' not found.
-
 No file thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 137.
-Package biblatex Info: Reference segment=0 on input line 137.
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 137.
+Package biblatex Info: Reference section=0 on input line 149.
+Package biblatex Info: Reference segment=0 on input line 149.
+\AtBeginShipoutBox=\box73
+Package hyperref Info: Link coloring OFF on input line 149.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1875,12 +2263,12 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 .sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count382
+\c@section@level=\count405
 )
-LaTeX Info: Redefining \ref on input line 137.
-LaTeX Info: Redefining \pageref on input line 137.
-LaTeX Info: Redefining \nameref on input line 137.
-\c__siunitx_mathsf_int=\count383
+LaTeX Info: Redefining \ref on input line 149.
+LaTeX Info: Redefining \pageref on input line 149.
+LaTeX Info: Redefining \nameref on input line 149.
+\c__siunitx_mathsf_int=\count406
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LatinModernMath' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
@@ -1888,31 +2276,31 @@ Package microtype Info: Loading generic settings for font family
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 137.
+(Font)              scaled to size 10.95015pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.67863pt on input line 137.
+(Font)              scaled to size 7.67863pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.45398pt on input line 137.
+(Font)              scaled to size 5.45398pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 137.
+(Font)              scaled to size 10.94983pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.6784pt on input line 137.
+(Font)              scaled to size 7.6784pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.45381pt on input line 137.
+(Font)              scaled to size 5.45381pt on input line 149.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Try loading font information for U+msa on input line 137.
+LaTeX Font Info:    Try loading font information for U+msa on input line 149.
  (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 137.
+LaTeX Font Info:    Try loading font information for U+msb on input line 149.
 
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1924,16 +2312,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count384
+\c__siunitx_mathtt_int=\count407
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<logos/tu-logo.pdf, id=4, 339.2675pt x 55.20625pt>
+<logos/tu-logo.pdf, id=7, 339.2675pt x 55.20625pt>
 File: logos/tu-logo.pdf Graphic file (type pdf)
  <use logos/tu-logo.pdf>
-Package pdftex.def Info: logos/tu-logo.pdf used on input line 141.
+Package pdftex.def Info: logos/tu-logo.pdf used on input line 153.
 (pdftex.def)             Requested size: 262.29283pt x 42.67912pt.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman12-bold.luc)
@@ -1947,53 +2335,58 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 20.74031pt on input line 141.
+(Font)              scaled to size 20.74031pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 14.4002pt on input line 141.
+(Font)              scaled to size 14.4002pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 141.
+(Font)              scaled to size 12.00018pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 20.73969pt on input line 141.
+(Font)              scaled to size 20.73969pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.39977pt on input line 141.
+(Font)              scaled to size 14.39977pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 141.
+(Font)              scaled to size 11.99982pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 141.
+(Font)              scaled to size 8.00012pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 141.
+(Font)              scaled to size 6.00009pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 141.
+(Font)              scaled to size 7.99988pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 141.
+(Font)              scaled to size 5.99991pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"(loa
 d luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/
 lmroman12-regular.luc)
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 141.
+(Font)              scaled to size 10.00015pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 141.
+(Font)              scaled to size 7.0001pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 141.
+(Font)              scaled to size 9.99985pt on input line 153.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 141.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
+(Font)              scaled to size 6.9999pt on input line 153.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\new@ifnextchar' on input line 153.
+
+[1
 
 
 
@@ -2004,52 +2397,50 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
 
 ] (./content/00_abstract.tex
 Language ngerman already loaded; id is 8) [3]
-Package tocbasic Info: character protrusion at toc deactivated on input line 147
+Package tocbasic Info: character protrusion at toc deactivated on input line 159
 .
  (./thesis.toc
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
-\tf@toc=\write4
+\tf@toc=\write5
 
-\openout4 = thesis.toc
+\openout5 = thesis.toc
  [4
 
 ] (./content/01_einleitung.tex
 chapter 1.
+
+LaTeX Warning: Citation 'ba-maik' on page 1 undefined on input line 4.
+
 ) (./content/02_physikalischer_hintergrund.tex [1
 
 
 
 ]
 chapter 2.
-<content/SM.pdf, id=55, 187.65591pt x 126.1323pt>
-File: content/SM.pdf Graphic file (type pdf)
- <use content/SM.pdf>
-Package pdftex.def Info: content/SM.pdf used on input line 10.
-(pdftex.def)             Requested size: 236.61555pt x 159.05261pt.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman8-regular.luc)
-LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.63441pt on input line 15.
+(Font)              scaled to size 7.63441pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.34406pt on input line 15.
+(Font)              scaled to size 5.34406pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 3.8172pt on input line 15.
+(Font)              scaled to size 3.8172pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.63419pt on input line 15.
+(Font)              scaled to size 7.63419pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.34389pt on input line 15.
+(Font)              scaled to size 5.34389pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 3.8171pt on input line 15.
+(Font)              scaled to size 3.8171pt on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
@@ -2082,29 +2473,148 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf") (./content/03_lhc.tex [2
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+<Plots/SM.pdf, id=75, 187.65591pt x 126.1323pt>
+File: Plots/SM.pdf Graphic file (type pdf)
+ <use Plots/SM.pdf>
+Package pdftex.def Info: Plots/SM.pdf used on input line 10.
+(pdftex.def)             Requested size: 236.61555pt x 159.05261pt.
+ [2
 
-<./content/SM.pdf>] [3]
+<./Plots/SM.pdf>] [3]
+
+LaTeX Warning: Citation 'zprime' on page 4 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'susy_gut1' on page 4 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'susy_gut2' on page 4 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'leptoq' on page 4 undefined on input line 75.
+
+[4]
+
+LaTeX Warning: Citation 'pdg' on page 5 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'pdg' on page 5 undefined on input line 101.
+
+) (./content/03_lhc.tex [5]
 chapter 3.
-) (./content/04_analyse.tex [4
+
+LaTeX Warning: Citation 'lhc' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'lhc' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'higgs_atlas' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'higgs_cms' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'lhc' on page 6 undefined on input line 7.
+
+(load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
+otf/lmromancaps10-regular.luc)
+<Plots/lhcb.pdf, id=115, 886.51201pt x 470.55798pt>
+File: Plots/lhcb.pdf Graphic file (type pdf)
+ <use Plots/lhcb.pdf>
+Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
+(pdftex.def)             Requested size: 394.35527pt x 209.32225pt.
+
+
+LaTeX Warning: Citation 'lhcb' on page 6 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'lhcb' on page 6 undefined on input line 15.
+
+[6
 
 ]
+
+LaTeX Warning: Citation 'rad' on page 7 undefined on input line 19.
+
+[7<./Plots/lhcb.pdf>]
+
+LaTeX Warning: Citation 'velo' on page 8 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'velo' on page 8 undefined on input line 29.
+
+
+LaTeX Warning: Citation 'velo' on page 8 undefined on input line 29.
+
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+
+LaTeX Warning: Citation 'lhcb' on page 8 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'tracker' on page 8 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'tracker' on page 8 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'lhcb' on page 8 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'lhcb' on page 8 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'lhcb' on page 8 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'lhcb' on page 8 undefined on input line 41.
+
+) (./content/04_analyse.tex [8] [9]
 chapter 4.
-) (./content/05_ergebnisse.tex [5
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+LaTeX Warning: Citation 'ba-maik' on page 10 undefined on input line 12.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./content/05_ergebnisse.tex [10
+
+] [11]
 chapter 5.
-) (./content/a_anhang.tex [6
+) (./content/a_anhang.tex [12
 
 ]
 chapter A.
-) [7
+) [13
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 162.
+LaTeX Warning: Empty bibliography on input line 174.
 
-[8
+[14
 
 
 
@@ -2118,51 +2628,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+) [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  (./thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: EDE4D4512DFD8D8A5AF325DC2414DABD;5753.
+(rerunfilecheck)             Checksum: B5931F679CA6C3F40D9F68ED47C15C28;9968.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: C4A04D44A97CE0130802E5006BCF94B9;830.
+(rerunfilecheck)             Checksum: 0C66F6AD5F78D2F84C4FB86E039ACBF6;1259.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43907 strings out of 495009
- 100000,1648299 words of node,token memory allocated
- 432 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 4 attribute, 61 glue_spec, 4 attrib
+ 58447 strings out of 495009
+ 100000,1977958 words of node,token memory allocated
+ 460 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 2 kern, 5 attribute, 61 glue_spec, 5 attrib
 ute_list, 1 write nodes
-   avail lists: 1:4,2:451,3:101,4:825,5:216,6:2762,7:203,8:11,9:197,10:405,11:1
- 46142 multiletter control sequences out of 65536+600000
- 220 fonts using 61639327 bytes
- 60i,19n,81p,939b,883s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-i
-talic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
-mromanslant10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/open
-type/public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-
-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/kevin/.local/texlive/201
-5/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/kevin/.local/
-texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/ke
-vin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-mat
-h.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/
+   avail lists: 1:2,2:3979,3:1003,4:1970,5:377,6:5553,7:600,8:15,9:493,10:790,11
+:1,12:1
+ 60087 multiletter control sequences out of 65536+600000
+ 273 fonts using 77183603 bytes
+ 79i,21n,106p,1140b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromancaps
+10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public
+/lm/lmromanslant10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts
+/opentype/public/lm/lmroman10-bold.otf></home/kevin/.local/texlive/2015/texmf-di
+st/fonts/opentype/public/lm/lmroman10-italic.otf></home/kevin/.local/texlive/201
+5/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/kevin/.lo
+cal/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></hom
+e/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regula
+r.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/
 latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/
-public/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/op
-entype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (13 pages, 96488 bytes).
+public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-dist/
+fonts/opentype/public/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2015/texm
+f-dist/fonts/opentype/public/lm/lmroman12-bold.otf><</home/kevin/.local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (19 pages, 322323 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 290 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 131072)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 

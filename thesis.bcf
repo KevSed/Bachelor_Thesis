@@ -2074,10 +2074,7 @@
     <bcf:citekey order="23">lhcb</bcf:citekey>
     <bcf:citekey order="24">lhcb</bcf:citekey>
     <bcf:citekey order="25">lhcb</bcf:citekey>
-    <bcf:citekey order="26">pdg</bcf:citekey>
-    <bcf:citekey order="27">ba-maik</bcf:citekey>
-    <bcf:citekey order="28">ba-maik</bcf:citekey>
-    <bcf:citekey order="29">ba-maik</bcf:citekey>
+    <bcf:citekey order="26">ba-maik</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global" type="entry" sortscheme="nty" sortnamekeyscheme="global">
   <bcf:sorting>

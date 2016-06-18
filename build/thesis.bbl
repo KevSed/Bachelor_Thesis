@@ -92,11 +92,50 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{subtitle}{Optimierte Signalselektion}
-      \field{title}{Suche nach dem Lepton-Flavor verletztenden Zerfall \signal am LHCb-Experiment}
+      \field{title}{Suche nach dem Lepton-Flavor verletztenden Zerfall $\signal$ am LHCb-Experiment}
       \field{type}{Bachelorarbeit}
       \field{year}{2016}
     \endentry
-    \entry{higgs}{article}{}
+    \entry{leptoq}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80ddb295f67eb53f1f612340c71c2cbd}{%
+           family={Buchmüller},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=1c70b7bbda2344c98d4f83708d63d026}{%
+           family={Rückl},
+           family_i={R\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{hash=8f3593740cd0db19458016c23f292dc5}{%
+           family={Wyler},
+           family_i={W\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{464d56f8cf6e2d12007d833efd0d6daf}
+      \strng{fullhash}{464d56f8cf6e2d12007d833efd0d6daf}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0370-2693}
+      \field{journaltitle}{Physics Letters B}
+      \field{number}{4}
+      \field{title}{Leptoquarks in lepton-quark collisions}
+      \field{volume}{191}
+      \field{year}{1987}
+      \field{pages}{442\bibrangedash 448}
+      \range{pages}{7}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0370-2693(87)90637-X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/037026938790637X
+      \endverb
+    \endentry
+    \entry{higgs_atlas}{article}{}
       \name{author}{1}{}{%
         {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{%
            family={Collaboration},
@@ -119,6 +158,31 @@
       \endverb
       \verb{eprint}
       \verb 1207.7214
+      \endverb
+    \endentry
+    \entry{higgs_cms}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f40d6ad4803028c5ef7c6bb76f4cd02d}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           given_i={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f40d6ad4803028c5ef7c6bb76f4cd02d}
+      \strng{fullhash}{f40d6ad4803028c5ef7c6bb76f4cd02d}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{howpublished}{Phys. Lett. B 716 (2012) 30}
+      \field{title}{Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2012.08.021
+      \endverb
+      \verb{eprint}
+      \verb 1207.7235
       \endverb
     \endentry
     \entry{susy_gut1}{article}{}
