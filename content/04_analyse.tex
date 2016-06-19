@@ -1,7 +1,7 @@
 \chapter{Analyse des Kontrollkanals}
 \label{chap:4}
 %
-Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normierungskonstante $\alpha$ für den Signalzerfall $\signal$ zu ermitteln. Dazu wird eine schnittbasierte Selektion des Kontrollkanals $\kontroll$ durchgeführt um über die Ermittlung der rekonstruierten Signalkandidaten und der dabei auftretenden Effizienzen die Normierungskonstante bestimmen zu können. Diese ist in Gleichung~\ref{eq:konst} definiert.
+Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normierungskonstante $\alpha$ für den Signalzerfall $\signal$ zu ermitteln. Dazu wird eine schnittbasierte Selektion des Kontrollkanals $\kontroll$ durchgeführt, um über die Ermittlung der rekonstruierten Signalkandidaten und der dabei auftretenden Effizienzen die Normierungskonstante bestimmen zu können. Diese ist in Gleichung~\ref{eq:konst} definiert.
 %
 \begin{equation}
   \alpha=\frac{\mathcal{B}(\kontroll)}{N_{\kontroll}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}
@@ -15,7 +15,7 @@ $\epsilon_{\text{ges}}$ beschreibt die Gesamteffizienzen der Analyse des jeweili
 %
 Bei dem für die Analyse des Zerfalls $\kontroll$ verwendeten Datensatz handelt es sich um im Jahre 2012 am LHCb-Experiment bei einer integrierten Luminosität von $\SI{2}{\femto\barn^{-1}}$ und einer Schwerpunkstenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ gemessene Daten. Diese wurden neben den am Detektor selbst angewandten Triggern nachträglich selektiert. Dazu ist eine dem Zerfall $\kontroll$ angepasste Selektion (Stripping \texttt{Bu2LLK\_mmLine}) verwendet worden, sodass in dem nTupel noch 8169615 Ereignisse enthalten sind. Davon sind etwa 5959563 real gemessene Daten, sowie etwa 2210052 in sogenannten Monte-Carlo-Simulationen erstellte.\\
 
-Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik des Stadardmodells und die real gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer realen Messung anzupassen, werden verschiedene Algorithmen zur Simulierung der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des real gemssenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA} simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN} simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}, sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, rekonstruktion etc.), wie die real am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE}. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ (richtig?) aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
+Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik des Stadardmodells und die real gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer realen Messung anzupassen, werden verschiedene Algorithmen zur Simulierung der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des real gemessenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA}[Zitat] simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN}[Zitat] simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}[Zitat], sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, Rekonstruktion etc.), wie die real am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE}[Zitat]. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ (richtig?) aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
 
 \section{Selektion des Kontrollkanals}
 %
@@ -82,7 +82,7 @@ Des Weiteren werden sogenannte Triggerstufen als Bedingung für die Selektion de
   \label{tab:trigger}
 \end{table}
 %
-Die Effizienz dieser drei Triggerstufen, sowie des Strippings bezogen auf die Zahl der Ereignisse im nTupel beträgt für die Daten und die MC die in den Gleichungen~\ref{eq:eff_ges1} und \ref{eq:eff_ges2} aufgeführten Werte.
+Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie des Strippings bezogen auf die Zahl der Ereignisse im nTupel beträgt für die Daten und die MC die in den Gleichungen~\ref{eq:eff_ges1} und \ref{eq:eff_ges2} aufgeführten Werte.
 %
 \begin{equation}
   \epsilon_\text{ges, MC}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after stripping}}=\frac{1345240}{2210052}=\SI{60.87}{\percent}
@@ -95,7 +95,7 @@ Die Effizienz dieser drei Triggerstufen, sowie des Strippings bezogen auf die Za
 %
 \section{Massenfit}
 %
-Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit} der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa $[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$, was der in Abbildung~\ref{fig:mass} dargestellten Verteilung entspricht. Diese Einschränkung konzentriert den fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund modellieren zu können.
+Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit}[Zitat](ERLÄUTERUNG) der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa $[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$, was der in Abbildung~\ref{fig:mass} dargestellten Verteilung entspricht. Die Masse des $\jpsi$-Mesons beträgt etwa $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund modellieren zu können.
 %
 \begin{figure}[H]
   \centering
@@ -104,39 +104,82 @@ Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Sign
   \label{fig:mass}
 \end{figure}
 %
-Mit Hilfe des Programmes \texttt{RooFit} wird diese Massenverteilung an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird eine Funktion der in Gleichung~\ref{eq:massenfit} dargestellten Form an die Messpunkte gefittet.
+Mit Hilfe des Frameworks \texttt{RooFit}[Zitat] wird diese Verteilung der $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu werden verschiedene Modelle der in Gleichung~\ref{eq:massenfit} dargestellten Form an die Messpunkte gefittet.
 %
-\begin{align}
-  \symup{G}(m_{\jpsi})=&\; \symup{S}(m_{\jpsi}) + \symup{B}(m_{\jpsi})\\
+\begin{equation}
+  \symup{G}(m_{\jpsi})= \symup{S}(m_{\jpsi}) + \symup{B}(m_{\jpsi})
   \label{eq:massenfit}
-  \symup{S}(m_{\jpsi})=&\; \symup{CB}_1(m_{\jpsi},\mu_1,\sigma,\alpha_1,n_1)+f\symup{CB}_2(m_{\jpsi},\mu_2,\sigma,\alpha_2,n_2) \\
-  \symup{B}(m_{\jpsi})=&\; e^{\beta\cdot m_{\jpsi}}
-\end{align}
+\end{equation}
 %
-Hier entspricht die Funktion $\symup{S}(m_{\jpsi})$ dem verwendeten Signalmodell, während $\symup{B}(m_{\jpsi})$ den Hintergund modellieren soll. Das Signalmodell besteht dabei aus zwei sogenannten \textit{Crystal Ball}-Funktionen (CB). Diese zur Modellation asymmetrischer Wahrscheinlichkeitsverteilungen verwendete Funktionen stellen eine Verbindung aus einer Gaußfunktion, welche an einer Seite in eine Potenzfunktion übergeht. Dies ermöglicht die Rekonstruktion sogenannter \textit{tails}, also am Rande einer Gaußfunktion potentiell abfallender Verteilungen. Die analytische darstellung ist in Gleichung~\ref{eq:cb} angegeben.
+$\symup{S}(m_{\jpsi})$ beschreibt hierbei das verwendete Signalmodell, während $\symup{B}(m_{\jpsi})$ den Untergrund modelliert. Die Verteilung der Massen verläuft in etwa normalverteilt, zeigt aber an den Rändern der Gaußverteilung sogenannte \textit{tails}: nicht der Normalverteilung entsprechende, beispielsweise durch Polynome beschriebende Verteilungen. Diese werden unter Anderem durch die Abstrahlung von niederenergetischen Photonen in Teilchenzerfällen erzeugt[Zitat]. Um diese Eigenschaft der Verteilung hinreichend zu modellieren, werden sogenannte \textit{Crystal Ball}-Funktionen (CB) verwendet. Diese zur Modellation asymmetrischer Wahrscheinlichkeitsverteilungen verwendeten Funktionen stellen eine Gaußfunktion dar, welche an einer Seite in eine Potenzfunktion übergeht. Die Darstellung ist in Gleichung~\ref{eq:cb}[Zitat] angegeben, wobei die Parameter $A$ und $B$ stets so bestimmt werden, dass diese Darestellung analytisch ist.
 %
 \begin{equation}
   {\displaystyle CB(x;\alpha ,n,{\mu},\sigma,N)=N\cdot {\begin{cases}\exp \left(-{\frac {(x-{\mu})^{2}}{2\sigma ^{2}}}\right),&{\mbox{falls }}{\frac {x-{\mu}}{\sigma }}>-\alpha \\A\cdot \left(B-{\frac {x-{\mu}}{\sigma }}\right)^{-n},&{\mbox{falls }}{\frac {x-{\mu}}{\sigma }}\leqslant -\alpha \end{cases}}}
   \label{eq:cb}
 \end{equation}
 %
-Das Signalmodell wird über insgesamt acht verschiedene Parameter an die Massenverteilung gefittet. Jede CB-Funktion wird dabei über einen eigenen der in Tabelle~\ref{tab:params} aufgeführten Parameter an die Verteilung gefittet.
+Als Modell für den Untergrund in dieser Messung wird stets ein exponentieller Zusammenhang der in Gleichung~\ref{eq:exp} dargestellten Form verwendet.
 %
-\begin{table}[htb]
+\begin{equation}
+  B(x;a,c)=a\cdot \symup{e}^{c\cdot x}
+  \label{eq:exp}
+\end{equation}
+%
+Zunächst wird ein Modell aus einer Gaußschen Verteilung und einer CB-Funktion zur Darstellung der Signalverteilung verwendet. Dies entspricht einem Gesamtmodell der in Gleichung~\ref{eq:g+cb} dargestellten Form.
+%
+\begin{equation}
+  \symup{G}(m_{\jpsi}; f)= \symup{NV}(m_{\jpsi};\sigma,\mu) + f\symup{CB}(m_{\jpsi},\alpha,\mu,\sigma,n) + \symup{B}(m_{\jpsi},a,c)
+  \label{eq:g+cb}
+\end{equation}
+%
+Der Faktor $f$ beschreibt dabei das Verhältnis von Normalverteilung und CB-Funktion und liegt zwischen 0 und 1. Zu dieser Funktion wird der oben beschriebene exponentielle Untergrund ($\symup{B}(m_{\jpsi})$) hinzugefügt und das so entstandene Gesamtmodell an die Daten gefittet. Dazu werden die in Tabelle~\ref{tab:params1} aufgeführten Parameter in den angegebenen Intervallen mit Hilfe von \texttt{RooFit} der Verteilung angepasst.
+%
+\begin{table}[H]
+  \centering
+  \caption{Auflistung der für den fit des Signalmodells (NV + CB) verwendeten Parameter.}
+  \begin{tabular}{ll}
+    \toprule
+    \textbf{Normalverteilung}   & Intervall für den fit \\
+    \midrule
+    \quad$\sigma$               & []  \\
+    \quad$\mu$                  & [2946, 3176]  \\
+    \midrule
+    \textbf{Crystall Ball}      &  Intervall für den fit \\
+    \midrule
+    \quad$\alpha$               & [-4, 0], [0, 4] \\
+    \quad$\mu$                  & [2946, 3176] \\
+    \quad$\sigma$               & [1, 20], [1, 20] \\
+    \quad$n$                    & [0, 20], [0, 20] \\
+    \quad$N$                    & [700000, 1345240] \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:params1}
+\end{table}
+%
+Das erste Modell ermöglicht im fit lediglich die Darstellung eines \textit{tails}. Da durch [TAILS] auch solche bei höheren Energien entstehen, kann es sinnvoll sein, durch die Kombination von zwei CB-Funktionen, also einem \textit{Di-Crystal-Ball} (DCB) die Modellation dieser zu ermöglichen. Dazu wird also ein Gesamtmodell der in Gleichung~\ref{eq:dcb} dargestellten Form verwendet.
+%
+\begin{equation}
+  \symup{G}(m_{\jpsi}; f)=\symup{CB}_1(m_{\jpsi};\alpha_1,\mu,\sigma_1,n_1) + f\symup{CB}_2(m_{\jpsi};\alpha_2,\mu,\sigma_2,n_2) + \symup{B}(m_{\jpsi},a,c)
+  \label{eq:dcb}
+\end{equation}
+%
+Das Signalmodell wird über insgesamt acht verschiedene Parameter an die Massenverteilung gefittet. Jede CB-Funktion wird dabei über ein Set der in Tabelle~\ref{tab:params} aufgeführten Parameter an die Verteilung gefittet.
+%
+\begin{table}[H]
   \centering
   \caption{Auflistung der für den fit des Signalmodells verwendeten Parameter.}
-  \begin{tabular}{cc}
+  \begin{tabular}{ccc}
     \toprule
-    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} \\
+    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} & Intervall für den fit \\
     \midrule
-    $\alpha_1$                  & $\alpha_2$  \\
-    $\mu_1$                     & $\mu_2$     \\
-    $\sigma$                    & $\sigma$    \\
-    $n_1$                       & $n_2$       \\
-    $N$                         & $N$         \\
+    $\alpha_1$                  & $\alpha_2$               & [-4, 0], [0, 4] \\
+    $\mu$                       & $\mu$                    & [2946, 3176] \\
+    $\sigma_1$                  & $\sigma_2$               & [1, 20], [1, 20] \\
+    $n_1$                       & $n_2$                    & [0, 20], [0, 20] \\
+    $N$                         & $N$                      & [700000, 1345240] \\
     \bottomrule
   \end{tabular}
   \label{tab:params}
 \end{table}
 %
-$\alpha$ gibt dabei an, ab wann die Gaußglocke durch den Potenzzusammenhang ersetzt wird. $\mu$ beschreibt den
+$\alpha$ gibt dabei an, ab wann die Gaußglocke durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann der physikalische Untergrund einsetzt. Ein positives $\alpha$ bedeutet dabei, dass der \textit{tail} zu kleineren Werten einsetzt, während ein $\alpha<0$ diesen zu größeren Werten modelliert. $\mu$ beschreibt den Wert für den \textit{peak} der Gaußglocke. Anschaulich beschreibt dies die aus den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen Massenpeak gefittet werden, wird über diesen Parameter für beide Funktionen gemeinsam iteriert. Das $\sigma$ gibt wie bei Gaußschen Verteilungen üblich die Breite der Verteilung an. Über den Parameter $n$ kann das Modell für den \textit{tail} angepasst werden. Der Wert für $n$ gibt den Grad der Potenz an. Die aus den Daten erwarteten Signalkandidaten werden durch den Parameter $N$ representiert. Da über die Schnitte und die Trigger bereits mit hoher Effizienz Untergrund aus dem Datensatz entfernt wurde, ist das Intervall von etwa $\SI{50}{\percent}$ aller Ereignisse aufwärts gewählt.

@@ -14,6 +14,6 @@
 \contentsline {section}{\numberline {4.1}Datensätze}{10}{section.4.1}
 \contentsline {section}{\numberline {4.2}Selektion des Kontrollkanals}{11}{section.4.2}
 \contentsline {section}{\numberline {4.3}Massenfit}{13}{section.4.3}
-\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{16}{chapter.5}
-\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{17}{appendix.A}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{18}{chapter*.13}
+\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{17}{chapter.5}
+\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{18}{appendix.A}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{19}{chapter*.14}

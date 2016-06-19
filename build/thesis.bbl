@@ -211,6 +211,27 @@
       \field{pages}{150}
       \range{pages}{1}
     \endentry
+    \entry{griffiths}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f155d780982df4094a3495f4b0c58354}{%
+           family={Griffiths},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{8. Auflage}
+      \field{title}{Introduction to Elementary Particles}
+      \field{year}{2010}
+    \endentry
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
         {{hash=15b5704ce0371fd996135838e1abf533}{%
