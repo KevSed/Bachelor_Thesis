@@ -18,62 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global}
-    \entry{lhcb}{book}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=95b2ec4b1a747c870bfaaa035d8601b7}{%
-           family={Antunes-Nobrega},
-           family_i={A\bibinithyphendelim N\bibinitperiod},
-           given={R},
-           given_i={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \list{publisher}{1}{%
-        {CERN}%
-      }
-      \strng{namehash}{707cbf274dab29727f5911af859908a1}
-      \strng{fullhash}{707cbf274dab29727f5911af859908a1}
-      \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{series}{Technical Design Report LHCb}
-      \field{title}{{LHCb reoptimized detector design and performance: Technical Design Report}}
-      \field{year}{2003}
-      \verb{url}
-      \verb https://cds.cern.ch/record/630827
-      \endverb
-    \endentry
-    \entry{tracker}{book}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=ce178fd3d3859ffc7727873749d342be}{%
-           family={Barbosa-Marinho},
-           family_i={B\bibinithyphendelim M\bibinitperiod},
-           given={P\bibnamedelima R},
-           given_i={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \list{publisher}{1}{%
-        {CERN}%
-      }
-      \strng{namehash}{54f616e601dcde7f53f0b90eebfdc7d3}
-      \strng{fullhash}{54f616e601dcde7f53f0b90eebfdc7d3}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
-      \field{labelnamesource}{author}
-      \field{note}{revised version number 1 submitted on 2002-11-13 14:14:34}
-      \field{series}{Technical Design Report LHCb}
-      \field{year}{2002}
-      \verb{url}
-      \verb http://cds.cern.ch/record/582793
-      \endverb
-    \endentry
+  \sortlist[entry]{none/global}
     \entry{ba-maik}{thesis}{}
       \name{author}{1}{}{%
         {{hash=482c816efa70a2b357aeb0589be3e435}{%
@@ -87,14 +32,133 @@
       }
       \strng{namehash}{482c816efa70a2b357aeb0589be3e435}
       \strng{fullhash}{482c816efa70a2b357aeb0589be3e435}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{subtitle}{Optimierte Signalselektion}
       \field{title}{Suche nach dem Lepton-Flavor verletztenden Zerfall $\signal$ am LHCb-Experiment}
       \field{type}{Bachelorarbeit}
       \field{year}{2016}
+    \endentry
+    \entry{griffiths}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f155d780982df4094a3495f4b0c58354}{%
+           family={Griffiths},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
+      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{8. Auflage}
+      \field{title}{Introduction to Elementary Particles}
+      \field{year}{2010}
+    \endentry
+    \entry{HalzenMartin}{book}{}
+      \name{author}{2}{}{%
+        {{hash=b51248a66fcf90131ee6b9504741d613}{%
+           family={Halzen},
+           family_i={H\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{hash=237249f7a52fc14c054d70e3aa98ebcc}{%
+           family={Martin},
+           family_i={M\bibinitperiod},
+           given={A.D.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{9ce10975d8bd6267c226ab75020633de}
+      \strng{fullhash}{9ce10975d8bd6267c226ab75020633de}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quarks and Leptons: An Introductory Course in Modern Particle Physics}
+      \field{year}{1984}
+    \endentry
+    \entry{zprime}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15b5704ce0371fd996135838e1abf533}{%
+           family={J.\bibnamedelimi Bernabeu},
+           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={E.\bibnamedelimi Nardi},
+           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{%
+           family={Tomasini},
+           family_i={T\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{98c126e1e79d63309f6c649bb90d00f5}
+      \strng{fullhash}{98c126e1e79d63309f6c649bb90d00f5}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
+      \field{volume}{B409}
+      \field{year}{1993}
+      \field{pages}{69}
+      \range{pages}{1}
+    \endentry
+    \entry{susy_gut1}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
+           family={Dimopoulos},
+           family_i={D\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{%
+           family={Georgi},
+           family_i={G\bibinitperiod},
+           given={H.},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cb5bb1d4589bc2654485cee4cd2857c}
+      \strng{fullhash}{0cb5bb1d4589bc2654485cee4cd2857c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
+      \field{volume}{B193}
+      \field{year}{1981}
+      \field{pages}{150}
+      \range{pages}{1}
+    \endentry
+    \entry{susy_gut2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0675885353972699d6ea10a428a22720}{%
+           family={Sakai},
+           family_i={S\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{0675885353972699d6ea10a428a22720}
+      \strng{fullhash}{0675885353972699d6ea10a428a22720}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Physik C Particles and Fields}
+      \field{title}{{Naturalnes in supersymmetric GUTS}}
+      \field{volume}{11}
+      \field{year}{1981}
+      \field{pages}{153}
+      \range{pages}{1}
     \endentry
     \entry{leptoq}{article}{}
       \name{author}{3}{}{%
@@ -116,8 +180,8 @@
       }
       \strng{namehash}{464d56f8cf6e2d12007d833efd0d6daf}
       \strng{fullhash}{464d56f8cf6e2d12007d833efd0d6daf}
-      \field{sortinit}{B}
-      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0370-2693}
@@ -135,6 +199,53 @@
       \verb http://www.sciencedirect.com/science/article/pii/037026938790637X
       \endverb
     \endentry
+    \entry{pdg}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=e280547009da55f6adb450e346a8fdc6}{%
+           family={Olive},
+           family_i={O\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chin. Phys.}
+      \field{title}{{Review of Particle Physics}}
+      \field{volume}{C38}
+      \field{year}{2014}
+      \field{pages}{090001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1674-1137/38/9/090001
+      \endverb
+    \endentry
+    \entry{lhc}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
+           prefix={für},
+           prefix_i={f\bibinitperiod},
+           family={Kernforschung},
+           family_i={K\bibinitperiod},
+           given={Europäische\bibnamedelima Organisation},
+           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LHC- Large Hadron Collider}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.lhc-facts.ch/
+      \endverb
+    \endentry
     \entry{higgs_atlas}{article}{}
       \name{author}{1}{}{%
         {{hash=d1d766722e3aa1a2bb2d62f62c9844f6}{%
@@ -145,8 +256,8 @@
       }
       \strng{namehash}{d1d766722e3aa1a2bb2d62f62c9844f6}
       \strng{fullhash}{d1d766722e3aa1a2bb2d62f62c9844f6}
-      \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -170,8 +281,8 @@
       }
       \strng{namehash}{f40d6ad4803028c5ef7c6bb76f4cd02d}
       \strng{fullhash}{f40d6ad4803028c5ef7c6bb76f4cd02d}
-      \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -185,100 +296,32 @@
       \verb 1207.7235
       \endverb
     \endentry
-    \entry{susy_gut1}{article}{}
-      \name{author}{2}{}{%
-        {{hash=e52aea5a28dfd068d9647f2aca220ba1}{%
-           family={Dimopoulos},
-           family_i={D\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=5429f86ad42e533c9cb42bdc8f518b4a}{%
-           family={Georgi},
-           family_i={G\bibinitperiod},
-           given={H.},
-           given_i={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{0cb5bb1d4589bc2654485cee4cd2857c}
-      \strng{fullhash}{0cb5bb1d4589bc2654485cee4cd2857c}
-      \field{sortinit}{D}
-      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nuclear Physics B}
-      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
-      \field{volume}{B193}
-      \field{year}{1981}
-      \field{pages}{150}
-      \range{pages}{1}
-    \endentry
-    \entry{griffiths}{book}{}
+    \entry{lhcb}{book}{}
+      \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=f155d780982df4094a3495f4b0c58354}{%
-           family={Griffiths},
-           family_i={G\bibinitperiod},
-           given={David},
-           given_i={D\bibinitperiod}}}%
+        {{hash=95b2ec4b1a747c870bfaaa035d8601b7}{%
+           family={Antunes-Nobrega},
+           family_i={A\bibinithyphendelim N\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
       }
       \list{publisher}{1}{%
-        {Wiley-VCH}%
+        {CERN}%
       }
-      \strng{namehash}{f155d780982df4094a3495f4b0c58354}
-      \strng{fullhash}{f155d780982df4094a3495f4b0c58354}
-      \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \strng{namehash}{707cbf274dab29727f5911af859908a1}
+      \strng{fullhash}{707cbf274dab29727f5911af859908a1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{series}{8. Auflage}
-      \field{title}{Introduction to Elementary Particles}
-      \field{year}{2010}
-    \endentry
-    \entry{zprime}{article}{}
-      \name{author}{2}{}{%
-        {{hash=15b5704ce0371fd996135838e1abf533}{%
-           family={J.\bibnamedelimi Bernabeu},
-           family_i={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={E.\bibnamedelimi Nardi},
-           given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=ac6d2187ecc8eaa21276ef2618ae5e35}{%
-           family={Tomasini},
-           family_i={T\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{98c126e1e79d63309f6c649bb90d00f5}
-      \strng{fullhash}{98c126e1e79d63309f6c649bb90d00f5}
-      \field{sortinit}{J}
-      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nuclear Physics B}
-      \field{title}{{μ-e conversion in nuclei and Z′ physics}}
-      \field{volume}{B409}
-      \field{year}{1993}
-      \field{pages}{69}
-      \range{pages}{1}
-    \endentry
-    \entry{velo}{online}{}
-      \name{author}{1}{}{%
-        {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
-           prefix={für},
-           prefix_i={f\bibinitperiod},
-           family={Kernforschung},
-           family_i={K\bibinitperiod},
-           given={Europäische\bibnamedelima Organisation},
-           given_i={E\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
-      \field{labelnamesource}{author}
-      \field{urlday}{11}
-      \field{urlmonth}{06}
-      \field{urlyear}{2016}
-      \field{year}{2008}
+      \field{series}{Technical Design Report LHCb}
+      \field{title}{{LHCb reoptimized detector design and performance: Technical Design Report}}
+      \field{year}{2003}
       \verb{url}
-      \verb http://lhcb-public.web.cern.ch/lhcb-public/en/Detector/VELO2-en.html
+      \verb https://cds.cern.ch/record/630827
       \endverb
     \endentry
     \entry{rad}{online}{}
@@ -293,8 +336,8 @@
       }
       \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{urlday}{11}
       \field{urlmonth}{06}
@@ -304,7 +347,7 @@
       \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles.html
       \endverb
     \endentry
-    \entry{lhc}{manual}{}
+    \entry{velo}{online}{}
       \name{author}{1}{}{%
         {{hash=7ea4b803de46e98ce2b0c48f3b16d62c}{%
            prefix={für},
@@ -316,61 +359,201 @@
       }
       \strng{namehash}{7ea4b803de46e98ce2b0c48f3b16d62c}
       \strng{fullhash}{7ea4b803de46e98ce2b0c48f3b16d62c}
-      \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{LHC- Large Hadron Collider}
-      \field{year}{2016}
+      \field{urlday}{11}
+      \field{urlmonth}{06}
+      \field{urlyear}{2016}
+      \field{year}{2008}
       \verb{url}
-      \verb http://www.lhc-facts.ch/
+      \verb http://lhcb-public.web.cern.ch/lhcb-public/en/Detector/VELO2-en.html
       \endverb
     \endentry
-    \entry{pdg}{article}{}
+    \entry{tracker}{book}{}
       \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=e280547009da55f6adb450e346a8fdc6}{%
-           family={Olive},
-           family_i={O\bibinitperiod},
-           given={K.\bibnamedelimi A.},
-           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ce178fd3d3859ffc7727873749d342be}{%
+           family={Barbosa-Marinho},
+           family_i={B\bibinithyphendelim M\bibinitperiod},
+           given={P\bibnamedelima R},
+           given_i={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
-      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
-      \field{sortinit}{O}
-      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{54f616e601dcde7f53f0b90eebfdc7d3}
+      \strng{fullhash}{54f616e601dcde7f53f0b90eebfdc7d3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chin. Phys.}
-      \field{title}{{Review of Particle Physics}}
-      \field{volume}{C38}
-      \field{year}{2014}
-      \field{pages}{090001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1674-1137/38/9/090001
+      \field{note}{revised version number 1 submitted on 2002-11-13 14:14:34}
+      \field{series}{Technical Design Report LHCb}
+      \field{year}{2002}
+      \verb{url}
+      \verb http://cds.cern.ch/record/582793
       \endverb
     \endentry
-    \entry{susy_gut2}{article}{}
-      \name{author}{1}{}{%
-        {{hash=0675885353972699d6ea10a428a22720}{%
-           family={Sakai},
+    \entry{pythia}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1f7e99224e14002bdface802b6379512}{%
+           family={Sjöstrand},
            family_i={S\bibinitperiod},
-           given={N.},
-           given_i={N\bibinitperiod}}}%
+           given={Torbjörn},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b2f5b287eab22155743b6f6e452539c9}{%
+           family={Mrenna},
+           family_i={M\bibinitperiod},
+           given={Stephen},
+           given_i={S\bibinitperiod}}}%
+        {{hash=c3c22a8af414c765ccbebc1bec6b6bdf}{%
+           family={Skands},
+           family_i={S\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
       }
-      \strng{namehash}{0675885353972699d6ea10a428a22720}
-      \strng{fullhash}{0675885353972699d6ea10a428a22720}
-      \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \strng{namehash}{41e63ca4196f707e4bd10a62d87f6455}
+      \strng{fullhash}{41e63ca4196f707e4bd10a62d87f6455}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Zeitschrift für Physik C Particles and Fields}
-      \field{title}{{Naturalnes in supersymmetric GUTS}}
-      \field{volume}{11}
-      \field{year}{1981}
-      \field{pages}{153}
-      \range{pages}{1}
+      \field{eprinttype}{arXiv}
+      \field{howpublished}{Comput.Phys.Commun.178:852-867,2008}
+      \field{title}{A Brief Introduction to PYTHIA 8.1}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2008.01.036
+      \endverb
+      \verb{eprint}
+      \verb 0710.3820
+      \endverb
+    \endentry
+    \entry{evtgen}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=6f88b7965f246635f7c7115603643f3b}{%
+           family={Ryd},
+           family_i={R\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cde91320ad0b059b71c30adff10480ef}
+      \strng{fullhash}{cde91320ad0b059b71c30adff10480ef}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EvtGen: A Monte Carlo Generator for B-Physics}
+      \field{year}{2005}
+      \verb{eprint}
+      \verb 0EVTGEN-V00-11-07
+      \endverb
+    \endentry
+    \entry{geant4}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=1fa1785986425bed4463a184d407c5f5}{%
+           family={Agostinelli},
+           family_i={A\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa9af5bf616b1437509f374c63638866}
+      \strng{fullhash}{aa9af5bf616b1437509f374c63638866}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Nuclear Instruments and Methods, A, 506}
+      \field{title}{Geant4 - A Simulation Toolkit}
+      \field{year}{2003}
+      \field{pages}{250\bibrangedash 303}
+      \range{pages}{54}
+      \verb{eprint}
+      \verb 0EVTGEN-V00-11-07
+      \endverb
+    \endentry
+    \entry{extended}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f2a7df1b6b4a559de3e18c6f804ad77c}{%
+           family={Barlow},
+           family_i={B\bibinitperiod},
+           given={Roger},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2a7df1b6b4a559de3e18c6f804ad77c}
+      \strng{fullhash}{f2a7df1b6b4a559de3e18c6f804ad77c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{3}
+      \field{title}{Extended maximum likelihood}
+      \field{volume}{297}
+      \field{year}{1990}
+      \field{pages}{496\bibrangedash 506}
+      \range{pages}{11}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0168-9002(90)91334-8
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/0168900290913348
+      \endverb
+    \endentry
+    \entry{roofit}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=6e4f34520746a9d33933bb20a5e6c0e4}{%
+           family={Verkerke},
+           family_i={V\bibinitperiod},
+           given={Wouter},
+           given_i={W\bibinitperiod}}}%
+        {{hash=ffa78409e541debebb70bff80ee06bf3}{%
+           family={Kirkby},
+           family_i={K\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \strng{fullhash}{c194b91bb888b284b482eeaf6a9f4e79}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The RooFit toolkit for data modeling}
+      \field{year}{2003}
+      \verb{eprint}
+      \verb arXiv:physics/0306116
+      \endverb
+    \endentry
+    \entry{cb}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7233ad56f05a7dde972019fab8c4afcc}{%
+           family={Gaiser},
+           family_i={G\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {SLAC}%
+      }
+      \strng{namehash}{7233ad56f05a7dde972019fab8c4afcc}
+      \strng{fullhash}{7233ad56f05a7dde972019fab8c4afcc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Charmonium Spectroscopy From Radiative Decays of the $J/\psi$ and $\psi^\prime$}}
+      \field{type}{phdthesis}
+      \field{year}{1982}
+      \verb{url}
+      \verb http://www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=slac-r-255.html
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

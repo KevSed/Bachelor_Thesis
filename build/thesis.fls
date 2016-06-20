@@ -507,12 +507,6 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT ./content/00_abstract.tex
 INPUT ./content/00_abstract.tex
-INPUT build/thesis.toc
-INPUT build/thesis.toc
-INPUT build/thesis.toc
-OUTPUT build/thesis.toc
-INPUT ./content/01_einleitung.tex
-INPUT ./content/01_einleitung.tex
 INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman8-regular.luc
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -565,6 +559,12 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT build/thesis.toc
+INPUT build/thesis.toc
+INPUT build/thesis.toc
+OUTPUT build/thesis.toc
+INPUT ./content/01_einleitung.tex
+INPUT ./content/01_einleitung.tex
 INPUT ./content/02_physikalischer_hintergrund.tex
 INPUT ./content/02_physikalischer_hintergrund.tex
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
@@ -633,7 +633,8 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbo
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./Plots/BKGexp.pdf
 INPUT Plots/BKGexp.pdf
-INPUT ./Plots/BKGexp.pdf
+INPUT ./Plots/something.png
+INPUT Plots/something.png
 INPUT ./content/05_ergebnisse.tex
 INPUT ./content/05_ergebnisse.tex
 INPUT ./content/a_anhang.tex
