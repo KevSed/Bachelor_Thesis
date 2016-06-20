@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  19 JUN 2016 14:01
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  19 JUN 2016 17:32
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.064 seconds)
+luaotfload | main : initialization completed in 0.052 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2140,7 +2140,11 @@ File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
 (./build/thesis.aux
 Language ngerman already loaded; id is 8
-Language ngerman already loaded; id is 8)
+Language ngerman already loaded; id is 8
+
+LaTeX Warning: Label `eq:konst' multiply defined.
+
+)
 \openout1 = thesis.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
@@ -2159,8 +2163,7 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 150.
 LaTeX Font Info:    ... okay on input line 150.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 150.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 150.
-
-(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 150.
@@ -2410,36 +2413,8 @@ Language ngerman already loaded; id is 8)
 
 ] (./content/01_einleitung.tex
 chapter 1.
-) (./content/02_physikalischer_hintergrund.tex [1
-
-
-
-]
-chapter 2.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmroman8-regular.luc)
-LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.63441pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.34406pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 3.8172pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.63419pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.34389pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 3.8171pt on input line 6.
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
@@ -2471,8 +2446,54 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf")
+(./content/02_physikalischer_hintergrund.tex [1
+
+
+
+]
+chapter 2.
+LaTeX Font Info:    Calculating math sizes for size <7.63431> on input line 6.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-<Plots/SM.pdf, id=81, 187.65591pt x 126.1323pt>
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 7.63441pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 5.34406pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 3.8172pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 7.63419pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 5.34389pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 3.8171pt on input line 6.
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
+luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" <P
+lots/SM.pdf, id=88, 187.65591pt x 126.1323pt>
 File: Plots/SM.pdf Graphic file (type pdf)
  <use Plots/SM.pdf>
 Package pdftex.def Info: Plots/SM.pdf used on input line 10.
@@ -2483,7 +2504,7 @@ Package pdftex.def Info: Plots/SM.pdf used on input line 10.
 chapter 3.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
 otf/lmromancaps10-regular.luc)
-<Plots/lhcb.pdf, id=139, 886.51201pt x 470.55798pt>
+<Plots/lhcb.pdf, id=146, 886.51201pt x 470.55798pt>
 File: Plots/lhcb.pdf Graphic file (type pdf)
  <use Plots/lhcb.pdf>
 Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
@@ -2491,27 +2512,9 @@ Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
 
 [6
 
-] [7<./Plots/lhcb.pdf>]
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf") (./content/04_analyse.tex [8] [9]
+] [7<./Plots/lhcb.pdf>]) (./content/04_analyse.tex [8] [9]
 chapter 4.
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 16.
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 18.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts
@@ -2521,43 +2524,64 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 [10
 
-] [11] [12] <Plots/jpsi_mass.pdf, id=229, 569.12625pt x 315.1775pt>
+] [11] [12] <Plots/jpsi_mass.pdf, id=236, 569.12625pt x 315.1775pt>
 File: Plots/jpsi_mass.pdf Graphic file (type pdf)
 
 <use Plots/jpsi_mass.pdf>
-Package pdftex.def Info: Plots/jpsi_mass.pdf used on input line 102.
+Package pdftex.def Info: Plots/jpsi_mass.pdf used on input line 106.
 (pdftex.def)             Requested size: 394.35527pt x 218.40088pt.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 103.
+(Font)              scaled to size 5.00008pt on input line 107.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 103.
+(Font)              scaled to size 4.99992pt on input line 107.
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf" [1
-3] [14<./Plots/jpsi_mass.pdf>]
-Overfull \hbox (1.63196pt too wide) detected at line 164
+3] [14<./Plots/jpsi_mass.pdf>] [15]
+<Plots/BKGexp.pdf, id=315, 569.12625pt x 177.66376pt>
+File: Plots/BKGexp.pdf Graphic file (type pdf)
+ <use Plots/BKGexp.pdf>
+Package pdftex.def Info: Plots/BKGexp.pdf used on input line 189.
+(pdftex.def)             Requested size: 473.22511pt x 147.73196pt.
+
+Overfull \hbox (78.86984pt too wide) in paragraph at lines 189--190
+ [][][] 
+ []
+
+
+Overfull \hbox (1.63196pt too wide) detected at line 200
 [][]\EU2/LatinModernMath(0)/m/n/10.95 G(𝑚[]; 𝑓) = [][](𝑚[]; 𝛼[], 
 𝜇, 𝜎[], 𝑛[]) + 𝑓[][](𝑚[]; 𝛼[], 𝜇, 𝜎[], 𝑛[]) + B(
 𝑚[], 𝑎, 𝑐)
  []
 
-[15]) (./content/05_ergebnisse.tex [16]
+[16<./Plots/BKGexp.pdf>]
+File: Plots/BKGexp.pdf Graphic file (type pdf)
+ <use Plots/BKGexp.pdf>
+Package pdftex.def Info: Plots/BKGexp.pdf used on input line 252.
+(pdftex.def)             Requested size: 473.22511pt x 147.73196pt.
+
+Overfull \hbox (78.86984pt too wide) in paragraph at lines 252--253
+ [][][] 
+ []
+
+[17] [18]) (./content/05_ergebnisse.tex [19]
 chapter 5.
-) (./content/a_anhang.tex [17
+) (./content/a_anhang.tex [20
 
 ]
 chapter A.
-) [18
+) [21
 
 ]
 chapter without number
-[19
+[22
 
 
 Missing character: There is no μ (U+03BC) in font "file:lmroman10-regular:scrip
@@ -2568,7 +2592,10 @@ Missing character: There is no μ (U+03BC) in font "file:lmroman10-regular:scrip
 t=latn;+trep;+tlig;"!
 Missing character: There is no ′ (U+2032) in font "file:lmroman10-regular:scri
 pt=latn;+trep;+tlig;"!
-] [20] (./content/eid_versicherung.tex
+] [23] [24
+
+
+] (./content/eid_versicherung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -2578,10 +2605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-) [21
-
-
-]
+) [25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./build/thesis.aux
@@ -2590,9 +2614,13 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 83EB1439C41B547BC1B2CE95503A57E2;12991.
+(rerunfilecheck)             Checksum: 3E63729FE1D6760B7107E963676AB286;16161.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: 94E48605E2B931E40F866D64040F4FF3;1405.
+(rerunfilecheck)             Checksum: FD365564277469D649ED1307391A6BA9;1659.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
@@ -2600,15 +2628,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58625 strings out of 495009
+ 58658 strings out of 495009
  100000,1977958 words of node,token memory allocated
- 589 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 11 kern, 14 attribute, 62 glue_spec, 14 att
+ 613 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 12 kern, 15 attribute, 62 glue_spec, 15 att
 ribute_list, 4 action, 1 write nodes
-   avail lists: 1:2,2:4008,3:1049,4:1996,5:366,6:5537,7:607,8:30,9:493,10:788,11
+   avail lists: 1:2,2:4023,3:1081,4:1981,5:373,6:5470,7:592,8:30,9:493,10:780,11
 :1,12:1
- 60201 multiletter control sequences out of 65536+600000
- 282 fonts using 79789991 bytes
+ 60216 multiletter control sequences out of 65536+600000
+ 282 fonts using 79789623 bytes
  79i,21n,106p,1817b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
@@ -2627,10 +2655,10 @@ ive/2015/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/kevin/.loc
 al/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><</home/k
 evin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
 fb>
-Output written on thesis.pdf (25 pages, 378283 bytes).
+Output written on thesis.pdf (29 pages, 416561 bytes).
 
-PDF statistics: 488 PDF objects out of 1000 (max. 8388607)
- 384 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 131072)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 578 PDF objects out of 1000 (max. 8388607)
+ 443 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 131072)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
