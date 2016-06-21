@@ -468,13 +468,19 @@
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Nuclear Instruments and Methods, A, 506}
-      \field{title}{Geant4 - A Simulation Toolkit}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{3}
+      \field{title}{Geant4—a simulation toolkit}
+      \field{volume}{506}
       \field{year}{2003}
       \field{pages}{250\bibrangedash 303}
       \range{pages}{54}
-      \verb{eprint}
-      \verb 0EVTGEN-V00-11-07
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/S0168-9002(03)01368-8
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0168900203013688
       \endverb
     \endentry
     \entry{extended}{article}{}

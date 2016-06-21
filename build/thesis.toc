@@ -13,10 +13,10 @@
 \contentsline {chapter}{\numberline {4}Analyse des Kontrollkanals}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Datensätze}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}Selektion des Kontrollkanals}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Massenfit}{15}{section.4.3}
+\contentsline {section}{\numberline {4.3}Massenfit}{14}{section.4.3}
 \contentsline {section}{\numberline {4.4}Bestimmung der Signalkandidaten}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{21}{section.4.5}
-\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{22}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ausblick}{22}{section.5.1}
-\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{23}{appendix.A}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{24}{chapter*.18}
+\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{20}{section.4.5}
+\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ausblick}{21}{section.5.1}
+\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{22}{appendix.A}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{23}{chapter*.18}
