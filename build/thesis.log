@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  21 JUN 2016 19:27
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  21 JUN 2016 19:36
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.067 seconds)
+luaotfload | main : initialization completed in 0.053 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2633,7 +2633,7 @@ ribute_list, 7 action, 1 write nodes
    avail lists: 1:2,2:4041,3:1089,4:2021,5:372,6:5454,7:588,8:28,9:501,10:781,11
 :1,12:1
  60230 multiletter control sequences out of 65536+600000
- 282 fonts using 79789623 bytes
+ 282 fonts using 79789991 bytes
  79i,22n,106p,1855b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
