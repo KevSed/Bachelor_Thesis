@@ -87,6 +87,51 @@
       \field{title}{Quarks and Leptons: An Introductory Course in Modern Particle Physics}
       \field{year}{1984}
     \endentry
+    \entry{pdg}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=e280547009da55f6adb450e346a8fdc6}{%
+           family={Olive},
+           family_i={O\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chin. Phys.}
+      \field{title}{{Review of Particle Physics}}
+      \field{volume}{C38}
+      \field{year}{2014}
+      \field{pages}{090001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1674-1137/38/9/090001
+      \endverb
+    \endentry
+    \entry{neutrino}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=39ddcedec9546eaf582ab62683167533}{%
+           family={Lavignac},
+           family_i={L\bibinitperiod},
+           given={Stéphane},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{39ddcedec9546eaf582ab62683167533}
+      \strng{fullhash}{39ddcedec9546eaf582ab62683167533}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theoretical introduction to (charged) lepton flavour violation}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://gdrneutrino.in2p3.fr/meetings/27_04_2009_LPNHE/GT2/GDR_nu_280409.pdf
+      \endverb
+    \endentry
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
         {{hash=15b5704ce0371fd996135838e1abf533}{%
@@ -197,31 +242,6 @@
       \endverb
       \verb{url}
       \verb http://www.sciencedirect.com/science/article/pii/037026938790637X
-      \endverb
-    \endentry
-    \entry{pdg}{article}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=e280547009da55f6adb450e346a8fdc6}{%
-           family={Olive},
-           family_i={O\bibinitperiod},
-           given={K.\bibnamedelimi A.},
-           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
-      \strng{fullhash}{34c5b9d96a51fd84a4d1d1c3763bf0e1}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chin. Phys.}
-      \field{title}{{Review of Particle Physics}}
-      \field{volume}{C38}
-      \field{year}{2014}
-      \field{pages}{090001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1674-1137/38/9/090001
       \endverb
     \endentry
     \entry{lhc}{manual}{}
@@ -397,6 +417,32 @@
       \verb http://cds.cern.ch/record/582793
       \endverb
     \endentry
+    \entry{Tilburg}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=2124c830073d491d1dff67ee192911e7}{%
+           prefix={van},
+           prefix_i={v\bibinitperiod},
+           family={Tilburg},
+           family_i={T\bibinitperiod},
+           given={J.A.N.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vrije U., Amsterdam}%
+      }
+      \strng{namehash}{2124c830073d491d1dff67ee192911e7}
+      \strng{fullhash}{2124c830073d491d1dff67ee192911e7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Track Simulation and Reconstruction in LHCb}
+      \field{type}{phdthesis}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://www-spires.fnal.gov/spires/find/books/www?cl=QC793.3.T67T35::2005
+      \endverb
+    \endentry
     \entry{pythia}{article}{}
       \name{author}{3}{}{%
         {{hash=1f7e99224e14002bdface802b6379512}{%
@@ -483,6 +529,26 @@
       \verb http://www.sciencedirect.com/science/article/pii/S0168900203013688
       \endverb
     \endentry
+    \entry{boole}{article}{}
+      \name{author}{1}{}{%
+        {{hash=528e78101cdd61dfef13de5547131730}{%
+           family={Cattaneo},
+           family_i={C\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{528e78101cdd61dfef13de5547131730}
+      \strng{fullhash}{528e78101cdd61dfef13de5547131730}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Boole: The LHCb digitization program}
+      \field{year}{2004}
+      \verb{url}
+      \verb http://lhcb-comp.web.cern.ch/lhcb-comp/Digitization
+      \endverb
+    \endentry
     \entry{extended}{article}{}
       \name{author}{1}{}{%
         {{hash=f2a7df1b6b4a559de3e18c6f804ad77c}{%
@@ -561,7 +627,37 @@
       \verb http://www-public.slac.stanford.edu/sciDoc/docMeta.aspx?slacPubNumber=slac-r-255.html
       \endverb
     \endentry
+    \entry{ipatia}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66ced1e020df946cddcda41f3738fca8}{%
+           family={Santos},
+           family_i={S\bibinitperiod},
+           given={Diego\bibnamedelima Martínez},
+           given_i={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6c8be92668e47f1bddd756ea5ece6768}{%
+           family={Dupertuis},
+           family_i={D\bibinitperiod},
+           given={Frederic},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a92fb3480b0b8134e0cdf49f478e3226}
+      \strng{fullhash}{a92fb3480b0b8134e0cdf49f478e3226}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{NIM A, 764, 150 (2014)}
+      \field{title}{Mass distributions marginalized over per-event errors}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1016/j.nima.2014.06.081
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1312.5000
+      \endverb
+    \endentry
   \endsortlist
+  \missing{neutrinos}
 \endrefsection
 \endinput
 

@@ -1,20 +1,21 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[31] biber:290> INFO - === Tue Jun 21, 2016, 19:36:06
-[43] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[118] Biber.pm:741> INFO - Found 21 citekeys in bib section 0
-[127] Biber.pm:3150> INFO - Processing section 0
-[162] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[164] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[166] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[167] Utils.pm:147> WARN - Duplicate entry key: 'pdg' in file 'references.bib', skipping ...
-[318] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[318] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[322] Utils.pm:147> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
-[459] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[459] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[459] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'de-DE'
-[459] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
-[478] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[481] bbl.pm:615> INFO - Output to build/thesis.bbl
-[481] Biber.pm:108> INFO - WARNINGS: 4
+[47] biber:290> INFO - === Wed Jun 22, 2016, 18:50:54
+[59] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
+[142] Biber.pm:741> INFO - Found 26 citekeys in bib section 0
+[155] Biber.pm:3150> INFO - Processing section 0
+[202] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
+[205] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[209] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
+[210] Utils.pm:147> WARN - Duplicate entry key: 'pdg' in file 'references.bib', skipping ...
+[445] Utils.pm:147> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[446] Utils.pm:147> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[447] Utils.pm:147> WARN - I didn't find a database entry for 'neutrinos' (section 0)
+[450] Utils.pm:147> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
+[638] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[639] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[639] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'de-DE'
+[639] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
+[671] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[674] bbl.pm:615> INFO - Output to build/thesis.bbl
+[674] Biber.pm:108> INFO - WARNINGS: 5
