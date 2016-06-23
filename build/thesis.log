@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  22 JUN 2016 18:51
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  23 JUN 2016 19:54
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -2262,6 +2262,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                velo
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 150.
 Package biblatex Info: Reference segment=0 on input line 150.
@@ -2517,7 +2524,7 @@ luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
 luaotfload | load : Lookup/name: "LatinModernMath" -> "latinmodern-math.otf"
-<Plots/SM.pdf, id=97, 187.65591pt x 126.1323pt>
+<Plots/SM.pdf, id=99, 187.65591pt x 126.1323pt>
 File: Plots/SM.pdf Graphic file (type pdf)
  <use Plots/SM.pdf>
 Package pdftex.def Info: Plots/SM.pdf used on input line 10.
@@ -2527,23 +2534,23 @@ Package pdftex.def Info: Plots/SM.pdf used on input line 10.
 <./Plots/SM.pdf>] [4] [5]) (./content/03_lhc.tex [6]
 chapter 3.
 (load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/
-otf/lmromancaps10-regular.luc)
-<Plots/lhcb.pdf, id=165, 886.51201pt x 470.55798pt>
+otf/lmromancaps10-regular.luc) [7
+
+]
+<Plots/lhcb.pdf, id=175, 886.51201pt x 470.55798pt>
 File: Plots/lhcb.pdf Graphic file (type pdf)
  <use Plots/lhcb.pdf>
 Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
 (pdftex.def)             Requested size: 394.35527pt x 209.32225pt.
 
-[7
-
-] [8<./Plots/lhcb.pdf>]
+[8<./Plots/lhcb.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--35
 
  []
 
-) (./content/04_analyse.tex [9] [10]
+[9]) (./content/04_analyse.tex [10] [11]
 chapter 4.
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 18.
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 30.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts
@@ -2553,73 +2560,64 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[11
+[12
 
-] [12] [13] <Plots/jpsi_mass.pdf, id=263, 569.12625pt x 315.1775pt>
-File: Plots/jpsi_mass.pdf Graphic file (type pdf)
-
-<use Plots/jpsi_mass.pdf>
-Package pdftex.def Info: Plots/jpsi_mass.pdf used on input line 109.
-(pdftex.def)             Requested size: 394.35527pt x 218.40088pt.
- [14] [15<./Plots/jpsi_mass.pdf>]
-Overfull \hbox (1.63196pt too wide) detected at line 143
-[][]\EU2/LatinModernMath(0)/m/n/10.95 G(𝑚[]; 𝑓) = [][](𝑚[]; 𝛼[], 
-𝜇, 𝜎[], 𝑛[]) + 𝑓[][](𝑚[]; 𝛼[], 𝜇, 𝜎[], 𝑛[]) + B(
-𝑚[], 𝑎, 𝑐)
- []
-
-[16] <Plots/DCBexp.pdf, id=348, 569.12625pt x 177.66376pt>
-File: Plots/DCBexp.pdf Graphic file (type pdf)
-
-<use Plots/DCBexp.pdf>
-Package pdftex.def Info: Plots/DCBexp.pdf used on input line 208.
-(pdftex.def)             Requested size: 473.22511pt x 147.73196pt.
-
-Overfull \hbox (78.86984pt too wide) in paragraph at lines 208--209
- [][][] 
- []
-
-[17] [18<./Plots/DCBexp.pdf>]
-<Plots/something.png, id=412, 1027.84pt x 844.15375pt>
-File: Plots/something.png Graphic file (type png)
-
-<use Plots/something.png>
-Package pdftex.def Info: Plots/something.png used on input line 275.
-(pdftex.def)             Requested size: 354.91733pt x 291.49097pt.
- [19] [20]
-Overfull \hbox (35.06609pt too wide) in paragraph at lines 301--301
+] [13] [14] [15]
+Overfull \hbox (43.48277pt too wide) in paragraph at lines 114--114
 [][] 
  []
 
-[21<./Plots/something.png>]) (./content/05_ergebnisse.tex [22]
+<Plots/jpsi_mass.pdf, id=274, 569.12625pt x 315.1775pt>
+File: Plots/jpsi_mass.pdf Graphic file (type pdf)
+
+<use Plots/jpsi_mass.pdf>
+Package pdftex.def Info: Plots/jpsi_mass.pdf used on input line 124.
+(pdftex.def)             Requested size: 394.35527pt x 218.40088pt.
+ [16] [17<./Plots/jpsi_mass.pdf>] [18]
+<Plots/DCBexp.pdf, id=360, 569.12625pt x 176.66pt>
+File: Plots/DCBexp.pdf Graphic file (type pdf)
+ <use Plots/DCBexp.pdf>
+Package pdftex.def Info: Plots/DCBexp.pdf used on input line 218.
+(pdftex.def)             Requested size: 473.22511pt x 146.89731pt.
+
+Overfull \hbox (78.86984pt too wide) in paragraph at lines 218--219
+ [][][] 
+ []
+
+[19] [20<./Plots/DCBexp.pdf>]
+<Plots/IPATIAexp.pdf, id=425, 569.12625pt x 177.66376pt>
+File: Plots/IPATIAexp.pdf Graphic file (type pdf)
+
+<use Plots/IPATIAexp.pdf>
+Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 294.
+(pdftex.def)             Requested size: 394.35527pt x 123.11133pt.
+ [21<./Plots/IPATIAexp.pdf>]
+
+LaTeX Warning: Reference `eq:ergebnis' on page 22 undefined on input line 325.
+
+[22]) (./content/05_ergebnisse.tex [23]
 chapter 5.
-) (./content/a_anhang.tex [23
+) (./content/a_anhang.tex [24
 
 ]
 chapter A.
-) [24
+) [25
 
 ]
 chapter without number
-[25
+[26
 
 
-Missing character: There is no μ (U+03BC) in font "file:lmroman10-regular:scrip
-t=latn;+trep;+tlig;"!
-Missing character: There is no ′ (U+2032) in font "file:lmroman10-regular:scri
-pt=latn;+trep;+tlig;"!
-Missing character: There is no μ (U+03BC) in font "file:lmroman10-regular:scrip
-t=latn;+trep;+tlig;"!
-Missing character: There is no ′ (U+2032) in font "file:lmroman10-regular:scri
-pt=latn;+trep;+tlig;"!
-] [26] [27] [28
+]
 
+Package biblatex Warning: No driver for entry type 'journal'.
+(biblatex)                Using fallback driver on input line 175.
 
-] (./content/eid_versicherung.tex
+[27] [28] (./content/eid_versicherung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
@@ -2629,7 +2627,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-) [29]
+) [29
+
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./build/thesis.aux
@@ -2638,9 +2639,12 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: BDAEB8F3C32B9E0A7E1E1D4661200EE9;16235.
+(rerunfilecheck)             Checksum: 50FAC03AA6302623B0E6A4E9D8812219;17729.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: 1816C55526F9127749B3FDE851D8D288;1659.
+(rerunfilecheck)             Checksum: CC1F6CE49E04D1CFBB9789DE6FE70294;1770.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2652,16 +2656,16 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58723 strings out of 495009
+ 58727 strings out of 495009
  100000,1977958 words of node,token memory allocated
- 650 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 12 kern, 16 attribute, 62 glue_spec, 16 att
-ribute_list, 10 action, 1 write nodes
-   avail lists: 1:2,2:4100,3:1096,4:2048,5:381,6:5594,7:556,8:39,9:504,10:800,11
+ 743 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 13 kern, 17 attribute, 78 glue_spec, 17 att
+ribute_list, 11 action, 1 write nodes
+   avail lists: 1:3,2:4115,3:1116,4:2027,5:399,6:5565,7:626,8:39,9:504,10:803,11
 :1,12:1
- 60255 multiletter control sequences out of 65536+600000
- 292 fonts using 82526575 bytes
- 79i,22n,106p,1861b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 60256 multiletter control sequences out of 65536+600000
+ 292 fonts using 82529995 bytes
+ 79i,30n,106p,1992b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/l
 mromancaps10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opent
@@ -2681,10 +2685,10 @@ me/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.o
 tf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman1
 2-bold.otf><</home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on thesis.pdf (33 pages, 472659 bytes).
+Output written on thesis.pdf (33 pages, 480822 bytes).
 
-PDF statistics: 669 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 110 named destinations out of 1000 (max. 131072)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 728 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 131072)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

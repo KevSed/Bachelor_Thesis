@@ -1,108 +1,123 @@
 \chapter{Analyse des Kontrollkanals}
 \label{chap:4}
 %
-Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normierungskonstante $\alpha$ für den Signalzerfall $\signal$ zu ermitteln. Dazu wird eine schnittbasierte Selektion des Kontrollkanals $\kontroll$ durchgeführt, um über die Ermittlung der rekonstruierten Signalkandidaten und der dabei auftretenden Effizienzen die Normierungskonstante bestimmen zu können. Diese ist in Gleichung~\ref{eq:konst} definiert.
+Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normierungskonstante $\alpha$ für den Signalzerfall $\signal$ zu ermitteln. Diese ist in Gleichung~\eqref{eq:konst} definiert.
 %
 \begin{equation}
   \alpha=\frac{\mathcal{B}(\kontroll)}{N_{\kontroll}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}
   \label{eq:konst}
 \end{equation}
 %
-Hierbei ist~$\mathcal{B}(\kontroll)$ das bereits vermessene Verzweigungsverhältnis des Kontrollkanals ($\SI{5,986(33)}{\percent}$ \cite{pdg}) und~$N_{\kontroll}$ die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse des Normierungskanals.
-$\epsilon_{\text{ges}}$ beschreibt die Gesamteffizienzen der Analyse des jeweiligen Kanals. Sie beinhalten die Detektion, Rekonstruktion und Selektion. Die Normierungskonstante ermöglicht es, systematische Fehler in der Bestimmung der Signalkandidaten und Effizienzen des Signalzerfalls $\signal$ möglichst herauszukürzen und so ein deutlich exakteres Ergebnis zu generieren.
 
-[Maiks Analyse oder andere bereits durchgeführte Analysen?]
+Hierbei ist~$\mathcal{B}(\kontroll)$ das bereits zu $\SI{5,986(33)}{\percent}$ \cite{pdg} vermessene Verzweigungsverhältnis des Kontrollkanals und~$N_{\kontroll}$ die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse des Normierungskanals.
+$\epsilon_{\text{ges}}$ beschreibt die Gesamteffizienzen der Analyse des jeweiligen Kanals. Sie beinhalten die Detektion,
+Rekonstruktion und Selektion. Die Normierungskonstante ermöglicht es, systematische Fehler in der Bestimmung der
+Signalkandidaten und Effizienzen des Signalzerfalls $\signal$ möglichst herauszukürzen und so ein deutlich exakteres Ergebnis
+zu generieren. $\alpha$ kann dazu genutzt werden, zusammen mit der in \cite{ba-maik} ermittelten Anzahl erwarteter
+Signalkandidaten eine Abschätzung für das Verzweigungsverhältnis des Zerfalls $\signal$ nach Gleichung~\eqref{eq:absch} zu ermitteln.
+%
+\begin{equation}
+  \mathcal{B}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha\, .
+  \label{eq:absch}
+\end{equation}
+%
+Um die dazu benötigten Größen aus dieser Analyse zu bestimmen, wird eine schnittbasierte Selektion des Kontrollkanals
+$\kontroll$ durchgeführt, um über die Ermittlung der rekonstruierten Signalereignisse und der dabei auftretenden Effizienzen
+die Normierungskonstante bestimmen zu können.
 
 \section{Datensätze}
 %
-Bei dem für die Analyse des Zerfalls $\kontroll$ verwendeten Datensatz handelt es sich um im Jahre 2012 am LHCb-Experiment bei einer integrierten Luminosität von $\SI{2}{\femto\barn^{-1}}$ und einer Schwerpunkstenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ gemessene Daten. Diese wurden neben den am Detektor selbst angewandten Triggern nachträglich selektiert. Dazu ist eine dem Zerfall $\kontroll$ angepasste Selektion (Stripping \texttt{Bu2LLK\_mmLine}) verwendet worden, sodass in dem nTupel noch 8169615 Ereignisse enthalten sind. Davon sind etwa 5959563 real gemessene Daten, sowie etwa 2210052 in sogenannten Monte-Carlo-Simulationen erstellte.\\
+Bei dem für die Analyse des Zerfalls $\kontroll$ verwendeten Datensatz handelt es sich um im Jahre 2012 am LHCb-Experiment bei  einer Schwerpunkstenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ gemessene Daten, die einer integrierten Luminosität von $\SI{2}{\femto\barn^{-1}}$ entsprechen. Dazu ist eine dem Zerfall $\kontroll$ angepasste Selektion (Stripping \texttt{Bu2LLK\_mmLine}) verwendet worden, welche eine Effizienz von $\SI{16,099(21)}{\percent}$ aufweist. Der Datensatz enthält dabei etwa 5959563 experimentell gemessene Daten, sowie etwa 2210052 in sogenannten Monte-Carlo-Simulationen generierte.\\
 
-Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik des Stadardmodells und die real gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer realen Messung anzupassen, werden verschiedene Algorithmen zur Simulierung der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des real gemessenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA 8.1} \cite{pythia} simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN} \cite{evtgen} simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}  \cite{geant4}, sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, Rekonstruktion etc.), wie die real am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE} \cite{boole}. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ (richtig?) aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
+Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik, die eine Theorie beschreibt und die experimentell gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer experimentellen Messung anzupassen, werden verschiedene Algorithmen zur Simulation der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des experimentell gemessenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC handelt es sich um die Simulation des Zerfalls $B\rightarrow\jpsi(\rightarrow\!\mu\mu) X$. Dabei werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA 8.1} \cite{pythia} simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN} \cite{evtgen} simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}  \cite{geant4}, sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, Rekonstruktion etc.), wie die experimentell am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE} \cite{boole}. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
 
 \section{Selektion des Kontrollkanals}
 %
-Die Datensätze für den zu untersuchenden Kontrollkanal $\kontroll$ werden zunächst schnittbasiert selektiert. Es erfolgt also eine Einschränkung auf den physikalisch für den gesuchten Zerfall relevanten Bereich. Dazu werden die in Tabelle~\ref{tab:strip} aufgeführten Bedingungen an die relevanten Ereignisse in dem nTupel sowohl an die Daten, als auch an die MC gestellt. Diese Selektion orientiert sich dabei an der in der Studie zur Signaloptimierung \cite{ba-maik} Angewendeten.
+Die Datensätze für den zu untersuchenden Kontrollkanal $\kontroll$ werden zunächst schnittbasiert selektiert. Es erfolgt also eine Einschränkung auf den physikalisch für den gesuchten Zerfall relevanten Bereich. Dazu werden die in Tabelle~\ref{tab:strip} aufgeführten Bedingungen an die relevanten Ereignisse in dem Datensatz sowohl an die Daten, als auch an die MC gestellt. Diese Selektion orientiert sich dabei an der in der Studie zur Signaloptimierung \cite{ba-maik} Angewendeten.
 
 \begin{table}[htb]
   \centering
-  \caption{Auf den Datensatz angewendete Selektion. *Diese Variable existiert nur im MC.}
+  \caption{Auf den Datensatz angewendete Selektion.}
   \begin{tabular}{lc}
     \toprule
-    Strippingvariable                 & Bedingung      \\
+    Selektionsvariable                & Bedingung      \\
     \midrule
-    \texttt{Psi\_MM}                  & $>\num{2946}<\num{3176}$  \\
-    \texttt{muminus\_IPCHI2\_OWNPV}   & $>\num{36}$  \\
-    \texttt{muplus\_IPCHI2\_OWNPV}    & $>\num{36}$  \\
-    \texttt{muminus\_TRACK\_GhostProb}& $<\num{0.3}$ \\
-    \texttt{muplus\_TRACK\_GhostProb} & $<\num{0.3}$ \\
-    \texttt{Psi\_BKGCAT*}             & $==\num{0}$  \\
-    \texttt{Psi\_DIRA\_OWNPV}         & $>\num{0}$  \\
+    $m_{\jpsi}$                       & $>\num{2946}<\num{3176}$  \\
+    $\mu^{-}:\chi_{\text{IP}}^2$      & $>\num{36}$  \\
+    $\mu^{+}:\chi_{\text{IP}}^2$      & $>\num{36}$  \\
+    $\mu^{-}:\text{GhostProb}$        & $<\num{0.3}$ \\
+    $\mu^{+}:\text{GhostProb}$        & $<\num{0.3}$ \\
+    $\jpsi:\text{BKGCAT}$(Nur MC)     & $==\num{0}$  \\
+    $\jpsi:\text{DIRA}$               & $>\num{0}$  \\
     \bottomrule
   \end{tabular}
   \label{tab:strip}
 \end{table}
 
-Ziel dieser Selektion ist es, bei möglichst hoher Effizienz auf tatsächlich aus dem untersuchten Zerfall stammenden Ereignissen, möglichst viele Ereignisse aus sogenannten Untergrund-Zerfällen auszuschließen. Der bei allen Messungen unweigerlich in den Messungen dokumentierte Untergrund stellt eine Kombination verschiedener Teiluntergünde dar. Diese haben mitunter sehr unterschiedliche Ursachen. Der teilweise rekonstruierte Untergrund beispielsweise wird von Zerfällen induziert, die die selben Endprodukte über andere Wege als den gesuchten erreichen. Er überwiegt im unteren Energiebereich. Auch die Fehlerbehaftung der Messungen der einzelnen Detektorkomponenten erzeugt einen systematischen Untergrund. Einen dritten Beitrag liefert der sogenannte kombinatorische Untergrund, der dadurch entsteht, dass voneinander unabhängige, bei jeder Kollision zwangsläufig über eine weite Energieskala auftretende Prozesse gemessen und fälschlicherweise als Signal identifiziert werden.
-
-[Hier Abbildungen zu und mit den Selektionsvariablen???]
-
-Es wird zunächst ein Massenfenster von $m_{\jpsi}=\SI{2946}{\mega\electronvolt}$ bis $m_{\jpsi}=\SI{3176}{\mega\electronvolt}$ um die Masse des $\jpsi$-Mesons gelegt. Diese invariante Masse wird aus den Viererimpulsen der beiden Tochtermyonen berechnet, sodass durch das Fenster sichergestellt wird, dass diese auch aus einem $\jpsi$-Zerfall stammen. Die anderen Selektionsbedingungen sind aus einer rekursiven Optimierung des Signalzerfalls $\signal$ aus der parallel durchgeführten Studie \cite{ba-maik} übernommen, um eine optimale Vergleichbarkeit zu gewährleisten. Selbstverständlich sind sie für den Zerfall $\kontroll$ an die beiden Myonen angepasst.
-Die Bedingungen \texttt{mu\pm\_IPCHI2\_OWNPV} geben an, wie gut die rekonstruierten Myonen einem Primärvertex zugeordnet werden können. Die Variable \texttt{mu\pm\_TRACK\_GhostProb} gibt an, wie groß die Wahrscheinlichkeit ist, dass die Identifikation eines Myons fälschlicherweise stattfand, sodass die Selektion diese Wahrscheinlichkeit auf maximal $\SI{30}{\percent}$ beschränkt. [andere beiden Variablen] Die Effizienz des so gewählten Strippings auf den MC, sowie den gemessenen Daten berechnet sich nach Gleichungen~\ref{eq:eff_strip1} und \ref{eq:eff_strip2}. Die Fehlerangaben entsprechen dabei den Binomial-Fehlern.
+Ziel dieser Selektion ist es, bei möglichst hoher Effizienz auf tatsächlich aus dem untersuchten Zerfall stammenden Ereignissen, möglichst viele Ereignisse aus sogenannten Untergrund-Zerfällen auszuschließen. Der bei allen Messungen unweigerlich in den Messungen dokumentierte Untergrund stellt eine Kombination verschiedener Teiluntergünde dar. Diese haben mitunter sehr unterschiedliche Ursachen. Der teilweise rekonstruierte Untergrund beispielsweise wird von Zerfällen induziert, die teilweise die selben Endprodukte wie der Signalzerfall erreichen, von denen allerdings nicht alle detektiert werden. Er überwiegt im unteren Massenfenster. Auch die Fehlerbehaftung der Messungen der einzelnen Detektorkomponenten erzeugt einen systematischen Untergrund, da die Messprozesse zwangsläufig statistischen Schwankungen unterliegen. Einen dritten Beitrag liefert der sogenannte kombinatorische Untergrund, der dadurch entsteht, dass beispielsweise zwei aus unabhängigen Zerfällen stammende Myonen, die zusammen zur Masse des $\jpsi$ kombiniert werden damit fälschlicherweise als Signal identifiziert werden.\\
+Es wird zunächst ein Massenfenster von $m_{\jpsi}=\SI{2946}{\mega\electronvolt}$ bis $m_{\jpsi}=\SI{3176}{\mega\electronvolt}$ um die Masse des $\jpsi$-Mesons von $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg} gelegt. Diese invariante Masse wird aus den Viererimpulsen der beiden Tochtermyonen berechnet, sodass durch das Fenster sichergestellt wird, dass diese auch aus einem $\jpsi$-Zerfall stammen. Die anderen Selektionsbedingungen sind aus einer rekursiven Optimierung des Signalzerfalls $\signal$ aus der parallel durchgeführten Studie \cite{ba-maik} übernommen, um eine optimale Vergleichbarkeit zu gewährleisten. Selbstverständlich sind sie für den Zerfall $\kontroll$ an die beiden Myonen angepasst.
+Die Bedingungen $\mu^{\pm}:\chi_{\text{IP}}^2$ geben an, wie gut die rekonstruierten Myonen einem Primärvertex zugeordnet werden können. $\chi_{\text{IP}}^2$ ist dabei definiert als der Unterschied zwischen dem $\chi^2$ des Primärvertex' unter Berücksichtigung des beschriebenen
+Teilchens und jenem ohne Berücksichtigung desselben \cite{chi2}. Die Variable $\mu^{\pm}:\text{GhostProb}$ gibt an, wie groß die Wahrscheinlichkeit
+ist, dass die Identifikation eines Myons fälschlicherweise stattfand, sodass die Selektion diese Wahrscheinlichkeit auf maximal $\SI{30}{\percent}$
+beschränkt. $\jpsi:\text{BKGCAT}$ legt fest, dass das im MC rekonstruierte Ereignis auch als Signalereignis erzeugt wurde. Über die Variable $\jpsi:\text{DIRA}$ lässt sich die Übereinstimmung der Richtungen der aus den Vertices rekonstruierten Spuren sowie den Impulsen derselben Teilchen prüfen. Da es sich um den $cosinus$ des Winkels zwischen diesen Richtungen handelt, sollte diese Variable möglichst nahe bei $1$ liegen. Die Effizienz der so gewählten Selektion auf das MC berechnet sich nach Gleichung~\eqref{eq:eff_strip1}. Die Fehlerangaben entsprechen dabei den Binomial-Fehlern.
 %
 \begin{equation}
-  \epsilon_\text{strip, MC}=\frac{N_\text{MC-events after stripping}}{N_\text{MC-events}}=\frac{1814293}{2210052}=\SI{82.09(3)}{\percent}
+  \epsilon_\text{Selektion}=\frac{N_\text{MC-events after selection}}{N_\text{MC-events after strip}}=\frac{1814293}{2210052}=\SI{82.09(3)}{\percent} \, .
   \label{eq:eff_strip1}
-\end{equation}
-\begin{equation}
-  \epsilon_\text{strip, DATA}=\frac{N_\text{DATA-events after stripping}}{N_\text{DATA-events}}=\frac{2032228}{5959563}=\SI{34.10(2)}{\percent}
-  \label{eq:eff_strip2}
 \end{equation}
 %
 Des Weiteren werden sogenannte Triggerstufen als Bedingung für die Selektion der relevanten Ereignisse herangezogen. Die Trigger fungieren als Entscheidungskriterien dafür, ob ein Ereignis potentiell interessante Physik bereithält und somit vom Detektor aufgenommen und gespeichert werden soll, oder nicht. Die \texttt{TOS}-Trigger (\textit{triggered on signal}) lösen dabei aus, wenn Teilchen aus Signalzerfällen detektiert werden. Die hier, sowie in der Signalanalyse \cite{ba-maik} verwendeten Trigger gliedern sich in die in Tabelle~\ref{tab:trigger} aufgeführten drei Stufen \texttt{L0}, \texttt{HLT1} und \texttt{HLT2}. Diese sortieren nacheinander Ereignisse heraus, die nicht mindestens eine der aufgeführten Bedingungen innerhalb einer Stufe erfüllen. Daher selektiert jede Stufe feiner als die Vorherige.
 %
 \begin{table}[htb]
   \centering
-  \caption{Auflistung der verwendeten Trigger.
+  \caption{Auflistung der auf das $\jpsi$-Meson angewandten Trigger.
   Ereignisse, die nicht innerhalb jeder einzelnen Triggerstufe mindestens eine Triggerbedingung erfüllen, werden aussortiert.}
   \begin{tabular}{l}
     \toprule
-    \textbf{L0-Trigger}                                           \\
-    \quad\texttt{Psi\_L0MuonDecision\_TOS}\quad$==1$              \\
-    \quad\texttt{Psi\_L0HadronDecision\_TOS}\quad$==1$            \\
-    \quad\texttt{Psi\_L0ElectronDecision\_TOS}\quad$==1$          \\
+    \textbf{L0-Trigger}                                 \\
+    \quad\texttt{L0MuonDecision\_TOS}              \\
+    \quad\texttt{L0HadronDecision\_TOS}            \\
+    \quad\texttt{L0ElectronDecision\_TOS}          \\
     \midrule
-    \textbf{HLT1-Trigger}                                         \\
-    \quad\texttt{Psi\_Hlt1TrackAllL0Decision\_TOS}\quad$==1$      \\
-    \quad\texttt{Psi\_Hlt1TrackMuonDecision\_TOS}\quad$==1$       \\
+    \textbf{HLT1-Trigger}                               \\
+    \quad\texttt{Hlt1TrackAllL0Decision\_TOS}      \\
+    \quad\texttt{Hlt1TrackMuonDecision\_TOS}       \\
     \midrule
-    \textbf{HLT2-Trigger}                                         \\
-    \quad\texttt{Psi\_Hlt2Topo2BodyBBDTDecision\_TOS}\quad$==1$   \\
-    \quad\texttt{Psi\_Hlt2Topo3BodyBBDTDecision\_TOS}\quad$==1$   \\
-    \quad\texttt{Psi\_Hlt2Topo4BodyBBDTDecision\_TOS}\quad$==1$   \\
-    \quad\texttt{Psi\_Hlt2TopoMu2BodyBBDTDecision\_TOS}\quad$==1$ \\
-    \quad\texttt{Psi\_Hlt2TopoMu3BodyBBDTDecision\_TOS}\quad$==1$ \\
-    \quad\texttt{Psi\_Hlt2TopoMu4BodyBBDTDecision\_TOS}\quad$==1$ \\
+    \textbf{HLT2-Trigger}                               \\
+    \quad\texttt{Hlt2Topo2BodyBBDTDecision\_TOS}   \\
+    \quad\texttt{Hlt2Topo3BodyBBDTDecision\_TOS}   \\
+    \quad\texttt{Hlt2Topo4BodyBBDTDecision\_TOS}   \\
+    \quad\texttt{Hlt2TopoMu2BodyBBDTDecision\_TOS} \\
+    \quad\texttt{Hlt2TopoMu3BodyBBDTDecision\_TOS} \\
+    \quad\texttt{Hlt2TopoMu4BodyBBDTDecision\_TOS} \\
     \bottomrule
   \end{tabular}
   \label{tab:trigger}
 \end{table}
 %
-Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie des Strippings bezogen auf die Zahl der Ereignisse im nTupel beträgt für die Daten und die MC die in den Gleichungen~\ref{eq:eff_ges1} und \ref{eq:eff_ges2} aufgeführten Werte.
+Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie des Strippings bezogen auf die Zahl der Ereignisse im Datensatz beträgt für das MC die in Gleichung~\eqref{eq:eff_ges1} aufgeführten Wert.
 %
 \begin{equation}
-  \epsilon_\text{ges, MC}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after stripping}}=\frac{1345240}{2210052}=\SI{60.87(3)}{\percent}
+  \epsilon_\text{Trigger}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after selection}}=\frac{1345240}{1814293}=\SI{74.15(4)}{\percent} \, .
   \label{eq:eff_ges1}
 \end{equation}
+%
+Zusammen mit der Generatoreffizienz $\epsilon_\text{gen}=\SI{16.099(21)}{\percent}$ und der Strippingeffizienz $\epsilon_\text{strip}=\SI{8.744(6)}{\percent}$ kann so die Gesamteffizienz wie in Gleichung~\eqref{eq:eff_ges} berechnet werden.
+%
 \begin{equation}
-  \epsilon_\text{ges, DATA}=\frac{N_\text{DATA-events after trigger}}{N_\text{DATA-events after stripping}}=\frac{1395768}{5959563}=\SI{23.42(2)}{\percent}
-  \label{eq:eff_ges2}
+  \begin{split}
+  \epsilon_{\kontroll, \text{ges}}=&\epsilon_\text{gen}\cdot\epsilon_\text{strip}\cdot\epsilon_\text{Selektion}\cdot\epsilon_\text{Trigger}\\
+  =&\SI{16.099(21)}{\percent}\cdot\SI{8.744(6)}{\percent}\cdot\SI{82.09(3)}{\percent}\cdot\SI{74.15(4)}{\percent} \\
+  =&\SI{0.857(1)}{\percent}
+  \end{split}
+  \label{eq:eff_ges}
 \end{equation}
 %
 \section{Massenfit}
 %
 Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit} \cite{extended} der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben
 beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa
-$[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$, was der in Abbildung~\ref{fig:mass} dargestellten Verteilung entspricht. Die Masse des $\jpsi$-Mesons beträgt etwa $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund modellieren zu können.
+$[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$, was der in Abbildung~\ref{fig:mass} dargestellten Verteilung entspricht. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können.
 %
 \begin{figure}[H]
   \centering
@@ -111,87 +126,82 @@ $[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]
   \label{fig:mass}
 \end{figure}
 %
-Mit Hilfe des Frameworks \texttt{RooFit} \cite{roofit} wird diese Verteilung der $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu werden verschiedene Modelle der in Gleichung~\ref{eq:massenfit} dargestellten Form an die Messpunkte gefittet.
+Mit Hilfe des Frameworks \texttt{RooFit} \cite{roofit} wird diese Verteilung der $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird für ein aus Signalfunktion und Untergrundfunktion zusammengesetztes Modell der in Gleichung~\ref{eq:massenfit} dargestellten Form eine Ausgleichrechnung durchgeführt.
 %
 \begin{equation}
   \symup{G}(m_{\jpsi})= \symup{S}(m_{\jpsi}) + \symup{B}(m_{\jpsi})
   \label{eq:massenfit}
 \end{equation}
 %
-$\symup{S}(m_{\jpsi})$ beschreibt hierbei das verwendete Signalmodell, während $\symup{B}(m_{\jpsi})$ den Untergrund modelliert. Die
-Verteilung der Massen verläuft in etwa normalverteilt, zeigt aber an den Rändern der Gaußverteilung sogenannte \textit{tails}: nicht der
-Normalverteilung entsprechende, beispielsweise durch Polynome beschriebende Verteilungen. Diese werden unter Anderem durch die Abstrahlung von niederenergetischen Photonen in Teilchenzerfällen erzeugt[Zitat]. Um diese Eigenschaft der Verteilung hinreichend zu modellieren, werden sogenannte \textit{Crystal Ball}-Funktionen (CB) verwendet. Diese zur Modellation asymmetrischer Wahrscheinlichkeitsverteilungen verwendeten Funktionen stellen eine Gaußfunktion dar, welche an einer Seite in eine Potenzfunktion übergeht. Die Darstellung ist in Gleichung~\ref{eq:cb} \cite{cb} angegeben, wobei die Parameter $A$ und $B$ stets so bestimmt werden, dass diese Darestellung analytisch ist.
+$\symup{S}(m_{\jpsi})$ beschreibt hierbei das verwendete Signalmodell, während $\symup{B}(m_{\jpsi})$ den Untergrund modelliert. Die Verteilung der Massen entsprichtt in etwa einer Guaßverteilung, zeigt aber an den Rändern sogenannte \textit{tails}: nicht der Normalverteilung entsprechende, beispielsweise durch Polynome beschriebende Verteilungen. Diese werden unter Anderem durch die Abstrahlung von niederenergetischen Photonen in Teilchenzerfällen erzeugt [Zitat]. Um diese Eigenschaft der Verteilung hinreichend zu modellieren, werden sogenannte \textit{Crystal Ball}-Funktionen (CB) verwendet. Diese zur Modellation asymmetrischer Wahrscheinlichkeitsverteilungen verwendeten Funktionen stellen eine Gaußfunktion dar, welche an einer Seite in eine Potenzfunktion übergeht. Die Darstellung ist in Gleichung~\ref{eq:cb} \cite{cb} angegeben, wobei die Parameter $A$ und $B$ stets so bestimmt werden, dass diese Darestellung analytisch ist.
 %
 \begin{equation}
   {\displaystyle CB(x;\alpha ,n,{\mu},\sigma,N)=N\cdot {\begin{cases}\exp \left(-{\frac {(x-{\mu})^{2}}{2\sigma ^{2}}}\right),&{\mbox{falls }}{\frac {x-{\mu}}{\sigma }}>-\alpha \\A\cdot \left(B-{\frac {x-{\mu}}{\sigma }}\right)^{-n},&{\mbox{falls }}{\frac {x-{\mu}}{\sigma }}\leqslant -\alpha \end{cases}}}
   \label{eq:cb}
 \end{equation}
 %
-Als Modell für den Untergrund in dieser Messung wird stets ein exponentieller Zusammenhang der in Gleichung~\ref{eq:exp} dargestellten Form verwendet.
+Als Modell für den Untergrund in dieser Messung wird ein exponentieller Zusammenhang der in Gleichung~\ref{eq:exp} dargestellten Form verwendet.
 %
 \begin{equation}
-  B(x; c)= \symup{e}^{c\cdot x}
+  B(x; c)= \symup{e}^{c\cdot x} \, .
   \label{eq:exp}
 \end{equation}
 %
-Da durch nicht gaußverteilte Detektoreffekte \textit{tails} auch bei höheren Energien entstehen, kann es sinnvoll sein, durch die Kombination von zwei CB-Funktionen, also einem \textit{Double-Crystal-Ball} (DCB) die Modellation dieser zu ermöglichen [Zitat].
+Da durch nicht gaußverteilte Detektoreffekte \textit{tails} auch bei höheren Energien entstehen, kann es sinnvoll sein, durch die Kombination von zwei CB-Funktionen, also einem \textit{Double-Crystal-Ball} (DCB) die Modellation dieser zu ermöglichen \cite{ipatia}.
 Im Folgenden wird der Signalteil der Verteilung der rekonstruierten Masse also als DCB-Funktion modelliert. Dies entspricht einem Gesamtmodell der in Gleichung~\ref{eq:dcb} dargestellten Form.
 %
 \begin{equation}
-  \symup{G}(m_{\jpsi}; f)=\symup{CB}_1(m_{\jpsi};\alpha_1,\mu,\sigma_1,n_1) + f\symup{CB}_2(m_{\jpsi};\alpha_2,\mu,\sigma_2,n_2) + \symup{B}(m_{\jpsi},a,c)
+  \begin{split}
+  \symup{G}(m_{\jpsi}; f)={}&\symup{CB}_1(m_{\jpsi};\alpha_1,\mu,\sigma_1,n_1) + f\symup{CB}_2(m_{\jpsi};\alpha_2,\mu,\sigma_2,n_2)\\ &+ \symup{B}(m_{\jpsi};c)
+  \end{split}
   \label{eq:dcb}
 \end{equation}
 %
-Der Faktor $f$ beschreibt dabei das Verhältnis der beiden CB-Funktionen und liegt zwischen 0 und 1. Zu dieser Funktion wird der oben beschriebene exponentielle Untergrund ($\symup{B}(m_{\jpsi})$) hinzugefügt und das so entstehende Gesamtmodell an die Daten gefittet. Dazu werden die in Tabelle~\ref{tab:params} aufgeführten Parameter in den angegebenen Intervallen mit Hilfe von \texttt{RooFit} der Verteilung angepasst.
+Der Faktor $f$ beschreibt dabei das Verhältnis der beiden CB-Funktionen und liegt zwischen 0 und 1. Zu dieser Funktion wird der oben beschriebene exponentielle Untergrund ($\symup{B}(m_{\jpsi})$) hinzugefügt und das so entstehende Gesamtmodell an die Daten angepasst. Dazu werden die in Tabelle~\ref{tab:params} aufgeführten Parameter in den angegebenen Intervallen mit Hilfe von \texttt{RooFit} der Verteilung angepasst.
 %
 %
 \begin{table}[H]
   \centering
-  \caption{Auflistung der für den fit des Signalmodells verwendeten Parameter.}
+  \caption{Auflistung der für den Fit des Signalmodells verwendeten Parameter.}
   \begin{tabular}{ccc}
     \toprule
-    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} & Intervall für den fit \\
+    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} & Intervall für den Fit \\
     \midrule
     $\alpha_1$                  & $\alpha_2$               & [-4, 0], [0, 4] \\
     $\mu$                       & $\mu$                    & [2946, 3176] \\
     $\sigma_1$                  & $\sigma_2$               & [1, 20], [1, 20] \\
     $n_1$                       & $n_2$                    & [0, 20], [0, 20] \\
-    $N$                         & $N$                      & [700000, 1345240] \\
     \bottomrule
   \end{tabular}
   \label{tab:params}
 \end{table}
 %
-$\alpha$ gibt dabei an, ab wann die Gaußglocke durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann der physikalische
-Untergrund einsetzt. Ein positives $\alpha$ bedeutet dabei, dass der \textit{tail} zu kleineren Werten einsetzt, während ein $\alpha<0$
+$\alpha$ gibt dabei an, ab wann die Gaußglocke durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann die Potenzfunktion
+einsetzt. Ein positives $\alpha$ bedeutet dabei, dass der \textit{tail} zu kleineren Werten einsetzt, während ein $\alpha<0$
 diesen zu größeren Werten modelliert. $\mu$ beschreibt den Wert für den \textit{peak} der Gaußglocke. Anschaulich beschreibt dies die aus
-den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen Massenpeak gefittet werden,
+den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen Massenpeak angepasst werden,
 wird über diesen Parameter für beide Funktionen gemeinsam iteriert. Das $\sigma$ gibt wie bei Gaußschen Verteilungen üblich die Breite der Verteilung an. Über den Parameter $n$ kann das Modell für den \textit{tail} angepasst werden. Der Wert für $n$ gibt den Grad der Potenz
 an. Die aus den Daten erwarteten Signalkandidaten werden durch den Parameter $N$ representiert. Da über die Schnitte und die Trigger bereits mit hoher Effizienz Untergrund aus dem Datensatz entfernt wurde, ist das Intervall von etwa $\SI{50}{\percent}$ aller Ereignisse aufwärts gewählt.
-Das fitting ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte für die freien Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit1} dargestellt. Die Wahl mehrerer CB Funktionen ermöglicht es unter anderem, die Gaußverteilung, also den Kern des fits zu verzerren. Auf diese Weise, ist das Gesamtmodell in der Lage auch nicht gaußverteilte Unsicherheiten in diesem Bereich zu modellieren. Allerdings ist die Ausgleichsrechnung mit \texttt{RooFit} für Modelle dieser Art numerisch sehr instabil, sodass die Wahl der Intervalle und Startwerte für die freien Parameter großen Einfluss auf das Ergebnis hat. Daher ist eine systematische und zuvor genau zu untersuchende Bestimmung dieser von Nöten, welche über den in dieser Arbeit gesteckten Rahmen hinaus ginge. [Was zu Ergebnissen, Fehlern etc...]
+Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte für die freien Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit1} dargestellt. Die Wahl mehrerer CB Funktionen ermöglicht es unter anderem, die Gaußverteilung, also den Kern des Fits zu verzerren. Auf diese Weise, ist das Gesamtmodell in der Lage auch nicht gaußverteilte Unsicherheiten in diesem Bereich zu modellieren. Allerdings ist die Ausgleichsrechnung mit \texttt{RooFit} für Modelle dieser Art numerisch sehr instabil, sodass die Wahl der Intervalle und Startwerte für die freien Parameter großen Einfluss auf das Ergebnis hat. Daher ist eine systematische und zuvor genau zu untersuchende Bestimmung dieser von Nöten, welche über den in dieser Arbeit gesteckten Rahmen hinaus ginge. [Was zu Ergebnissen, Fehlern etc...]
 %
 \begin{table}[H]
   \centering
-  \caption{Auflistung der fit-Ergebnisse des Signalmodells (DCB), sowie des exponentiellen Hintergrunds.}
+  \caption{Auflistung der Fit-Ergebnisse des Signalmodells (DCB), sowie des exponentiellen Hintergrunds.}
   \begin{tabular}{ll@{$\,\pm$}S}
     \toprule
-    \textbf{Crystall Ball 1}      &  \multicolumn{2}{c}{fit-Ergebnis} \\
+    \textbf{Signalmodell}         &  \multicolumn{2}{c}{Fit-Ergebnis} \\
     \midrule
     \quad$\alpha_1$               & 1,41    & 0,04 \\
     \quad$\mu$                    & 3097,79 & 0,02 \\
     \quad$\sigma_1$               & 10,08   & 0,09 \\
     \quad$n_1$                    & 1,49    & 0,07 \\
     \quad$N$                      & 1       & 1 \\
-    \midrule
-    \textbf{Crystall Ball 2}      &  \multicolumn{2}{c}{fit-Ergebnis} \\
-    \midrule
     \quad$\alpha_2$               & -1,54   & 0,04 \\
     \quad$\mu$                    & 3097,79 & 0,02 \\
     \quad$\sigma_2$               & 13,4    & 0,2 \\
     \quad$n_2$                    & 89      & 50 \\
-    \quad$N$                      & 1       & 1 \\
     \midrule
-    \textbf{Exponentialfunktion}  &  \multicolumn{2}{c}{fit-Ergebnis} \\
+    \textbf{Untergrundmodell}     &  \multicolumn{2}{c}{Fit-Ergebnis} \\
     \midrule
     \quad$c$                      & -0,008   & 0,002 \\
     \midrule
@@ -206,26 +216,35 @@ Das fitting ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte für die fr
 \begin{figure}[H]
   \centering
       \includegraphics[width=1.2\textwidth]{Plots/DCBexp.pdf}
-  \caption{Hier kommt eine Verteilung der $\jpsi$-Masse sowie das Ergebnis des DCB fits in dieser Art (nur in schön) hin.}
+  \caption{Hier kommt eine Verteilung der $\jpsi$-Masse sowie das Ergebnis des DCB Fits in dieser Art (schöner vor endgültiger Abgabe) hin (grün: Untergrund, rot: Gesamtmodell, blau: CB1, orange: CB2).}
   \label{fig:fit1}
 \end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Um der oben beschriebenen numerischen Instabilität vorzubeugen, kann beispielsweise die sogenannte \textbf{IPATIA}-Funktion als Signalmodell verwendet werden. Diese ist hier \cite{ipatia} genau beschrieben. Dazu wird also ein Gesamtmodell der in Gleichung~\ref{eq:ipatia} dargestellten Form verwendet.
+Um der oben beschriebenen numerischen Instabilität vorzubeugen, kann beispielsweise die sogenannte \textbf{IPATIA}-Funktion als Signalmodell verwendet werden. Diese ist in Referenz~\cite{ipatia} genau beschrieben. Dazu wird also ein Gesamtmodell der in Gleichung~\ref{eq:ipatia} dargestellten Form verwendet.
 %
 \begin{equation}
-  IPATIA
+  \begin{split}
+  &\symup{I}(m,\mu,\sigma,\lambda,\zeta,\beta,a,n)\propto\\
+    &\begin{cases}
+      \begin{split}
+      ((m-\mu)^2&+A_\lambda²(\zeta)\sigma²)^{\frac{1}{2}\lambda-\frac{1}{4}}\symup{e}^{\beta(m-\mu)}\cdot\\
+      &K_{\lambda-\frac{1}{2}}\left(\zeta\sqrt{1+(\frac{m-\ mu}{A_\lambda(\zeta)\sigma})^2}\right),
+      \end{split} & \text{wenn} \frac{m-\mu}{\sigma}>-a \\
+      \frac{G(\mu-a\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{\left(1-m\/(n\frac{G(\mu-a\sigma,\mu,\sigma,\lambda,\zeta,\beta)}{G'(\mu-a\sigma,\mu,\sigma,\lambda,\zeta,\beta)}-a\sigma)\right)^n} ,& \text{sonst}
+    \end{cases}
+  \end{split}
   \label{eq:ipatia}
 \end{equation}
 %
-Das Signalmodell wird über insgesamt neun verschiedene Parameter an die Massenverteilung gefittet. Diese sind in Tabelle~\ref{tab:params} aufgeführt.
+Das Signalmodell wird über insgesamt neun verschiedene Parameter an die Massenverteilung angepasst. Diese sind in Tabelle~\ref{tab:params} aufgeführt.
 %
 \begin{table}[H]
   \centering
-  \caption{Auflistung der für den fit des Signalmodells verwendeten Parameter.}
+  \caption{Auflistung der für den Fit des Signalmodells verwendeten Parameter.}
   \begin{tabular}{cc}
     \toprule
-    Parameter    & Intervall für den fit \\
+    Parameter    & Intervall für den Fit \\
     \midrule
     $a$          & [2, 3] \\
     $a_2$        & [2, 3] \\
@@ -240,15 +259,14 @@ Das Signalmodell wird über insgesamt neun verschiedene Parameter an die Massenv
   \label{tab:params}
 \end{table}
 %
-[Parameter beschreiben? Wobei die Funktionsvorschrift jetzt nicht sooo intuitiv ist...]
-Das fitting ergibt die in Tabelle~\ref{tab:fit2} dargestellten Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit2} dargestellt. [Was zu Ergebnissen, Fehlern etc...]
+Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit2} dargestellten Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit2} dargestellt. [Fit ist bisher noch nicht konvergiert. Ergebnisse, Fehler etc...]
 %
 \begin{table}[H]
   \centering
-  \caption{Auflistung der fit-Ergebnisse des Signalmodells (IPATIA), sowie des exponentiellen Hintergrunds.}
+  \caption{Auflistung der Fit-Ergebnisse des Signalmodells (IPATIA), sowie des exponentiellen Hintergrunds.}
   \begin{tabular}{ll@{$\,\pm$}S}
     \toprule
-    \textbf{IPATIA}               &  \multicolumn{2}{c}{fit-Ergebnis} \\
+    \textbf{Signalmodell}         &  \multicolumn{2}{c}{Fit-Ergebnis} \\
     \midrule
     \quad$a$                      & 1,41    & 0,04 \\
     \quad$a_2$                    & 1,41    & 0,04 \\
@@ -258,13 +276,14 @@ Das fitting ergibt die in Tabelle~\ref{tab:fit2} dargestellten Parameter. Die so
     \quad$\zeta$                  & 1,41    & 0,04 \\
     \quad$\lambda$                & 1,41    & 0,04 \\
     \quad$\sigma$                 & 1,41    & 0,04 \\
-    \textbf{Exponentialfunktion}  &  \multicolumn{2}{c}{fit-Ergebnis} \\
+    \midrule
+    \textbf{Untergrundmodell}  &  \multicolumn{2}{c}{Fit-Ergebnis} \\
     \midrule
     \quad$c$                      & -0,008   & 0,002 \\
     \midrule
     \quad$f$                      & 0,52     & 0,01 \\
-    \quad$n_{BKG}$                & 4490     & 1394 \\
-    \quad$n_{Sig}$                & 1342070  & 1175 \\
+    \quad$n_\text{BKG}$           & 4490     & 1394 \\
+    \quad$n_\text{Sig}$           & 1342070  & 1175 \\
     \bottomrule
   \end{tabular}
   \label{tab:fit2}
@@ -272,31 +291,51 @@ Das fitting ergibt die in Tabelle~\ref{tab:fit2} dargestellten Parameter. Die so
 %
 \begin{figure}[H]
   \centering
-      \includegraphics[width=0.9\textwidth]{Plots/something.png}
-  \caption{It's something.}
+      \includegraphics[width=\textwidth]{Plots/IPATIAexp.pdf}
+  \caption{Hier kommt eine Verteilung der $\jpsi$-Masse sowie das Ergebnis des IPATIA Fits in dieser Art (schöner und mit Legende vor endgültiger Abgabe) hin (grün: Untergrund, rot: Gesamtmodell, blau: IPATIA).}
   \label{fig:fit2}
 \end{figure}
 %
 \section{Bestimmung der Signalkandidaten}
 %
-\begin{itemize}
-  \item Aus dem besten fit die Anzahl der Signalkandidaten bestimmen: $N_{best}=12345\,\pm\,42$
-  \item Kann auch über $N_{erw}=\mathcal{L}\cdot 2\sigma_{b\bar{b}}\cdot\mathcal{B}(\kontroll)\cdot\epsilon_{\kontroll, ges}$ berechnet werden, aber Lumi vermutlich nicht sehr genau...
-\end{itemize}
+Aus den oben durchgeführten Ausgleichsrechnungen folgt, dass sich die Anzahl der Signalkandidaten für $\kontroll$ am exaktesten über das Signalmodell \textsc{IPATIA} bestimmen lässt. Die Anzahl der Signalkandidaten folgt hierbei aus der Ausgleichsrechnung zu: $N_{\kontroll}=1335240\,\pm\,1155$ [wird ergänzt].
+Kann auch über $N_{erw}=\mathcal{L}\cdot 2\sigma_{b\bar{b}}\cdot\mathcal{B}(\kontroll)\cdot\epsilon_{\kontroll, ges}$ berechnet werden, aber Lumi vermutlich nicht sehr genau...
 %
 \section{Bestimmung der Normierungskonstante}
 %
-Aus der parallel durchgeführten Analyse \cite{ba-maik} wird die Gesamteffizienz
+Aus der parallel durchgeführten Analyse \cite{ba-maik} wird die Gesamteffizienz für die Bestimung der Signalkandidaten zu
 %
 \begin{equation}
-  \epsilon_{\signal, tot}=\SI{1000(100)}{\percent}
+  \epsilon_{\signal, \text{tot}}=\SI{1.2(4)e-4}{\percent}
 \end{equation}
 %
-referenziert. Die \textit{branching ratio} für den Zerfall $\kontroll$ ist zu $\SI{5,961(33)}{\percent}$ bestimmt \cite{pdg}.
+referenziert. Die \textit{branching ratio} für den Zerfall $\kontroll$ ist zu $\SI{5,961(33)}{\percent}$ bestimmt \cite{pdg}. Der in dieser Analyse verwendete Datensatz unterscheidet sich von dem in der Analyse \cite{ba-maik} verwendeten in der (vor?)Selektion. Die Kandidaten für den Zerfall $\kontroll$ werden so selektiert, dass die Impulse der beiden Myonen die Masse des $\jpsi$-Mesons rekonstruieren und dass das $\jpsi$-Meson zusammen mit dem $K^+$ aus dem Zerfall eines $B$-Mesons stammt. Für die Selektion der Kandidaten für $\signal$ werden hingegen Elektron-Myon-Paare gesucht, deren Impulse die Masse des $\jpsi$-Mesons rekonstruieren....[]. Daher wird als Korrektur für die Anzahl der ermittelten Signalkandidaten der in Gleichung~\eqref{eq:korrektur} definierte, um den Faktor $R$ korrigierte Wert verwendet.
+%
+\begin{equation}
+  N_{\kontroll,\text{korr}}=N_{\kontroll}\cdot\underbrace{\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}}_{R}
+  \label{eq:korrektur}
+\end{equation}
+%
+Dabei kommen die sigmas daher.....\\ Der Korrekturfaktor berechnet sich gemäß Gleichung~\eqref{eq:korrfaktor}.
+%
+\begin{equation}
+  R=\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}=\frac{\SI{12.08(81)}{\micro\barn}}{\SI{44.46(324)}{\micro\barn}}=0,27\,\pm\,0,03
+  \label{eq:korrfaktor}
+\end{equation}
+Über den eingangs beschriebenen Zusammenhang~\eqref{eq:konst} für die Normierungskonstante kann diese nun mit Hilfe der bestimmten Werte berechnet werden~\eqref{eq:ergebnis}.
 %
 \begin{align*}
-  \alpha=&\frac{\mathcal{B}(\kontroll)}{N_{\kontroll}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}
-  \alpha=&\frac{\SI{5,961(33)}{\percent}}{1340000\,\pm\,3000}\frac{\SI{62,02(2)}{\percent}}{(\epsilon_{\text{ges}})_{\signal}}=123\,\pm2
+  \alpha=&\frac{\mathcal{B}(\kontroll)}{N_{\kontroll,\text{korr}}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}} \\
+  =&\frac{\SI{5,961(33)}{\percent}}{1335240\,\pm\,1155}\frac{\SI{0.857(1)}{\percent}}{\SI{1.2(4)e-4}{\percent}}\cdot\frac{1}{0.27\,\pm\,0.03}=0.0012\,\pm0.0004
   \label{eq:ergebnis}
 \end{align*}
 %
+\section{Obere Abschätzung für das Verzweigungsverhältnis}
+%
+Die Normierungskonstante $\alpha$ ermöglicht nun zusammen mit der in der Analyse des Zerfalls $\signal$ bestimmten Anzahl an Signalkandidaten das Bestimmen einer oberen Abschätzung für das Verzweigungsverhältnis $\mathcal{B}(\signal)$. Dieses berechnet sich gemäß des in Gleichung~\eqref{eq:absch} angegebenen Zusammenhanges zu:
+%
+\begin{equation}
+  \mathcal{B}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha= 7\,\pm\,1\cdot0.0012\,\pm0.0004= 0.0084\,\pm\, \, .
+\end{equation}
+%
+[Vorerst grobe Abschätzung aus dem Fitergebnis]
