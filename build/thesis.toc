@@ -19,5 +19,4 @@
 \contentsline {section}{\numberline {4.6}Obere Abschätzung für das Verzweigungsverhältnis}{23}{section.4.6}
 \contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{24}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ausblick}{24}{section.5.1}
-\contentsline {chapter}{\numberline {A}Ein Anhangskapitel}{25}{appendix.A}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{26}{chapter*.18}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.18}

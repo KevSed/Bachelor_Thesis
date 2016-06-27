@@ -1,0 +1,277 @@
+% So sieht der Biblatex Eintag für eine Abschlussarbeit aus:
+@thesis{ba-maik,
+author = {Becker, M.},
+title = {Suche nach dem Lepton-Flavor verletztenden Zerfall $\signal$ am LHCb-Experiment},
+subtitle = {Optimierte Signalselektion},
+year = {2016},
+type = {Bachelorarbeit},
+school = {TU Dortmund}
+}
+
+@book{griffiths,
+    author = {Griffiths, D.},
+    title = {Introduction to Elementary Particles},
+    year = {2010},
+    publisher = {Wiley-VCH},
+    series = {8. Auflage}
+}
+@book{HalzenMartin,
+  author    = {Halzen, F. and Martin, A.D.},
+  title     = {Quarks and Leptons: An Introductory Course in Modern Particle Physics},
+  publisher = {Wiley-VCH},
+  lccn      = {83014649},
+  year      = {1984},
+}
+
+@article{pdg,
+  author         = "Olive, K. A. and others",
+  title          = "{Review of Particle Physics}",
+  collaboration  = "Particle Data Group",
+  journal        = "Chin. Phys.",
+  volume         = "C38",
+  year           = "2014",
+  pages          = "090001",
+  doi            = "10.1088/1674-1137/38/9/090001",
+  SLACcitation   = "%%CITATION = CHPHD,C38,090001;%%"
+}
+
+@article{lhcb,
+  author        = "Antunes-Nobrega, R. and others",
+  title         = "{LHCb reoptimized detector design and performance:
+                   Technical Design Report}",
+  publisher     = "CERN",
+  collaboration = "LHCb Collaboration",
+  address       = "Geneva",
+  series        = "Technical Design Report LHCb",
+  journal       = "CERN-LHCC-2003-030 ; LHCb-TDR-9",
+  year          = "2003",
+  url           = "https://cds.cern.ch/record/630827",
+}
+
+@journal{tracker,
+  author        = "Barbosa-Marinho, P R and others",
+  publisher     = "CERN",
+  collaboration = "LHCb Collaboration",
+  address       = "Geneva",
+  title         = "Technical Design Report LHCb",
+  year          = "2002",
+  journal       = "CERN-LHCC-2002-029 ; LHCb-TDR-8",
+  url           = "http://cds.cern.ch/record/582793",
+  note          = "revised version number 1 submitted on 2002-11-13 14:14:34",
+}
+
+@article{higgs_atlas,
+  Author = { The ATLAS Collaboration},
+  Title = {Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC},
+  journal = {Phys.Lett.},
+  volume = {B716},
+  pages = {1-29},
+  Year = {2012},
+  Eprint = {1207.7214},
+  Eprinttype = {arXiv},
+
+  Doi = {10.1016/j.physletb.2012.08.020},
+}
+
+@manual{neutrino,
+  Author = {Stéphane Lavignac},
+  Title = {Theoretical introduction to (charged) lepton flavour violation},
+  Year = {2009},
+  url = {http://gdrneutrino.in2p3.fr/meetings/27_04_2009_LPNHE/GT2/GDR_nu_280409.pdf},
+}
+
+@article{higgs_cms,
+    Author = { The CMS Collaboration},
+    Title = {Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC},
+    journal = {Phys. Lett.},
+    volume = {B 716},
+    Year = {2012},
+    pages = {30},
+    Eprint = {1207.7235},
+    Eprinttype = {arXiv},
+    Doi = {10.1016/j.physletb.2012.08.021},
+}
+
+@article{leptoq,
+title = "Leptoquarks in lepton-quark collisions",
+journal = "Physics Letters B",
+volume = "191",
+number = "4",
+pages = "442 - 448",
+year = "1987",
+doi = "http://dx.doi.org/10.1016/0370-2693(87)90637-X",
+author = "W. Buchmüller and R. Rückl and D. Wyler",
+}
+
+@article{zprime,
+      author         = "J. Bernabeu, E. Nardi, and D. Tomasini",
+      title          = "{$μ-e$ conversion in nuclei and $Z′$ physics}",
+      journal        = "Nuclear Physics B",
+      volume         = "B409",
+      pages          = "69",
+      year           = "1993",
+}
+
+@article{susy_gut1,
+      author         = "S. Dimopoulos and H. Georgi",
+      title          = "{Softly Broken Supersymmetry and SU(5)}",
+      journal        = "Nuclear Physics B",
+      volume         = "B193",
+      pages          = "150",
+      year           = "1981",
+}
+
+@article{susy_gut2,
+      author         = "N. Sakai",
+      title          = "{Naturalnes in supersymmetric GUTS}",
+      journal        = "Zeitschrift für Physik C Particles and Fields",
+      volume         = "11",
+      pages          = "153",
+      year           = "1981",
+}
+
+@article{pythia,
+      Author = {T. Sjöstrand and S. Mrenna and P. Skands},
+      Title = {A Brief Introduction to PYTHIA 8.1},
+      Year = {2007},
+      Eprint = {0710.3820},
+      Eprinttype = {arXiv},
+      Howpublished = {Comput.Phys.Commun.178:852-867,2008},
+      Doi = {10.1016/j.cpc.2008.01.036},
+}
+
+
+@article{chi2,
+  Author = {R. Aaij and others},
+  collaboration = {LHCb collaborationn},
+  Title = {Measurement of the difference of time-integrated CP asymmetries in $D^0 \rightarrow K^{-} K^{+} $ and $D^0 \rightarrow π^{-} π^{+} $   decays},
+  Year = {2016},
+  Eprint = {arXiv:1602.03160},
+  journal = {Phys. Rev. Lett.},
+  volume = {116},
+  pages = {191601},
+  Doi = {10.1103/PhysRevLett.116.191601},
+}
+
+@misc{boole,
+      Author = {M. Cattaneo},
+      Title = {Boole: The LHCb digitization program},
+      Year = {2004},
+      url = {http://lhcb-comp.web.cern.ch/lhcb-comp/Digitization},
+}
+@misc{evtgen,
+      Author = {A. Ryd and others},
+      Title = {EvtGen: A Monte Carlo Generator for B-Physics},
+      Year = {2005},
+      Eprint = {0EVTGEN-V00-11-06},
+}
+@article{geant4,
+      title = "Geant4—a simulation toolkit ",
+      journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and      Associated Equipment ",
+      volume = "506",
+      number = "3",
+      pages = "250 - 303",
+      year = "2003",
+      doi = "http://dx.doi.org/10.1016/S0168-9002(03)01368-8",
+      author = "S. Agostinelli and others",
+}
+
+@article{ipatia,
+      Author = {D. Martínez Santos and F. Dupertuis},
+      Title = {Mass distributions marginalized over per-event errors},
+      Year = {2013},
+      Eprint = {arXiv:1312.5000},
+      journal = {NIM A},
+      volume = {764},
+      pages = {150},
+      Doi = {10.1016/j.nima.2014.06.081},
+}
+
+@misc{roofit,
+      Author = {W. Verkerke and D. Kirkby},
+      Title = {The RooFit toolkit for data modeling},
+      Year = {2003},
+      Eprint = {arXiv:physics/0306116},
+}
+
+@article{extended,
+      title = "Extended maximum likelihood",
+      journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+      volume = "297",
+      number = "3",
+      pages = "496 - 506",
+      year = "1990",
+      note = "",
+      doi = "http://dx.doi.org/10.1016/0168-9002(90)91334-8",
+      author = "Roger Barlow",
+}
+@phdthesis{cb,
+      author         = "Skwarnicki, T.",
+      title          = "{A study of the radiative CASCADE transitions between the
+                        Upsilon-Prime and Upsilon resonances}",
+      school         = "Cracow, INP",
+      year           = "1986",
+      url            = "http://lss.fnal.gov/cgi-bin/find_paper.pl?other/thesis/skwarnicki.pdf",
+      reportNumber   = "DESY-F31-86-02, DESY-F-31-86-02",
+      SLACcitation   = "%%CITATION = DESY-F31-86-02;%%"
+}
+
+@phdthesis{Tilburg,
+  author         = {van Tilburg, J.A.N.},
+  title          = {Track Simulation and Reconstruction in LHCb},
+  school         = {Vrije U., Amsterdam},
+  url            = {http://www-spires.fnal.gov/spires/find/books/www?cl=QC793.3.T67T35::2005},
+  year           = {2005},
+  reportNumber   = {THESIS-TILBURG, CERN-THESIS-2005-040},
+  SLACcitation   = {%%CITATION = THESIS-TILBURG;%%},
+}
+% eine Internet Quelle
+@MANUAL{lhc,
+    title   = {LHC- Large Hadron Collider},
+    url = {http://www.lhc-facts.ch/},
+    date = {2016},
+    author = {Europäische Organisation für Kernforschung}
+}
+
+@online{rad,
+  author        = {Europäische Organisation für Kernforschung},
+  Url           = {http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles.html},
+  Urldate       = {2016-06-11},
+  year          = {2016}, %this is necessary for the in-text citation to work
+}
+
+@MANUAL{siunitx,
+    title   = {siunitx - A comprehensive (SI) units package},
+    url = {http://mirror.selfnet.de/tex-archive/macros/latex/contrib/siunitx/siunitx.pdf},
+    date = {2013},
+    author = {Wright, Joseph}
+}
+@MANUAL{koma,
+    title   = {KOMA -Script},
+    subtitle = {ein wandelbares LaTeX-Paket},
+    url = {http://mirror.selfnet.de/tex-archive/macros/latex/contrib/koma-script/doc/scrguide.pdf},
+    date = {2013},
+    author = {Kohm, Markus and Morawski, Jens-Uwe}
+}
+@MANUAL{biblatex,
+    title   = {The Biblatex Package},
+    subtitle = {Programmable Bibliographies and Citations},
+    url = {ftp://ftp.fu-berlin.de/tex/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf},
+    date = {2014},
+    author = {Lehman, Philipp and others}
+}
+@ELECTRONIC{make,
+    title   = {Gnu-Make Homepage},
+    url = {http://www.gnu.org/software/make/},
+    date = {2014},
+}
+@ELECTRONIC{toolbox,
+    title   = {Pep et al.\ Toolbox -- \LaTeX-Folien},
+    url = {http://toolbox.pep-dortmund.org/files/archive/2014/latex.pdf},
+    date = {2014},
+}
+@ELECTRONIC{gitbash,
+    title   = {Git Bash - Download},
+    url = {http://msysgit.github.io/},
+    date = {2014},
+}

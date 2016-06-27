@@ -644,8 +644,7 @@ INPUT ./Plots/IPATIAexp.pdf
 INPUT Plots/IPATIAexp.pdf
 INPUT ./content/05_ergebnisse.tex
 INPUT ./content/05_ergebnisse.tex
-INPUT ./content/a_anhang.tex
-INPUT ./content/a_anhang.tex
+INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman8-italic.luc
 INPUT ./content/eid_versicherung.tex
 INPUT ./content/eid_versicherung.tex
 INPUT build/thesis.aux
@@ -653,4 +652,3 @@ INPUT build/thesis.aux
 INPUT build/thesis.toc
 INPUT build/thesis.run.xml
 OUTPUT build/thesis.run.xml
-INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
