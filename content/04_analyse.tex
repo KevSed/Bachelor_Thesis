@@ -4,16 +4,16 @@
 Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normierungskonstante $\alpha$ für den Signalzerfall $\signal$ zu ermitteln. Diese ist in Gleichung~\eqref{eq:konst} definiert.
 %
 \begin{equation}
-  \alpha=\frac{\mathcal{B}(\kontroll)}{N_{\kontroll}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}
+  \alpha=\frac{\mathcal{B}(B\rightarrow\jpsi K)\mathcal{B}(\kontroll)}{N_{\kontroll}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}
   \label{eq:konst}
 \end{equation}
 %
 
-Hierbei ist~$\mathcal{B}(\kontroll)$ das bereits zu $\SI{5,986(33)}{\percent}$ \cite{pdg} vermessene Verzweigungsverhältnis des Kontrollkanals und~$N_{\kontroll}$ die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse des Normierungskanals.
+Hierbei ist~$\mathcal{B}(\kontroll)$ das bereits zu $\SI{5,986(33)}{\percent}$ \cite{pdg} vermessene Verzweigungsverhältnis des Kontrollkanals und~$N_{\kontroll}$ die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse für $B\rightarrow\jpsi(\rightarrow\mu\mu) K$.
 $\epsilon_{\text{ges}}$ beschreibt die Gesamteffizienzen der Analyse des jeweiligen Kanals. Sie beinhalten die Detektion,
-Rekonstruktion und Selektion. Die Normierungskonstante ermöglicht es, systematische Fehler in der Bestimmung der
+Rekonstruktion und Selektion der Ereignisse. Die Normierungskonstante ermöglicht es, systematische Fehler in der Bestimmung der
 Signalkandidaten und Effizienzen des Signalzerfalls $\signal$ möglichst herauszukürzen und so ein deutlich exakteres Ergebnis
-zu generieren. $\alpha$ kann dazu genutzt werden, zusammen mit der in \cite{ba-maik} ermittelten Anzahl erwarteter
+zu bestimmen. $\alpha$ kann dazu genutzt werden, zusammen mit der in \cite{ba-maik} ermittelten Anzahl erwarteter
 Signalkandidaten eine Abschätzung für das Verzweigungsverhältnis des Zerfalls $\signal$ nach Gleichung~\eqref{eq:absch} zu ermitteln.
 %
 \begin{equation}
@@ -21,19 +21,21 @@ Signalkandidaten eine Abschätzung für das Verzweigungsverhältnis des Zerfalls
   \label{eq:absch}
 \end{equation}
 %
-Um die dazu benötigten Größen aus dieser Analyse zu bestimmen, wird eine schnittbasierte Selektion des Kontrollkanals
-$\kontroll$ durchgeführt, um über die Ermittlung der rekonstruierten Signalereignisse und der dabei auftretenden Effizienzen
+Ideal wäre die Betrachtung eines Datensatzes für $\kontroll$. Hierzu existiert allerdings bisher keine Vorselektion für Daten des LHCb, da sich diese noch in Vorbereitung befindet. Daher wird ein Datensatz für den Zerfall $B\rightarrow\jpsi(\rightarrow\mu\mu) K$ verwendet.
+Da die Selektion für die darin enthaltenen Ereignisse aufgrund der Abweichung vom Signalzerfall ebenfalls abweichend ist, müssen bestimmte Korrekturen der erwarteten Ereignisse durchgeführt werden. Diese werden in Abschnitt~\ref{sec:norm} diskutiert.
+Um die benötigten Größen aus dieser Analyse zu bestimmen, wird eine schnittbasierte Selektion des Kontrollkanals
+durchgeführt, um über die Ermittlung der rekonstruierten Signalereignisse und der dabei auftretenden Effizienzen
 die Normierungskonstante bestimmen zu können.
 %
 \section{Datensätze}
 %
-Bei dem für die Analyse des Zerfalls $\kontroll$ verwendeten Datensatz handelt es sich um im Jahre 2012 am LHCb-Experiment bei  einer Schwerpunkstenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ gemessene Daten, die einer integrierten Luminosität von $\SI{2}{\femto\barn^{-1}}$ entsprechen. Dazu ist eine dem Zerfall $\kontroll$ angepasste Selektion (Stripping \texttt{Bu2LLK\_mmLine}) verwendet worden, welche eine Effizienz von $\SI{16,099(21)}{\percent}$ aufweist. Der Datensatz enthält dabei etwa 5959563 experimentell gemessene Daten, sowie etwa 2210052 in sogenannten Monte-Carlo-Simulationen generierte.\\
+Bei dem für die Analyse des Zerfalls $\kontroll$ verwendeten Datensatz handelt es sich um im Jahre 2012 am LHCb-Experiment bei einer Schwerpunkstenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ aufgenommene Daten, die einer integrierten Luminosität von $\SI{2}{\femto\barn^{-1}}$ entsprechen. Dazu ist eine dem Zerfall $\kontroll$ angepasste Selektion (Stripping \texttt{Bu2LLK\_mmLine}) verwendet worden, welche eine Effizienz von $\SI{16,099(21)}{\percent}$ aufweist. Die verwendeten Daten enthalten dabei etwa 5959563 experimentell gemessene Daten, sowie etwa 2210052 in sogenannten Monte-Carlo-Simulationen generierte.\\
 
-Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik, die eine Theorie beschreibt und die experimentell gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer experimentellen Messung anzupassen, werden verschiedene Algorithmen zur Simulation der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des experimentell gemessenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC handelt es sich um die Simulation des Zerfalls $B\rightarrow\jpsi(\rightarrow\!\mu\mu) X$. Dabei werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA 8.1} \cite{pythia} simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN} \cite{evtgen} simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}  \cite{geant4}, sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, Rekonstruktion etc.), wie die experimentell am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE} \cite{boole}. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
+Monte-Carlo-Simulationen (MC) stellen eine bewährte Methode dar, um die Physik, die eine Theorie beschreibt und die experimentell gemessenen Daten vergleichbar zu machen. Um die Vorhersage für das Signal eines bestimmten Zerfalls in Form einer experimentellen Messung anzupassen, werden verschiedene Algorithmen zur Simulation der Kollisionen sowie deren Messung verwendet. Ziel ist es, die Kollision, anschließende Zerfälle sowie die Wechselwirkungen mit dem spezifischen Detektor möglichst exakt zu simulieren, sodass ein Signaldatensatz entsteht, welcher unter Anderem zur Unterdrückung des experimentell gemessenen Untergrundes, sowie der Suche nach neuer Physik dient. Bei dem hier verwendeten MC handelt es sich um die Simulation des Zerfalls $B\rightarrow\jpsi(\rightarrow\!\mu\mu) K$. Dabei werden die Proton-Proton-Kollisionen durch das Programm \texttt{PYTHIA 8.1} \cite{pythia} simuliert, welches über komplexe Modelle die entstehenden Teilchen generiert. Zerfallspunkte sowie die Produkte der bei diesen Kollisionen entstehenden $B$-Mesonen werden durch \texttt{EVTGEN} \cite{evtgen} simuliert. Die anschließende Wechselwirkug der Zerfallsprodukte mit dem Detektor konstruiert der Algorithmus \texttt{GEANT4}  \cite{geant4}, sodass die so entstandenen Datensätze durch dieselbe Hardware und Software (Trigger, Rekonstruktion etc.), wie die experimentell am LHCb Gemessenen laufen können. Die Umwandlung der berechneten Ereignisse in die dazu benötigten elektrischen Signale übernimmt die Software \texttt{BOOLE} \cite{boole}. Die Simulation geht dabei von einer Schwerpunktsenergie von $\sqrt{s}=\SI{8}{\tera\electronvolt}$ aus. Um die Simulation den Beschaffenheiten des Detektors anzupassen, ist der Winkelbereich der Zerfallsprodukte auf einen etwas größeren als den realen Akzeptanzbereich des Detektors beschränkt. Hierdurch werden Effekte am Rand des Detektors vernachlässigbar.
 
 \section{Selektion des Kontrollkanals}
 %
-Die Datensätze für den zu untersuchenden Kontrollkanal $\kontroll$ werden zunächst schnittbasiert selektiert. Es erfolgt also eine Einschränkung auf den physikalisch für den gesuchten Zerfall relevanten Bereich. Dazu werden die in Tabelle~\ref{tab:strip} aufgeführten Bedingungen an die relevanten Ereignisse in dem Datensatz sowohl an die Daten, als auch an die MC gestellt. Diese Selektion orientiert sich dabei an der in der Studie zur Signaloptimierung \cite{ba-maik} Angewendeten.
+Die Datensätze für den zu untersuchenden Kontrollkanal $B\rightarrow\jpsi(\rightarrow\mu\mu) K$ werden zunächst schnittbasiert selektiert. Es erfolgt also eine Einschränkung auf den physikalisch für den gesuchten Zerfall relevanten Bereich. Dazu werden die in Tabelle~\ref{tab:strip} aufgeführten Bedingungen an die relevanten Ereignisse in dem Datensatz sowohl an die Daten, als auch an die Simulation gestellt. Diese Selektion orientiert sich dabei an der in der Studie zur Signaloptimierung \cite{ba-maik} angewendeten.
 
 \begin{table}[htb]
   \centering
@@ -59,10 +61,10 @@ Es wird zunächst ein Massenfenster von $m_{\jpsi}=\SI{2946}{\mega\electronvolt}
 Die Bedingungen $\mu^{\pm}:\chi_{\text{IP}}^2$ geben an, wie gut die rekonstruierten Myonen einem Primärvertex zugeordnet werden können. $\chi_{\text{IP}}^2$ ist dabei definiert als der Unterschied zwischen dem $\chi^2$ des Primärvertex' unter Berücksichtigung des beschriebenen
 Teilchens und jenem ohne Berücksichtigung desselben \cite{chi2}. Die Variable $\mu^{\pm}:\text{GhostProb}$ gibt an, wie groß die Wahrscheinlichkeit
 ist, dass die Identifikation eines Myons fälschlicherweise stattfand, sodass die Selektion diese Wahrscheinlichkeit auf maximal $\SI{30}{\percent}$
-beschränkt. $\jpsi:\text{BKGCAT}$ legt fest, dass das im MC rekonstruierte Ereignis auch als Signalereignis erzeugt wurde. Über die Variable $\jpsi:\text{DIRA}$ lässt sich die Übereinstimmung der Richtungen der aus den Vertices rekonstruierten Spuren sowie den Impulsen derselben Teilchen prüfen. Da es sich um den $cosinus$ des Winkels zwischen diesen Richtungen handelt, sollte diese Variable möglichst nahe bei $1$ liegen. Die Effizienz der so gewählten Selektion auf das MC berechnet sich nach Gleichung~\eqref{eq:eff_strip1}. Die Fehlerangaben entsprechen dabei den Binomial-Fehlern.
+beschränkt. $\jpsi:\text{BKGCAT}$ legt fest, dass das in der Simulation rekonstruierte Ereignis auch als Signalereignis erzeugt wurde. Über die Variable $\jpsi:\text{DIRA}$ lässt sich die Übereinstimmung der Richtungen der aus den Vertices rekonstruierten Spuren sowie den Impulsen derselben Teilchen prüfen. Da es sich um den $cosinus$ des Winkels zwischen diesen Richtungen handelt, sollte diese Variable möglichst nahe bei $1$ liegen. Nach Anwenden der so gewählten Selektion auf die Simulation bleiben 1814293 Ereignisse. Die Effizienz dieser Selektion folgt daher nach Gleichung~\eqref{eq:eff_strip1}. Die Fehlerangaben entsprechen dabei den Binomial-Fehlern.
 %
 \begin{equation}
-  \epsilon_\text{Selektion}=\frac{N_\text{MC-events after selection}}{N_\text{MC-events after strip}}=\frac{1814293}{2210052}=\SI{82.09(3)}{\percent} \, .
+  \epsilon_\text{Selektion}=\frac{N_\text{MC-events after selection}}{N_\text{MC-events after strip}}=\SI{82.09(3)}{\percent} \, .%\frac{1814293}{2210052}
   \label{eq:eff_strip1}
 \end{equation}
 %
@@ -95,23 +97,18 @@ Des Weiteren werden sogenannte Triggerstufen als Bedingung für die Selektion de
   \label{tab:trigger}
 \end{table}
 %
-Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie des Strippings bezogen auf die Zahl der Ereignisse im Datensatz beträgt für das MC die in Gleichung~\eqref{eq:eff_ges1} aufgeführten Wert.
+Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie desr Selektion bezogen auf die Zahl der Ereignisse im Datensatz beträgt für die Simulation die in Gleichung~\eqref{eq:eff_ges1} aufgeführten Wert.
 %
 \begin{equation}
-  \epsilon_\text{Trigger}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after selection}}=\frac{1345240}{1814293}=\SI{74.15(4)}{\percent} \, .
+  \epsilon_\text{Trigger}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after selection}}=\SI{74.15(4)}{\percent} \, .% \frac{1345240}{1814293}
   \label{eq:eff_ges1}
 \end{equation}
 %
 Zusammen mit der Generatoreffizienz $\epsilon_\text{gen}=\SI{16.099(21)}{\percent}$ und der Strippingeffizienz $\epsilon_\text{strip}=\SI{8.744(6)}{\percent}$ kann so die Gesamteffizienz wie in Gleichung~\eqref{eq:eff_ges} berechnet werden.
 %
 \begin{equation}
-  \begin{split}
   \epsilon_{\kontroll, \text{ges}}
-  =&\epsilon_\text{gen}\cdot\epsilon_\text{strip}\cdot\epsilon_\text{Selektion}\cdot\epsilon_\text{Trigger}\\
-  =&\SI{16.099(21)}{\percent}\cdot\SI{8.744(6)}{\percent}\\
-  &\cdot\SI{82.09(3)}{\percent}\cdot\SI{74.15(4)}{\percent} \\
-  =&\SI{0.857(1)}{\percent}
-  \end{split}
+  =\epsilon_\text{gen}\cdot\epsilon_\text{strip}\cdot\epsilon_\text{Selektion}\cdot\epsilon_\text{Trigger}=\SI{0.857(1)}{\percent}
   \label{eq:eff_ges}
 \end{equation}
 %
@@ -119,16 +116,16 @@ Zusammen mit der Generatoreffizienz $\epsilon_\text{gen}=\SI{16.099(21)}{\percen
 %
 Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit} \cite{extended} der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben
 beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa
-$[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$, was der in Abbildung~\ref{fig:mass} dargestellten Verteilung entspricht. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können.
+$[m_{\jpsi}-\SI{150}{\mega\electronvolt}, m_{\jpsi}+\SI{80}{\mega\electronvolt}]$. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können.
 %
-\begin{figure}[H]
-  \centering
-      \includegraphics[width=0.9\textwidth]{Plots/jpsi_mass.pdf}
-  \caption{Verteilung der $\jpsi$-Masse nach Anwenden der Selektion sowie der Trigger.}
-  \label{fig:mass}
-\end{figure}
+%\begin{figure}[H]
+%  \centering
+%      \includegraphics[width=0.9\textwidth]{Plots/jpsi_mass.pdf}
+%  \caption{Verteilung der $\jpsi$-Masse nach Anwenden der Selektion sowie der Trigger.}
+%  \label{fig:mass}
+%\end{figure}
 %
-Mit Hilfe des frameworks \texttt{RooFit} \cite{roofit} wird diese Verteilung der $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird für ein aus Signalfunktion und Untergrundfunktion zusammengesetztes Modell der in Gleichung~\ref{eq:massenfit} dargestellten Form eine Ausgleichrechnung durchgeführt.
+Mit Hilfe des frameworks \texttt{RooFit} \cite{roofit} wird diese Verteilung der rekonstruierten $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird für ein aus Signalfunktion und Untergrundfunktion zusammengesetztes Modell der in Gleichung~\ref{eq:massenfit} dargestellten Form eine Ausgleichrechnung durchgeführt.
 %
 \begin{equation}
   \symup{G}(m_{\jpsi})= \symup{S}(m_{\jpsi}) + \symup{B}(m_{\jpsi})
@@ -162,23 +159,23 @@ Im Folgenden wird der Signalteil der Verteilung der rekonstruierten Masse also a
 Der Faktor $f$ beschreibt dabei das Verhältnis der beiden CB-Funktionen und liegt zwischen 0 und 1. Zu dieser Funktion wird der oben beschriebene exponentielle Untergrund ($\symup{B}(m_{\jpsi})$) hinzugefügt und das so entstehende Gesamtmodell an die Daten angepasst. Dazu werden die in Tabelle~\ref{tab:params} aufgeführten Parameter in den angegebenen Intervallen mit Hilfe von \texttt{RooFit} der Verteilung angepasst.
 %
 %
-\begin{table}[H]
-  \centering
-  \caption{Auflistung der für den Fit des Signalmodells verwendeten Parameter.}
-  \begin{tabular}{ccc}
-    \toprule
-    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} & Intervall für den Fit \\
-    \midrule
-    $\alpha_1$                  & $\alpha_2$               & [-4, 0], [0, 4] \\
-    $\mu$                       & $\mu$                    & [2946, 3176] \\
-    $\sigma_1$                  & $\sigma_2$               & [1, 20], [1, 20] \\
-    $n_1$                       & $n_2$                    & [0, 20], [0, 20] \\
-    \bottomrule
-  \end{tabular}
-  \label{tab:params}
-\end{table}
+%\begin{table}[H]
+%  \centering
+%  \caption{Auflistung der für den Fit des Signalmodells verwendeten Parameter.}
+%  \begin{tabular}{ccc}
+%    \toprule
+%    \textbf{Crystall Ball 1}    & \textbf{Crystall Ball 2} & Intervall für den Fit \\
+%    \midrule
+%    $\alpha_1$                  & $\alpha_2$               & [-4, 0], [0, 4] \\
+%    $\mu$                       & $\mu$                    & [2946, 3176] \\
+%    $\sigma_1$                  & $\sigma_2$               & [1, 20], [1, 20] \\
+%    $n_1$                       & $n_2$                    & [0, 20], [0, 20] \\
+%    \bottomrule
+%  \end{tabular}
+%  \label{tab:params}
+%\end{table}
 %
-$\alpha$ gibt dabei an, ab wann die Gaußglocke durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann die Potenzfunktion
+$\alpha$ gibt dabei an, ab wann die Gaußverteilung durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann die Potenzfunktion
 einsetzt. Ein positives $\alpha$ bedeutet dabei, dass der \textit{tail} zu kleineren Werten einsetzt, während ein $\alpha<0$
 diesen zu größeren Werten modelliert. $\mu$ beschreibt den Wert für den \textit{peak} der Gaußglocke. Anschaulich beschreibt dies die aus
 den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen Massenpeak angepasst werden,
@@ -303,15 +300,16 @@ Aus den oben durchgeführten Ausgleichsrechnungen folgt, dass sich die Anzahl de
 Kann auch über $N_{erw}=\mathcal{L}\cdot 2\sigma_{b\bar{b}}\cdot\mathcal{B}(\kontroll)\cdot\epsilon_{\kontroll, ges}$ berechnet werden, aber abhängig von der Genauigkeit der Lumi und des $\sigma_{b\bar{b}}$...
 %
 \section{Bestimmung der Normierungskonstante}
+\label{sec:norm}
 %
-Aus der parallel durchgeführten Analyse \cite{ba-maik} wird die Gesamteffizienz für die Bestimung der Signalkandidaten zu
+Aus der parallel durchgeführten Analyse \cite{ba-maik} wird die Gesamteffizienz für die Bestimmung der Signalkandidaten zu
 %
 \begin{equation}
-  \epsilon_{\signal, \text{tot}}=\SI{1.2(4)e-4}{\percent}
+  \epsilon_{\signal, \text{tot}}=1,2\,\pm\,0,4\cdot 10^{-6}
 \end{equation}
 %
-referenziert. Die \textit{branching ratio} für den Zerfall $\kontroll$ ist zu $\SI{5,961(33)}{\percent}$ bestimmt \cite{pdg}. Der in
-dieser Analyse verwendete Datensatz unterscheidet sich von dem in der Analyse \cite{ba-maik} verwendeten in der (vor?)Selektion. Die
+referenziert. Das Verzweigungsverhältnis für den Zerfall $\kontroll$ ist zu $\SI{5,961(33)}{\percent}$ bestimmt \cite{pdg}. Der in
+dieser Analyse verwendete Datensatz unterscheidet sich von dem in der Analyse \cite{ba-maik} verwendeten in der Vorselektion. Die
 Kandidaten für den Zerfall $\kontroll$ werden so selektiert, dass die Impulse der beiden Myonen die Masse des $\jpsi$-Mesons
 rekonstruieren und dass das $\jpsi$-Meson zusammen mit dem $K^+$ aus dem Zerfall eines $B$-Mesons stammt. Für die Selektion der Kandidaten für $\signal$ werden zwar auch Elektron-Myon-Paare gesucht, deren Impulse die Masse des $\jpsi$-Mesons rekonstruieren, allerdings wird
 hier nicht die Rekonstruktion zu einem $B$-Meson vorgenommen. Sie wird dadurch ersetzt, dass der Zerfallsvertex der Myonen nicht direkt
@@ -322,7 +320,7 @@ am Kollisionspunkt liegen darf. Um diesen Unterschied in der Selektion auszuglei
   \label{eq:korrektur}
 \end{equation}
 %
-Dabei kommen die sigmas daher.....\\ Der Korrekturfaktor berechnet sich gemäß Gleichung~\eqref{eq:korrfaktor}.
+Um die Zahl der ermittelten Signalkandidaten vergleichbar zu machen, muss die Tatsache, dass die Zahl der produzierten $B$-Mesonen sich von jener der $\jpsi$-Mesonen sich unterscheidet Dabei kommen die sigmas daher.....\\ Der Korrekturfaktor berechnet sich gemäß Gleichung~\eqref{eq:korrfaktor}.
 %
 \begin{equation}
   R=\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}=\frac{\SI{12.08(81)}{\micro\barn}}{\SI{44.46(324)}{\micro\barn}}=0,27\,\pm\,0,03
@@ -341,7 +339,9 @@ Dabei kommen die sigmas daher.....\\ Der Korrekturfaktor berechnet sich gemäß 
 Die Normierungskonstante $\alpha$ ermöglicht nun zusammen mit der in der Analyse des Zerfalls $\signal$ bestimmten Anzahl an Signalkandidaten das Bestimmen einer oberen Abschätzung für das Verzweigungsverhältnis $\mathcal{B}(\signal)$. Dieses berechnet sich gemäß des in Gleichung~\eqref{eq:absch} angegebenen Zusammenhanges zu:
 %
 \begin{equation}
-  \mathcal{B}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha= 7\,\pm\,1\cdot0.0012\,\pm0.0004= 0.0084\,\pm\, \, .
+  \begin{split}
+    \mathcal{B}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha=& (7\,\pm\,1)\cdot(0.0012\,\pm0.0004)\\=& 0.0084\,\pm\, \, .
+  \end{split}
 \end{equation}
 %
 [Vorerst grobe Abschätzung aus dem Fitergebnis]

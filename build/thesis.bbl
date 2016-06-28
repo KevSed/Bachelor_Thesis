@@ -292,6 +292,32 @@
       \verb 1207.7235
       \endverb
     \endentry
+    \entry{Tilburg}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=2124c830073d491d1dff67ee192911e7}{%
+           prefix={van},
+           prefix_i={v\bibinitperiod},
+           family={Tilburg},
+           family_i={T\bibinitperiod},
+           given={J.A.N.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vrije U., Amsterdam}%
+      }
+      \strng{namehash}{2124c830073d491d1dff67ee192911e7}
+      \strng{fullhash}{2124c830073d491d1dff67ee192911e7}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Track Simulation and Reconstruction in LHCb}}
+      \field{type}{phdthesis}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://www-spires.fnal.gov/spires/find/books/www?cl=QC793.3.T67T35::2005
+      \endverb
+    \endentry
     \entry{lhcb}{article}{}
       \true{moreauthor}
       \name{author}{1}{}{%
@@ -342,32 +368,6 @@
       \field{year}{2016}
       \verb{url}
       \verb http://lhcb.web.cern.ch/lhcb/speakersbureau/html/bb_ProductionAngles.html
-      \endverb
-    \endentry
-    \entry{Tilburg}{thesis}{}
-      \name{author}{1}{}{%
-        {{hash=2124c830073d491d1dff67ee192911e7}{%
-           prefix={van},
-           prefix_i={v\bibinitperiod},
-           family={Tilburg},
-           family_i={T\bibinitperiod},
-           given={J.A.N.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Vrije U., Amsterdam}%
-      }
-      \strng{namehash}{2124c830073d491d1dff67ee192911e7}
-      \strng{fullhash}{2124c830073d491d1dff67ee192911e7}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Track Simulation and Reconstruction in LHCb}}
-      \field{type}{phdthesis}
-      \field{year}{2005}
-      \verb{url}
-      \verb http://www-spires.fnal.gov/spires/find/books/www?cl=QC793.3.T67T35::2005
       \endverb
     \endentry
     \entry{tracker}{article}{}

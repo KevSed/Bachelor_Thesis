@@ -11,12 +11,12 @@
 \contentsline {section}{\numberline {3.1}Der Large Hadron Collider}{7}{section.3.1}
 \contentsline {section}{\numberline {3.2}Der LHCb Detektor}{8}{section.3.2}
 \contentsline {chapter}{\numberline {4}Analyse des Kontrollkanals}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Datensätze}{12}{section.4.1}
+\contentsline {section}{\numberline {4.1}Datensätze}{13}{section.4.1}
 \contentsline {section}{\numberline {4.2}Selektion des Kontrollkanals}{13}{section.4.2}
 \contentsline {section}{\numberline {4.3}Massenfit}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}Bestimmung der Signalkandidaten}{22}{section.4.4}
-\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{22}{section.4.5}
-\contentsline {section}{\numberline {4.6}Obere Abschätzung für das Verzweigungsverhältnis}{23}{section.4.6}
-\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{24}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ausblick}{24}{section.5.1}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{25}{chapter*.18}
+\contentsline {section}{\numberline {4.4}Bestimmung der Signalkandidaten}{21}{section.4.4}
+\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{21}{section.4.5}
+\contentsline {section}{\numberline {4.6}Obere Abschätzung für das Verzweigungsverhältnis}{22}{section.4.6}
+\contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ausblick}{23}{section.5.1}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{24}{chapter*.16}
