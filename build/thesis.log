@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  28 JUN 2016 19:50
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  28 JUN 2016 20:51
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.055 seconds)
+luaotfload | main : initialization completed in 0.054 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2526,7 +2526,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--35
 
 [9]) (./content/04_analyse.tex [10] [11]
 chapter 4.
-LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 32.
+LaTeX Font Info:    Try loading font information for EU2+lmtt on input line 34.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/euenc/eu2lmtt.fd
 File: eu2lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )(load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts
@@ -2536,20 +2536,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--54
 
  []
 
 [12
 
 ] [13] [14] [15] [16] [17]
-<Plots/DCBexp.pdf, id=309, 569.12625pt x 176.66pt>
+<Plots/DCBexp.pdf, id=310, 569.12625pt x 176.66pt>
 File: Plots/DCBexp.pdf Graphic file (type pdf)
  <use Plots/DCBexp.pdf>
-Package pdftex.def Info: Plots/DCBexp.pdf used on input line 216.
+Package pdftex.def Info: Plots/DCBexp.pdf used on input line 236.
 (pdftex.def)             Requested size: 473.22511pt x 146.89731pt.
 
-Overfull \hbox (78.86984pt too wide) in paragraph at lines 216--217
+Overfull \hbox (78.86984pt too wide) in paragraph at lines 236--237
  [][][] 
  []
 
@@ -2558,16 +2558,10 @@ Overfull \hbox (78.86984pt too wide) in paragraph at lines 216--217
 File: Plots/IPATIAexp.pdf Graphic file (type pdf)
 
 <use Plots/IPATIAexp.pdf>
-Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 292.
+Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 291.
 (pdftex.def)             Requested size: 394.35527pt x 123.11133pt.
- [20]
-Overfull \hbox (36.33798pt too wide) in paragraph at lines 309--318
-[]\EU2/lmr/m/n/10.95 re-fe-ren-ziert. Das Ver-zwei-gungs-ver-hält-nis für den
- Zer-fall $\EU2/LatinModernMath(0)/m/n/10.95 J/ψ → 𝜇[]𝜇[]$ \EU2/lmr/m/
-n/10.95 ist zu $[] []$
- []
-
-[21<./Plots/IPATIAexp.pdf>]) (./content/05_ergebnisse.tex [22]
+ [20] [21<./Plots/IPATIAexp.pdf>])
+(./content/05_ergebnisse.tex [22]
 chapter 5.
 ) [23
 
@@ -2599,9 +2593,9 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 8047393B32E253BD7243DF25CB0654A3;16728.
+(rerunfilecheck)             Checksum: FA0DFEE9BB5F242D7AF266B0E0A67D66;16658.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: 1E9558D8ADC2B6639B2BC4DEC4290F3C;1695.
+(rerunfilecheck)             Checksum: F5860F70592DC89711CC64E9ABBE3281;1695.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
@@ -2611,13 +2605,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
 Here is how much of LuaTeX's memory you used:
  58688 strings out of 495009
  100000,1977958 words of node,token memory allocated
- 752 words of node memory still in use:
+ 751 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 13 kern, 17 attribute, 78 glue_spec, 17 att
 ribute_list, 15 action, 1 write nodes
-   avail lists: 1:3,2:4124,3:1123,4:2028,5:366,6:3921,7:655,8:40,9:541,10:550,11
+   avail lists: 1:3,2:4134,3:1125,4:2030,5:434,6:4789,7:665,8:40,9:596,10:692,11
 :1,12:1
  60236 multiletter control sequences out of 65536+600000
- 285 fonts using 80165391 bytes
+ 285 fonts using 80166863 bytes
  79i,30n,107p,1992b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman8-it
 alic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
@@ -2638,10 +2632,10 @@ in/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math
 .otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmsans
 10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm
 /lmroman12-bold.otf>
-Output written on thesis.pdf (31 pages, 469665 bytes).
+Output written on thesis.pdf (31 pages, 471380 bytes).
 
-PDF statistics: 689 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
+PDF statistics: 690 PDF objects out of 1000 (max. 8388607)
+ 544 compressed objects within 6 object streams
  113 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
