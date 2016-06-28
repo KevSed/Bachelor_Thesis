@@ -634,6 +634,61 @@
       \verb arXiv:1312.5000
       \endverb
     \endentry
+    \entry{sigmajpsi}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{%
+           family={Aaij},
+           family_i={A\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. High Energy Phys.}
+      \field{month}{05}
+      \field{number}{arXiv:1304.6977. CERN-PH-EP-2013-071. LHCB-PAPER-2013-016}
+      \field{title}{{Production of $J/\psi$ and $\Upsilon$ mesons in $pp$ collisions at $\sqrt{s}$ = 8 TeV}}
+      \field{volume}{06}
+      \field{year}{2013}
+      \field{pages}{064. 35 p}
+      \range{pages}{-1}
+      \verb{url}
+      \verb https://cds.cern.ch/record/1545745
+      \endverb
+    \endentry
+    \entry{sigmaB}{article}{}
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{%
+           family={Aaij},
+           family_i={A\bibinitperiod},
+           given={R},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. High Energy Phys.}
+      \field{month}{07}
+      \field{note}{Comments: 13 pages, 12 figures, 1 table, submitted to JHEP}
+      \field{number}{arXiv:1306.3663. CERN-PH-EP-2013-095. LHCB-PAPER-2013-004}
+      \field{title}{{Measurement of $B$ meson production cross-sections in proton-proton collisions at $\sqrt{s}=$ 7 TeV}}
+      \field{volume}{08}
+      \field{year}{2013}
+      \field{pages}{117. 13 p}
+      \range{pages}{-1}
+      \verb{url}
+      \verb http://cds.cern.ch/record/1559246
+      \endverb
+    \endentry
     \entry{biblatex}{manual}{}
       \true{moreauthor}
       \name{author}{1}{}{%

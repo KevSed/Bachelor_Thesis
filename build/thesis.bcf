@@ -2082,12 +2082,14 @@
     <bcf:citekey order="52">ba-maik</bcf:citekey>
     <bcf:citekey order="53">pdg</bcf:citekey>
     <bcf:citekey order="54">ba-maik</bcf:citekey>
-    <bcf:citekey order="55">biblatex</bcf:citekey>
-    <bcf:citekey order="56">make</bcf:citekey>
-    <bcf:citekey order="57">toolbox</bcf:citekey>
-    <bcf:citekey order="58">gitbash</bcf:citekey>
-    <bcf:citekey order="59">siunitx</bcf:citekey>
-    <bcf:citekey order="60">ba-maik</bcf:citekey>
+    <bcf:citekey order="55">sigmajpsi</bcf:citekey>
+    <bcf:citekey order="56">sigmaB</bcf:citekey>
+    <bcf:citekey order="57">biblatex</bcf:citekey>
+    <bcf:citekey order="58">make</bcf:citekey>
+    <bcf:citekey order="59">toolbox</bcf:citekey>
+    <bcf:citekey order="60">gitbash</bcf:citekey>
+    <bcf:citekey order="61">siunitx</bcf:citekey>
+    <bcf:citekey order="62">ba-maik</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global" type="entry" sortscheme="none" sortnamekeyscheme="global">
   <bcf:sorting>

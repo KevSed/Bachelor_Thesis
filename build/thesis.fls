@@ -358,6 +358,8 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/graphdrawing/te
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraphdrawing.code.tex
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraphdrawing.code.tex
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tikz-feynman/tikzfeynman.keys.code.tex
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -645,3 +647,4 @@ INPUT build/thesis.aux
 INPUT build/thesis.toc
 INPUT build/thesis.run.xml
 OUTPUT build/thesis.run.xml
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
