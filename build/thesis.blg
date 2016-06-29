@@ -1,18 +1,18 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[32] biber:290> INFO - === Tue Jun 28, 2016, 22:39:30
+[31] biber:290> INFO - === Wed Jun 29, 2016, 16:55:15
 [44] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[148] Biber.pm:741> INFO - Found 31 citekeys in bib section 0
-[162] Biber.pm:3150> INFO - Processing section 0
-[210] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[213] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[218] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[461] Utils.pm:147> WARN - BibTeX subsystem: /tmp/kfD1S9brdD/references.bib_5922.utf8, line 282, warning: 43 characters of junk seen at toplevel
-[465] Utils.pm:147> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
-[735] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[735] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[735] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'de-DE'
-[735] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
-[774] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[778] bbl.pm:615> INFO - Output to build/thesis.bbl
-[778] Biber.pm:108> INFO - WARNINGS: 2
+[125] Biber.pm:741> INFO - Found 31 citekeys in bib section 0
+[136] Biber.pm:3150> INFO - Processing section 0
+[177] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
+[180] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[183] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
+[428] Utils.pm:147> WARN - BibTeX subsystem: /tmp/Vz76DaA4BU/references.bib_5453.utf8, line 282, warning: 43 characters of junk seen at toplevel
+[431] Utils.pm:147> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
+[635] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[635] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[635] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'de-DE'
+[635] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
+[663] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[666] bbl.pm:615> INFO - Output to build/thesis.bbl
+[667] Biber.pm:108> INFO - WARNINGS: 2

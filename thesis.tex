@@ -118,6 +118,7 @@
 \usepackage[pdfusetitle,unicode,linkbordercolor=tugreen]{hyperref}
 \usepackage{bookmark}
 \usepackage[shortcuts]{extdash}
+\usepackage{showframe}
 % make bar horizontal, use \hslash for slashed h
 \let\hbar\relax
 \DeclareMathSymbol{\hbar}{\mathord}{AMSb}{"7E}
@@ -148,7 +149,7 @@
 
 % tu logo on top of the titlepage
 \titlehead{\includegraphics[height=1.5cm]{logos/tu-logo.pdf}}
-
+\renewcommand*\chapterheadstartvskip{\vspace*{-0.2cm}}
 \begin{document}
 \frontmatter
 

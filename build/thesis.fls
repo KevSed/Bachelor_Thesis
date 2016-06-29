@@ -412,6 +412,10 @@ INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/oberdiek/bkm-pdftex.d
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/ncctools/extdash.sty
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/ncctools/extdash.sty
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/showframe.sty
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/showframe.sty
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/german.lbx

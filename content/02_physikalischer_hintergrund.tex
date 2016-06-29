@@ -63,40 +63,41 @@ Da die Masse der Neutrinos nicht verschwindend ist, können sogennante Oszillati
 Andere theoretische Beschreibungen gehen etwa von Zerfällen über ein $Z'$-Boson aus \cite{zprime}. Das dazugehörige Feynman-Diagramm ist in Abbildung~\ref{fig:Zprime} dargestellt.
 %
 \begin{figure}
-  \centering
-  \feynmandiagram[horizontal=a to b] {
-  i1 [particle=\(c\)] -- [fermion] a -- [fermion] i2 [particle=\(\bar{c}\)],
-  a -- [scalar, edge label=\(Z'\)] b,
-  f1 [particle=\(e^{+}\)] -- [fermion] b -- [fermion] f2 [particle=\(\mu^{-}\)],
-};
-\caption{LFV Zerfall des $\jpsi$ über ein Z'.}
-\label{fig:Zprime}
+  \begin{subfigure}{0.48\textwidth}
+    \centering
+    \feynmandiagram[horizontal=a to b] {
+    i1 [particle=\(c\)] -- [fermion] a -- [fermion] i2 [particle=\(\bar{c}\)],
+    a -- [scalar, edge label=\(Z'\)] b,
+    f1 [particle=\(e^{+}\)] -- [fermion] b -- [fermion] f2 [particle=\(\mu^{-}\)],
+    };
+    \caption{}
+    \label{fig:Zprime}
+  \end{subfigure}
+  \begin{subfigure}{0.48\textwidth}
+    \centering
+    \begin{tikzpicture}
+      \tikzfeynmanset{ every vertex={ black, dot}}
+      \begin{feynman}
+        \vertex (a1) {\(c\)};
+        \vertex[right=2cm of a1] (a2);
+        \vertex[right=2cm of a2] (a3){\(\mu^{-}\)};
+        \vertex[above=2cm of a1] (a4){\(\bar{c}\)};
+        \vertex[right=2cm of a4] (a5);
+        \vertex[right=2cm of a5] (a6){\(e^{+}\)};
+        \diagram*{
+                (a1) -- [fermion](a2),
+                (a2) -- [fermion](a3),
+                (a2) -- [scalar, edge label=\(LQ\)](a5),
+                (a5) -- [fermion](a4),
+                (a6) -- [fermion](a5);
+                };
+        \end{feynman}
+      \end{tikzpicture}
+      \caption{}
+      \label{fig:lepto}
+  \end{subfigure}
+  \caption{Der Signalzerfall über ein Z' (a) bzw. über ein Leptoquark (b).}
 \end{figure}
 %
-Auch Prozesse über aus der Theorie der Supersymmetrie postulierte Teilchen sind nicht ausgeschlossen \cite{susy_gut2}. Andere theoretische Erklärungsansätze benötigen etwa sogenannte Leptoquarks \cite{leptoq}. Diese Bosonen ($s=1$) würden sowohl Farbladung, als auch einen \textit{lepton-flavor} tragen. Eine Kopplung an beide Teilchensorten, sowie Änderungen ihrer Quantenzahlen wären damit möglich (Abbildung~\ref{fig:lepto}).
-%
-\begin{figure}[H]
-  \centering
-  \begin{tikzpicture}
-    \tikzfeynmanset{ every vertex={ black, dot}}
-    \begin{feynman}
-      \vertex (a1) {\(c\)};
-      \vertex[right=2cm of a1] (a2);
-      \vertex[right=2cm of a2] (a3){\(\mu^{-}\)};
-      \vertex[above=2cm of a1] (a4){\(\bar{c}\)};
-      \vertex[right=2cm of a4] (a5);
-      \vertex[right=2cm of a5] (a6){\(e^{+}\)};
-      \diagram*{
-              (a1) -- [fermion](a2),
-              (a2) -- [fermion](a3),
-              (a2) -- [scalar, edge label=\(LQ\)](a5),
-              (a5) -- [fermion](a4),
-              (a6) -- [fermion](a5);
-              };
-      \end{feynman}
-    \end{tikzpicture}
-    \caption{Der Signalzerfall $\signal$ über ein Leptoquark.}
-    \label{fig:lepto}
-  \end{figure}
-%
+Auch Prozesse über aus der Theorie der Supersymmetrie postulierte Teilchen sind nicht ausgeschlossen \cite{susy_gut2}. Andere theoretische Erklärungsansätze benötigen etwa sogenannte Leptoquarks \cite{leptoq}. Diese Bosonen ($s=1$) würden sowohl Farbladung, als auch einen \textit{lepton-flavor} tragen. Eine Kopplung an beide Teilchensorten, sowie Änderungen ihrer Quantenzahlen wären damit möglich (Abbildung~\ref{fig:lepto}).\\
 Der hier untersuchte Zerfall $\kontroll$ stellt mit einer Wahrscheinlichkeit von $\SI{5,986(33)}{\percent}$ einen kleinen Teil aller gemessenen $\symup{J}/\symup{\psi}$-Zerfälle dar \cite{pdg}. Allerdings liegt diese im Vergleich zu der zum Signalzerfall $\signal$ nach oben abgeschätzten mit $1,6\cdot 10^{-7}$ (bei einem Konfidenzlevel von $\SI{90}{\percent}$) einige Größenordnungen höher \cite{pdg}. Dieser Zerfall eignet sich aufgrund seiner ähnlichen Topologie (Zerfall des $\symup{J}/\symup{\psi}$ in zwei Leptonen) und hohen Statistik als Kontrollkanal. Ein Vergleich mit dem Signalzerfall ermöglicht demnach die Eliminierung einiger systematischer Fehlerquellen, welche bei den erwarteten Größenordnungen der Signalkandidaten eine signifikante Rolle spielen.
