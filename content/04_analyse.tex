@@ -144,14 +144,7 @@ und der Strippingeffizienz $\epsilon_\text{strip}=\SI{8.744(6)}{\percent}$ kann 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit} \cite{extended} der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben
 beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa
-$[m_{\mu\mu}-\SI{150}{\mega\electronvolt}, m_{\mu\mu}+\SI{80}{\mega\electronvolt}]$. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können. Da die hier verwendeten Modelle numerisch sehr stark von der Wahl der Startwerte und der Iterationsintervalle abhängen, wird die Ausgleichsrechnung auf einem auf zufällig ausgewählte $100\,000$ Ereignisse beschränkten Teil des Gesamtdatensatzes durchgeführt. Hieraus folgt demnach ein Skalierungsfaktor von $13,4524$ für die bestimmten Signalereignisse. \\
-%
-%\begin{figure}[H]
-%  \centering
-%      \includegraphics[width=0.9\textwidth]{Plots/jpsi_mass.pdf}
-%  \caption{Verteilung der $\jpsi$-Masse nach Anwenden der Selektion sowie der Trigger.}
-%  \label{fig:mass}
-%\end{figure}
+$[m_{\mu\mu}-\SI{150}{\mega\electronvolt}, m_{\mu\mu}+\SI{80}{\mega\electronvolt}]$. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können. Da das hier verwendete Modelle numerisch sehr stark von der Wahl der Startwerte und der Iterationsintervalle abhängt, wird die Ausgleichsrechnung auf einem auf zufällig ausgewählte $100\,000$ Ereignisse beschränkten Teil des Gesamtdatensatzes durchgeführt. Hieraus folgt demnach ein Skalierungsfaktor von $13,4524$ für die bestimmten Signalereignisse. \\
 %
 Mit Hilfe des frameworks \texttt{RooFit} \cite{roofit} wird die Verteilung der rekonstruierten $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird für ein aus Signalfunktion und Untergrundfunktion zusammengesetztes Modell der in Gleichung~\ref{eq:massenfit} dargestellten Form eine Ausgleichrechnung durchgeführt.
 %
@@ -245,7 +238,7 @@ Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte 
 \end{figure}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  IPATIA  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Um der oben beschriebenen numerischen Instabilität vorzubeugen, kann beispielsweise die sogenannte IPATIA-Funktion als Signalmodell verwendet werden. Diese ist in Referenz~\cite{ipatia} genau beschrieben. Das ihr zugrunde liegende Modell berücksichtigt die oben erwähnten \textit{tails} und ermöglicht die Verzerrung der gaußschen 'Kernverteilung'. Dazu wird  ein Gesamtmodell der in Gleichung~\ref{eq:ipatia} dargestellten Form verwendet.
+Um der oben beschriebenen numerischen Instabilität vorzubeugen, kann beispielsweise die sogenannte IPATIA-Funktion als Signalmodell verwendet werden. Diese ist in Referenz~\cite{ipatia} genau beschrieben. Das ihr zugrunde liegende Modell berücksichtigt die oben erwähnten \textit{tails} und ermöglicht die Verzerrung der gaußschen 'Kernverteilung'. Die Funktionsvorschrift hat die in Gleichung~\ref{eq:ipatia} dargestellte Form.
 %
 \begin{equation}
   \begin{split}
@@ -268,52 +261,25 @@ handelt es sich um Bessel-Funktionen dritter Gattung. $A_\lambda$ steht der Übe
   A_\lambda^2=\frac{\zeta K_\lambda(\zeta)}{K_{\lambda+1}(\zeta)}\; .
 \end{align*}
 %
-Das Signalmodell wird über die insgesamt neun, in Gleichung~\eqref{eq:ipatia} aufgeführten Parameter an die Massenverteilung angepasst.\\
-Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit2} dargestellten Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit2} dargestellt. [Fit ist bisher noch nicht konvergiert. Ergebnisse, Fehler etc...]
-%
-\begin{table}[H]
-  \centering
-  \caption{Auflistung der Fit-Ergebnisse des Signalmodells (IPATIA), sowie des exponentiellen Hintergrunds.}
-  \begin{tabular}{lS@{$\,\pm$}S}
-    \toprule
-    \textbf{Signalmodell}         &  \multicolumn{2}{c}{Fit-Ergebnis} \\
-    \midrule
-    \quad$a$                      & 2,4      & 0,02 \\
-    \quad$a_2$                    & 4,0      & 0,1  \\
-    \quad$n$                      & 1,27     & 0,02 \\
-    \quad$n_2$                    & 7,00     & 0,1 \\
-    \quad$\beta$                  & -0.0136  & 0,0002 \\
-    \quad$\zeta$                  & 0        & 0 \\
-    \quad$\lambda$                & -2.5     & 0 \\
-    \quad$\sigma$                 & 0,15     & 0,01 \\
-    \quad$n_\text{BKG}$           & 8000     & 27 \\
-    \quad$n_\text{Sig}$           & 1337610  & 1066 \\
-    \midrule
-    \textbf{Untergrundmodell}     &  \multicolumn{2}{c}{Fit-Ergebnis} \\
-    \midrule
-    \quad$c$                      & -0,0093   & 0,0005 \\
-    \bottomrule
-  \end{tabular}
-  \label{tab:fit2}
-\end{table}
+Die Ipatia-Funktion modelliert die Verteilung der rekonstruierten Masse sowohl im Bereich der $\jpsi$-Masse, als auch im Bereich der \textit{tails} äußerst exakt. Allerdings ist auch hier die Wahl der Startwerte für die Iterationen entscheidend für die Konvergenz der Ausgleichsrechnung. Eine systematische Bestimmung solcher Startwerte ginge über den Rahmen dieser Bachelorarbeit hinaus; prinzipiell stellt die Durchführung einer solchen Ausgleichsrechnung allerdings eine Möglichkeit der Weiterführung dieser Analyse dar.
 %
 \begin{figure}[H]
   \centering
       \includegraphics[width=\textwidth]{Plots/IPATIAexp.pdf}
-  \caption{Hier kommt eine Verteilung der $\jpsi$-Masse sowie das Ergebnis des IPATIA Fits in dieser Art (schöner und mit Legende vor endgültiger Abgabe) hin (grün: Untergrund, rot: Gesamtmodell, blau: IPATIA).}
+  \caption{Verteilung der $\jpsi$-Masse sowie eine IPATIA-Funktion. (grün: Untergrund, rot: Gesamtmodell, blau: IPATIA).}
   \label{fig:fit2}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Bestimmung der Signalkandidaten}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Die in Abschnitt~\ref{sec:massenfit} durchgeführten Ausgleichsrechnungen ermöglichen die Abschätzung der Anzahl der Signalkandidaten für $\kontroll$. Diese folgt aus den Ergebnissen für die beiden Modelle. Es ergibt sich der in Gleichung~\eqref{eq:nkontroll} beschriebene Wert.
+Die in Abschnitt~\ref{sec:massenfit} durchgeführten Ausgleichsrechnung ermöglicht die Abschätzung der Anzahl der Signalkandidaten für $\kontroll$. Diese folgt aus dem Ergebnissen für die Ausgleichsrechnung des \textit{Double Crystal Ball}-Modells. Es ergibt sich der in Gleichung~\eqref{eq:nkontroll} beschriebene Wert.
 %
 \begin{equation}
-  N_{\kontroll}=1337610\,\pm\,1066
+  N_{\kontroll}=1341204\,\pm\,4493
   \label{eq:nkontroll}
 \end{equation}
 %
-(Auf Fehler runden?). Die Zahl der Signalkandidaten beträgt damit $\SI{95}{\percent}$ der in dem Datensatz nach der Selektion noch enthaltenen Ereignisse.
+(Auf Fehler runden?). Die Zahl der Signalkandidaten beträgt damit $\SI{99,7(3)}{\percent}$ der in dem Datensatz nach der Selektion noch enthaltenen Ereignisse.
 Eine rein rechnerische Abschätzung für die Zahl der Signalereignisse lässt sich mit Hilfe des Wirkungsquerschnitts für die Produktion von $B$-Mesonen [welcher genau? $B^{+}$?], der Luminosität, sowie der Zerfallsbreite $\mathcal{BR}(B\rightarrow\jpsi K)\mathcal{BR}(\kontroll)$ treffen. Die erwartete Anzahl folgt aus dem in Gleichung~\eqref{eq:rechn} beschriebenen Zusammenhang.
 %
 \begin{equation}
@@ -343,7 +309,7 @@ hier nicht die Rekonstruktion zu einem $B$-Meson vorgenommen. Sie wird dadurch e
 am Kollisionspunkt liegen darf. Da dieser Unterschied Einfluss auf die Zahl der Signalkandidaten hat, bedarf es einer Korrektur. Eine Korrektur der Anzahl der ermittelten Signalkandidaten kann über den in Gleichung~\eqref{eq:korrektur} definierten Zusammenhang mit Hilfe des Faktors $R$ erfolgen.
 %
 \begin{equation}
-  N_\text{korr}=N_{\kontroll}\cdot\underbrace{\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}}_{R}
+  N_\text{korr}=N_{\kontroll}\cdot\underbrace{\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}}_{R_1}
   \label{eq:korrektur}
 \end{equation}
 %
@@ -351,14 +317,14 @@ Das Verhältnis aus $\sigma(pp\rightarrow\jpsi)$ und $\sigma(pp\rightarrow B^+)$
 Produktionswahrscheinlichkeit der beiden Mesonen wider. Dadurch wird die zusätzliche Beschränkung der $\kontroll$-Kandidaten auf die Herkunft aus einem B-Zerfall ausgeglichen. Der Wirkungsquerschnitt $\sigma(pp\rightarrow\jpsi)$ ist dabei Messungen der LHCb Kollaboration entnommen \cite{sigmajpsi} und beträgt $\SI{1.14(16)}{\micro\barn}$; der Wirkungsquerschnitt $\sigma(pp\rightarrow B^+)$ entspricht dem in \cite{sigmaB} gemessenen und ist zusätzlich über einen Faktor von $\sfrac{8}{7}$ auf die Schwerpunktsenergie von $\SI{8}{\tera\electronvolt}$ skaliert. Er beträgt $\SI{44.46(324)}{\micro\barn}$. Der Korrekturfaktor berechnet sich gemäß Gleichung~\eqref{eq:korrfaktor}.
 %
 \begin{equation}
-  R=\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}=0.026\,\pm\,0.004
+  R_1=\frac{\sigma(pp\rightarrow\jpsi)}{\sigma(pp\rightarrow B^+)}=0,026\,\pm\,0,004
   \label{eq:korrfaktor}
 \end{equation}
 %
 Die so korrigierte Zahl an Signalereignissen entspricht
 %
 \begin{equation}
-  N_\text{korr}=???\,\pm\,???\; .
+  N_\text{korr}=(34000\,\pm\,5000)\; .
 \end{equation}
 %
 Da die bei dieser Korrektur verwendeten Wirkungsquerschnitte mit nicht zu vernachlässigenden Fehlern behaftet sind, kann
@@ -367,16 +333,24 @@ dieser Arbeit bestimmte Anzahl an $\kontroll$ Zerfällen auf die Zahl der insges
 $B$-Mesonen[...]. Aus diesem Wert lässt sich dann über das Verzweigungsverhältnis für den Zerfall in $\jpsi$-Mesonen die korrigierte Zahl der Signalkandidaten bestimmen. Diese entspricht dem in Gleichung~\eqref{eq:korrfaktor2} definierten Wert.
 %
 \begin{equation}
-  N_\text{korr}=\frac{N_{\kontroll}}{\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+})\mathcal{BR}(\kontroll)}\cdot\frac{\mathcal{BR}(B\rightarrow\jpsi X)}{f_u\cdot(\epsilon_{\text{ges}})_{\kontroll}}
+  N_\text{korr}=N_{\kontroll}\cdot\underbrace{\frac{\mathcal{BR}(B\rightarrow\jpsi X)}{f_u}}_{R_2}
   \label{eq:korrfaktor2}
+\end{equation}
+%
+Mit $f_u=0,04\,\pm\,0,08$ \cite{pdg} ergeben sich für den Korrekturfaktor und die damit korrigierte Anzahl der Signalereignisse die in Gleichung~\ref{eq:korrerg} aufgeführten Werte.
+%
+\begin{equation}
+  R_2=0,027\,\pm\,0.006\, , \quad N_\text{korr}=37000\,\pm\,7000
+  \label{eq:korrerg}
 \end{equation}
 %
 [Ergebnis und Vergleich der Ergebnisse]\\
 Über den eingangs beschriebenen Zusammenhang~\eqref{eq:konst} für die Normierungskonstante kann diese nun mit Hilfe der bestimmten Werte berechnet werden:
 %
 \begin{align*}
-  \alpha=&\frac{\mathcal{BR}(\kontroll)}{N_{\kontroll,\text{korr}}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}} \\
-  =&\xcancel{\frac{\SI{5,961(33)}{\percent}}{1335240\,\pm\,1155}\frac{\SI{0.857(1)}{\percent}}{\SI{1.2(4)e-4}{\percent}}\cdot\frac{1}{0.27\,\pm\,0.03}}=0.0012\,\pm0.0004 \, .
+  \alpha=&\frac{\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+})\mathcal{BR}(\kontroll)}{N_\text{korr}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}\, , \\
+  \alpha(R_1)=&(1,3\,\pm\,0.5)\cdot10^{-5} \, , \\
+  \alpha(R_2)=&(1,2\,\pm\,0.5)\cdot10^{-5} \, .
 \end{align*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Obere Abschätzung für das Verzweigungsverhältnis}
@@ -385,10 +359,9 @@ Die Normierungskonstante $\alpha$ ermöglicht nun zusammen mit der in der Analys
 %
 \begin{equation}
   \begin{split}
-    \mathcal{BR}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha=& (7\,\pm\,1)\cdot(0.0012\,\pm0.0004)\\=& 0.0084\,\pm\, \, .
+    \mathcal{BR}(\signal)<N_{\signal, \SI{95}{\percent}}\cdot\alpha=& (7\,\pm\,1)\cdot((1,3\,\pm\,0.5)\cdot10^{-5})\\=& (8,3\,\pm\,3,5)\cdot10^{-5} \, .
   \end{split}
 \end{equation}
 %
-[Vorerst grobe Abschätzung aus dem Fitergebnis]
 
 \nocite{biblatex, make, toolbox, gitbash, siunitx}

@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  29 JUN 2016 16:55
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  29 JUN 2016 20:49
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.055 seconds)
+luaotfload | main : initialization completed in 0.053 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2555,17 +2555,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--54
 <Plots/DCBexp.pdf, id=298, 569.12625pt x 408.52625pt>
 File: Plots/DCBexp.pdf Graphic file (type pdf)
  <use Plots/DCBexp.pdf>
-Package pdftex.def Info: Plots/DCBexp.pdf used on input line 242.
+Package pdftex.def Info: Plots/DCBexp.pdf used on input line 235.
 (pdftex.def)             Requested size: 315.48541pt x 226.4667pt.
 
 [16] [17<./Plots/DCBexp.pdf>]
-<Plots/IPATIAexp.pdf, id=363, 569.12625pt x 177.66376pt>
+<Plots/IPATIAexp.pdf, id=360, 569.12625pt x 177.66376pt>
 File: Plots/IPATIAexp.pdf Graphic file (type pdf)
 
 <use Plots/IPATIAexp.pdf>
-Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 302.
+Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 268.
 (pdftex.def)             Requested size: 394.35527pt x 123.11133pt.
- [18] [19<./Plots/IPATIAexp.pdf>] [20])
+ [18<./Plots/IPATIAexp.pdf>] [19] [20])
 (./content/05_ergebnisse.tex [21]
 chapter 5.
 ) [22
@@ -2598,9 +2598,9 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: AD204F802F5CA11C2756B20B6CB3C943;16854.
+(rerunfilecheck)             Checksum: 897E00F17A86C799C8BB232340045804;16390.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: 99CF8CF9CD5C754D39625CA5DDFFB0FA;1695.
+(rerunfilecheck)             Checksum: B708B7E4EF53046C467AA75858EA40BA;1695.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
@@ -2610,10 +2610,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 Here is how much of LuaTeX's memory you used:
  58870 strings out of 495009
  100000,1977958 words of node,token memory allocated
- 802 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 17 kern, 21 attribute, 78 glue_spec, 21 att
+ 833 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 18 kern, 22 attribute, 84 glue_spec, 22 att
 ribute_list, 17 action, 1 write nodes
-   avail lists: 1:3,2:4336,3:1137,4:2248,5:345,6:4402,7:665,8:40,9:651,10:644,11
+   avail lists: 1:3,2:4280,3:1122,4:2220,5:344,6:4402,7:665,8:40,9:609,10:644,11
 :1,12:1
  60391 multiletter control sequences out of 65536+600000
  285 fonts using 80166127 bytes
@@ -2636,12 +2636,11 @@ exlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/kev
 in/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math
 .otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmsans
 10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm
-/lmroman12-bold.otf><</home/kevin/.local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/latxfont/line10.pfb>
-Output written on thesis.pdf (31 pages, 478092 bytes).
+/lmroman12-bold.otf>
+Output written on thesis.pdf (31 pages, 474686 bytes).
 
-PDF statistics: 708 PDF objects out of 1000 (max. 8388607)
- 561 compressed objects within 6 object streams
+PDF statistics: 703 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
  119 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
