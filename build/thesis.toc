@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {4.2}Selektion des Kontrollkanals}{12}{section.4.2}
 \contentsline {section}{\numberline {4.3}Massenfit}{14}{section.4.3}
 \contentsline {section}{\numberline {4.4}Bestimmung der Signalkandidaten}{19}{section.4.4}
-\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{19}{section.4.5}
+\contentsline {section}{\numberline {4.5}Bestimmung der Normierungskonstante}{20}{section.4.5}
 \contentsline {section}{\numberline {4.6}Obere Abschätzung für das Verzweigungsverhältnis}{21}{section.4.6}
 \contentsline {chapter}{\numberline {5}Ergebnisse der Analyse}{22}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ausblick}{22}{section.5.1}

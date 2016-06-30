@@ -9,7 +9,7 @@ Ziel dieser Analyse ist es die benötigten Größen zur Bestimmung einer Normier
 \end{equation}
 %
 
-Hierbei ist~$\mathcal{BR}(\kontroll)$ das bereits zu $\SI{5,986(33)}{\percent}$ \cite{pdg} vermessene Verzweigungsverhältnis des für den Zerfall des $\jpsi$-Mesons in zwei Myonen. $\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+})$ ist das zu {blubb} bestimmte Verzweigungsverhältnis für den Zerfall eines $B$-Mesons in ein $\jpsi$- und ein $K$-Meson. $N_{\kontroll}$ beschreibt die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse für $B\rightarrow\jpsi(\rightarrow\mu\mu) K$.
+Hierbei ist~$\mathcal{BR}(\kontroll)$ das bereits zu $\SI{5,986(33)}{\percent}$ \cite{pdg} vermessene Verzweigungsverhältnis für den Zerfall des $\jpsi$-Mesons in zwei Myonen. $\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+})$ ist das zu $\SI{0.1027(31)}{\percent}$ \cite{pdg} bestimmte Verzweigungsverhältnis für den Zerfall eines $B$-Mesons in ein $\jpsi$- und ein $K$-Meson. $N_{\kontroll}$ beschreibt die in dieser Arbeit bestimmte Anzahl der gemessenen Signalereignisse für $B\rightarrow\jpsi(\rightarrow\mu\mu) K$.
 $\epsilon_{\text{ges}}$ beschreibt die Gesamteffizienzen der Analyse des jeweiligen Kanals. Sie beinhalten die Detektion,
 Rekonstruktion und Selektion der Ereignisse. Die Normierungskonstante ermöglicht es, systematische Fehler in der Bestimmung der
 Signalkandidaten und Effizienzen des Signalzerfalls $\signal$ möglichst herauszukürzen und so ein deutlich exakteres Ergebnis
@@ -21,7 +21,7 @@ Signalkandidaten eine Abschätzung für das Verzweigungsverhältnis des Zerfalls
   \label{eq:absch}
 \end{equation}
 %
-Ideal wäre die Betrachtung eines Datensatzes für $\kontroll$. Hierzu existiert allerdings bisher keine Vorselektion für Daten des LHCb, da sich diese noch in Vorbereitung befindet. Daher wird ein Datensatz für den Zerfall $B\rightarrow\jpsi(\rightarrow\mu\mu) K$ verwendet.
+Ideal wäre die Betrachtung eines Datensatzes für $\kontroll$. Hierzu existiert allerdings bisher keine Vorselektion für Daten des LHCb, da sich diese noch in Vorbereitung befindet. Daher wird ein Datensatz für den Zerfall $B^{+}\rightarrow\jpsi(\rightarrow\mu\mu) K^{+}$ verwendet.
 Da die Selektion für die darin enthaltenen Ereignisse aufgrund der Abweichung vom Signalzerfall ebenfalls abweichend ist, müssen bestimmte Korrekturen der erwarteten Ereignisse durchgeführt werden. Diese werden in Abschnitt~\ref{sec:norm} diskutiert.
 Um die benötigten Größen aus dieser Analyse zu bestimmen, wird eine schnittbasierte Selektion des Kontrollkanals
 durchgeführt, um über die Ermittlung der rekonstruierten Signalereignisse und der dabei auftretenden Effizienzen
@@ -118,7 +118,7 @@ Des Weiteren werden sogenannte Triggerstufen als Bedingung für die Selektion de
   \label{tab:trigger}
 \end{table}
 %
-Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie desr Selektion bezogen auf die Zahl der Ereignisse im Datensatz beträgt für die Simulation die in Gleichung~\eqref{eq:eff_ges1} aufgeführten Wert.
+Die Effizienz $\epsilon$ dieser drei Triggerstufen, sowie der Selektion bezogen auf die Zahl der Ereignisse im Datensatz beträgt für die Simulation den in Gleichung~\eqref{eq:eff_ges1} aufgeführten Wert.
 %
 \begin{equation}
   \epsilon_\text{Trigger}=\frac{N_\text{MC-events after trigger}}{N_\text{MC-events after selection}}=\SI{74.15(4)}{\percent} \, .% \frac{1345240}{1814293}
@@ -144,7 +144,7 @@ und der Strippingeffizienz $\epsilon_\text{strip}=\SI{8.744(6)}{\percent}$ kann 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Um aus dem so eingeschränkten und selektierten MC-Datensatz die Anzahl der Signalkandidaten $N_{\kontroll}$ zu bestimmen, wird ein sogennanter \textit{extended maximum-likelihood-fit} \cite{extended} der rekonstruierten $\jpsi$-Masse durchgeführt. Die oben
 beschriebene Selektion beschränkt den Massenbereich des rekonstruierten $\jpsi$-Mesons auf einen Bereich von etwa
-$[m_{\mu\mu}-\SI{150}{\mega\electronvolt}, m_{\mu\mu}+\SI{80}{\mega\electronvolt}]$. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund hinreichend modellieren zu können. Da das hier verwendete Modelle numerisch sehr stark von der Wahl der Startwerte und der Iterationsintervalle abhängt, wird die Ausgleichsrechnung auf einem auf zufällig ausgewählte $100\,000$ Ereignisse beschränkten Teil des Gesamtdatensatzes durchgeführt. Hieraus folgt demnach ein Skalierungsfaktor von $13,4524$ für die bestimmten Signalereignisse. \\
+$[m_{\mu\mu}-\SI{150}{\mega\electronvolt}, m_{\mu\mu}+\SI{80}{\mega\electronvolt}]$. Die Masse des $\jpsi$-Mesons beträgt $\SI{3096.916(11)}{\mega\electronvolt}$ \cite{pdg}. Diese Einschränkung konzentriert den Fit auf die $\SI{60.87}{\percent}$ der gesamten Ereignisse, welche in diesem Bereich liegen, da so das gesamte Signal, aber möglichst wenig Untergrund vorliegen. Gleichzeitig ist das Intervall weit genug gewählt, um auch den eingangs dieses Kapitels beschriebenen Untergrund modellieren zu können. Da das hier verwendete Modelle numerisch sehr stark von der Wahl der Startwerte und der Iterationsintervalle abhängt, wird die Ausgleichsrechnung auf einem auf zufällig ausgewählte $100\,000$ Ereignisse beschränkten Teil des Gesamtdatensatzes durchgeführt. Hieraus folgt demnach ein Skalierungsfaktor von $13,4524$ für die bestimmten Signalereignisse. \\
 %
 Mit Hilfe des frameworks \texttt{RooFit} \cite{roofit} wird die Verteilung der rekonstruierten $\jpsi$-Masse an ein aus Signalmodell und Untergundmodell bestehendes Gesamtmodell angepasst. Dazu wird für ein aus Signalfunktion und Untergrundfunktion zusammengesetztes Modell der in Gleichung~\ref{eq:massenfit} dargestellten Form eine Ausgleichrechnung durchgeführt.
 %
@@ -199,13 +199,13 @@ Der Faktor $f$ beschreibt dabei das Verhältnis der beiden CB-Funktionen und lie
 $\alpha$ gibt dabei an, ab wann die Gaußverteilung durch den Potenzzusammenhang ersetzt wird. Dies beeinflusst also, wann die Modellation der \textit{tails}
 einsetzt. Ein positives $\alpha$ bedeutet dabei, dass der \textit{tail} zu kleineren Werten einsetzt, während ein $\alpha<0$
 diesen zu größeren Werten modelliert. $\mu$ beschreibt den Wert für das Maximum der Gaußfunktion. Anschaulich beschreibt dies die aus
-den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen Guaßschen Teil der Verteilung angepasst werden,
-wird über diesen Parameter für beide Funktionen gemeinsam iteriert. Das $\sigma$ gibt wie bei Gaußschen Verteilungen üblich die Breite der Verteilung an. Über den Parameter $n$ kann das Modell für den \textit{tail} angepasst werden. Der Wert für $n$ gibt den Grad der Potenz an.
+den Daten rekonstruierte Masse des $\jpsi$-Mesons. Da beide \textit{Crystal Ball}-Funktionen an den gleichen gaußschen Teil der Verteilung angepasst werden,
+wird über diesen Parameter für beide Funktionen gemeinsam iteriert. Das $\sigma$ gibt wie bei gaußschen Verteilungen üblich die Breite der Verteilung an. Über den Parameter $n$ kann das Modell für den \textit{tail} angepasst werden. Der Wert für $n$ gibt den Grad der Potenz an.
 Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte für die freien Parameter. Die so definierte Gesamtfunktion, sowie die einzelnen Komponenten sind in Abbildung~\ref{fig:fit1} dargestellt. Die Wahl mehrerer CB Funktionen ermöglicht es unter anderem, die Gaußverteilung, also den Kern des Fits zu verzerren. Auf diese Weise, ist das Gesamtmodell in der Lage auch nicht gaußverteilte Unsicherheiten in diesem Bereich zu modellieren. Allerdings ist die Ausgleichsrechnung mit \texttt{RooFit} für Modelle dieser Art numerisch sehr instabil, sodass die Wahl der Intervalle und Startwerte für die freien Parameter großen Einfluss auf das Ergebnis hat. Daher ist eine systematische und zuvor genau zu untersuchende Bestimmung dieser von Nöten, welche über den in dieser Arbeit gesteckten Rahmen hinaus ginge. [Was zu Ergebnissen, Fehlern etc...]
 %
 \begin{table}[H]
   \centering
-  \caption{Auflistung der Fit-Ergebnisse des Signalmodells (DCB), sowie des exponentiellen Hintergrunds. Der Parameter $n_2$ ist hier auf einen Wert von 40 fetsgesetzt.}
+  \caption{Auflistung der Fit-Ergebnisse des Signalmodells (DCB), sowie des exponentiellen Hintergrunds. Der Parameter $n_2$ ist hier auf einen Wert von 40 festgesetzt.}
   \begin{tabular}{lS@{$\,\pm$}S}
     \toprule
     \textbf{Signalmodell}         &  \multicolumn{2}{c}{Fit-Ergebnis} \\
@@ -233,7 +233,7 @@ Die Ausgleichsrechnung ergibt die in Tabelle~\ref{tab:fit1} dargestellten Werte 
 \begin{figure}[H]
   \centering
       \includegraphics[width=0.8\textwidth]{Plots/DCBexp.pdf}
-  \caption{Verteilung der $\jpsi$-Masse sowie das Ergebnis des DCB-Fits. (grün: Untergrund, rot: Gesamtmodell, blau: CB1, orange: CB2).}
+  \caption{Verteilung der $\jpsi$-Masse sowie das Ergebnis des DCB-Fits. (schwarz: Daten, grün: Untergrund, rot: Gesamtmodell, blau: CB1, orange: CB2).}
   \label{fig:fit1}
 \end{figure}
 %
@@ -265,7 +265,7 @@ Die Ipatia-Funktion modelliert die Verteilung der rekonstruierten Masse sowohl i
 %
 \begin{figure}[H]
   \centering
-      \includegraphics[width=\textwidth]{Plots/IPATIAexp.pdf}
+      \includegraphics[width=0.8\textwidth]{Plots/IPATIAexp.pdf}
   \caption{Verteilung der $\jpsi$-Masse sowie eine IPATIA-Funktion. (grün: Untergrund, rot: Gesamtmodell, blau: IPATIA).}
   \label{fig:fit2}
 \end{figure}
@@ -275,7 +275,7 @@ Die Ipatia-Funktion modelliert die Verteilung der rekonstruierten Masse sowohl i
 Die in Abschnitt~\ref{sec:massenfit} durchgeführten Ausgleichsrechnung ermöglicht die Abschätzung der Anzahl der Signalkandidaten für $\kontroll$. Diese folgt aus dem Ergebnissen für die Ausgleichsrechnung des \textit{Double Crystal Ball}-Modells. Es ergibt sich der in Gleichung~\eqref{eq:nkontroll} beschriebene Wert.
 %
 \begin{equation}
-  N_{\kontroll}=1341204\,\pm\,4493
+  N_{\kontroll}=1\,341\,204\,\pm\,4493
   \label{eq:nkontroll}
 \end{equation}
 %
@@ -301,7 +301,7 @@ Aus der parallel durchgeführten Analyse \cite{ba-maik} wird die Gesamteffizienz
   \epsilon_{\signal, \text{tot}}=1,2\,\pm\,0,4\cdot 10^{-6}
 \end{equation}
 %
-referenziert. Das Verzweigungsverhältnis für den Zerfall $\kontroll$ ist zu \\$\SI{5,961(33)}{\percent}$ und das für den Zerfall $B^{+}\rightarrow\jpsi X$ zu $\SI{1,094(32)}{\percent}$ bestimmt \cite{pdg}. Der in
+referenziert. Das Verzweigungsverhältnis für den Zerfall $\kontroll$ ist zu \\$\SI{5,961(33)}{\percent}$ und das für den Zerfall $B\rightarrow\jpsi X$ zu $\SI{1,094(32)}{\percent}$ bestimmt \cite{pdg}. Der in
 dieser Analyse verwendete Datensatz unterscheidet sich von dem in der Analyse \cite{ba-maik} verwendeten in der Vorselektion. Die
 Kandidaten für den Zerfall $\kontroll$ werden so selektiert, dass die Impulse der beiden Myonen die Masse des $\jpsi$-Mesons
 rekonstruieren und dass das $\jpsi$-Meson zusammen mit dem $K^+$ aus dem Zerfall eines $B$-Mesons stammt. Für die Selektion der Kandidaten für $\signal$ werden zwar auch Elektron-Myon-Paare gesucht, deren Impulse die Masse des $\jpsi$-Mesons rekonstruieren, allerdings wird
@@ -345,12 +345,12 @@ Mit $f_u=0,04\,\pm\,0,08$ \cite{pdg} ergeben sich für den Korrekturfaktor und d
 \end{equation}
 %
 [Ergebnis und Vergleich der Ergebnisse]\\
-Über den eingangs beschriebenen Zusammenhang~\eqref{eq:konst} für die Normierungskonstante kann diese nun mit Hilfe der bestimmten Werte berechnet werden:
+Über den eingangs beschriebenen Zusammenhang~\eqref{eq:konst} für die Normierungskonstante und $\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+}) = \SI{0.1027(31)}{\percent}$ \cite{pdg} kann diese nun mit Hilfe der bestimmten Werte berechnet werden:
 %
 \begin{align*}
   \alpha=&\frac{\mathcal{BR}(B^{+}\rightarrow\jpsi K^{+})\mathcal{BR}(\kontroll)}{N_\text{korr}}\frac{(\epsilon_{\text{ges}})_{\kontroll}}{(\epsilon_{\text{ges}})_{\signal}}\, , \\
-  \alpha(R_1)=&(1,3\,\pm\,0.5)\cdot10^{-5} \, , \\
-  \alpha(R_2)=&(1,2\,\pm\,0.5)\cdot10^{-5} \, .
+  \alpha(R_1)=&\,(1,3\,\pm\,0.5)\cdot10^{-5} \, , \\
+  \alpha(R_2)=&\,(1,2\,\pm\,0.5)\cdot10^{-5} \, .
 \end{align*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Obere Abschätzung für das Verzweigungsverhältnis}

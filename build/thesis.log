@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  29 JUN 2016 20:49
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  30 JUN 2016 11:49
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.053 seconds)
+luaotfload | main : initialization completed in 0.056 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2122,12 +2122,6 @@ File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2005/01/29 v1.2 Extended Dash Package (NCC)
 )
-(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/showframe.sty
-Package: showframe 2011/02/24 v0.1i showframe (new impl., RN)
-
-(/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 
@@ -2522,11 +2516,11 @@ chapter 3.
 otf/lmromancaps10-regular.luc) [6
 
 ]
-<Plots/lhcb.pdf, id=168, 886.51201pt x 470.55798pt>
+<Plots/lhcb.pdf, id=168, 426.68785pt x 235.01364pt>
 File: Plots/lhcb.pdf Graphic file (type pdf)
  <use Plots/lhcb.pdf>
 Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
-(pdftex.def)             Requested size: 354.91733pt x 188.385pt.
+(pdftex.def)             Requested size: 350.97594pt x 193.32564pt.
 
 [7<./Plots/lhcb.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--35
@@ -2552,20 +2546,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--54
 [10
 
 ] [11] [12] [13] [14] [15]
-<Plots/DCBexp.pdf, id=298, 569.12625pt x 408.52625pt>
+<Plots/DCBexp.pdf, id=611, 569.12625pt x 408.52625pt>
 File: Plots/DCBexp.pdf Graphic file (type pdf)
  <use Plots/DCBexp.pdf>
 Package pdftex.def Info: Plots/DCBexp.pdf used on input line 235.
 (pdftex.def)             Requested size: 315.48541pt x 226.4667pt.
 
 [16] [17<./Plots/DCBexp.pdf>]
-<Plots/IPATIAexp.pdf, id=360, 569.12625pt x 177.66376pt>
+<Plots/IPATIAexp.pdf, id=673, 569.12625pt x 408.52625pt>
 File: Plots/IPATIAexp.pdf Graphic file (type pdf)
 
 <use Plots/IPATIAexp.pdf>
 Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 268.
-(pdftex.def)             Requested size: 394.35527pt x 123.11133pt.
- [18<./Plots/IPATIAexp.pdf>] [19] [20])
+(pdftex.def)             Requested size: 315.48541pt x 226.4667pt.
+ [18] [19<./Plots/IPATIAexp.pdf>] [20])
 (./content/05_ergebnisse.tex [21]
 chapter 5.
 ) [22
@@ -2598,9 +2592,9 @@ Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 897E00F17A86C799C8BB232340045804;16390.
+(rerunfilecheck)             Checksum: 8DB74A593397FC1C4B37C3173F89225C;16390.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: B708B7E4EF53046C467AA75858EA40BA;1695.
+(rerunfilecheck)             Checksum: BF2BC108D8BDC6845DE2B5B7EDAF75BD;1695.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
@@ -2608,15 +2602,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58870 strings out of 495009
+ 58746 strings out of 495009
  100000,1977958 words of node,token memory allocated
  833 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 18 kern, 22 attribute, 84 glue_spec, 22 att
 ribute_list, 17 action, 1 write nodes
-   avail lists: 1:3,2:4280,3:1122,4:2220,5:344,6:4402,7:665,8:40,9:609,10:644,11
+   avail lists: 1:3,2:4190,3:1120,4:2093,5:300,6:4400,7:665,8:40,9:515,10:644,11
 :1,12:1
- 60391 multiletter control sequences out of 65536+600000
- 285 fonts using 80166127 bytes
+ 60281 multiletter control sequences out of 65536+600000
+ 285 fonts using 80165391 bytes
  79i,30n,107p,1996b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman8-it
 alic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
@@ -2637,10 +2631,10 @@ in/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math
 .otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmsans
 10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm
 /lmroman12-bold.otf>
-Output written on thesis.pdf (31 pages, 474686 bytes).
+Output written on thesis.pdf (31 pages, 517314 bytes).
 
-PDF statistics: 703 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
+PDF statistics: 1017 PDF objects out of 1200 (max. 8388607)
+ 766 compressed objects within 8 object streams
  119 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
