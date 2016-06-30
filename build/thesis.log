@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  30 JUN 2016 11:49
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.3.29)  30 JUN 2016 22:50
  restricted \write18 enabled.
 **thesis.tex
 (./thesis.tex
@@ -430,7 +430,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.056 seconds)
+luaotfload | main : initialization completed in 0.053 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -2516,7 +2516,7 @@ chapter 3.
 otf/lmromancaps10-regular.luc) [6
 
 ]
-<Plots/lhcb.pdf, id=168, 426.68785pt x 235.01364pt>
+<Plots/lhcb.pdf, id=169, 426.68785pt x 235.01364pt>
 File: Plots/lhcb.pdf Graphic file (type pdf)
  <use Plots/lhcb.pdf>
 Package pdftex.def Info: Plots/lhcb.pdf used on input line 14.
@@ -2546,95 +2546,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--54
 [10
 
 ] [11] [12] [13] [14] [15]
-<Plots/DCBexp.pdf, id=611, 569.12625pt x 408.52625pt>
+<Plots/DCBexp.pdf, id=612, 569.12625pt x 408.52625pt>
 File: Plots/DCBexp.pdf Graphic file (type pdf)
  <use Plots/DCBexp.pdf>
-Package pdftex.def Info: Plots/DCBexp.pdf used on input line 235.
+Package pdftex.def Info: Plots/DCBexp.pdf used on input line 233.
 (pdftex.def)             Requested size: 315.48541pt x 226.4667pt.
 
 [16] [17<./Plots/DCBexp.pdf>]
-<Plots/IPATIAexp.pdf, id=673, 569.12625pt x 408.52625pt>
+<Plots/IPATIAexp.pdf, id=675, 569.12625pt x 408.52625pt>
 File: Plots/IPATIAexp.pdf Graphic file (type pdf)
 
 <use Plots/IPATIAexp.pdf>
-Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 268.
+Package pdftex.def Info: Plots/IPATIAexp.pdf used on input line 267.
 (pdftex.def)             Requested size: 315.48541pt x 226.4667pt.
  [18] [19<./Plots/IPATIAexp.pdf>] [20])
 (./content/05_ergebnisse.tex [21]
 chapter 5.
 ) [22
 
-]
+] [23]
 chapter without number
-[23
+[24
 
 
-] [24](load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/
-fonts/otf/lmroman8-italic.luc) [25] [26
-
-
-] (./content/eid_versicherung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+] [25](load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/
+fonts/otf/lmroman8-italic.luc) [26] (./content/danksagung.tex(load luc: /home/ke
+vin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman17-regul
+ar.luc)(load luc: /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic
+/fonts/otf/lmroman10-bolditalic.luc))
+Underfull \hbox (badness 10000) in paragraph at lines 1--181
 
  []
 
-) [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+[27] [28
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./build/thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 8DB74A593397FC1C4B37C3173F89225C;16390.
+(rerunfilecheck)             Checksum: F4B23D8E390F942602EAE2AF26837E54;16416.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
-(rerunfilecheck)             Checksum: BF2BC108D8BDC6845DE2B5B7EDAF75BD;1695.
+(rerunfilecheck)             Checksum: 51415738C79E6DC97C5737ADE35C5FA2;1715.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 )
 
 Here is how much of LuaTeX's memory you used:
- 58746 strings out of 495009
+ 58751 strings out of 495009
  100000,1977958 words of node,token memory allocated
- 833 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 18 kern, 22 attribute, 84 glue_spec, 22 att
-ribute_list, 17 action, 1 write nodes
-   avail lists: 1:3,2:4190,3:1120,4:2093,5:300,6:4400,7:665,8:40,9:515,10:644,11
+ 763 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 16 kern, 20 attribute, 74 glue_spec, 20 att
+ribute_list, 15 action, 1 write nodes
+   avail lists: 1:3,2:4162,3:1098,4:2103,5:302,6:4400,7:810,8:40,9:515,10:644,11
 :1,12:1
- 60281 multiletter control sequences out of 65536+600000
- 285 fonts using 80165391 bytes
- 79i,30n,107p,1996b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman8-it
-alic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
-mono10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/pu
-blic/lm/lmromancaps10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fo
-nts/opentype/public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/201
-5/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></home/kevin/.l
-ocal/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></hom
-e/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman6-regular
-.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroma
-n10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/l
-m/lmroman8-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentyp
-e/public/lm/lmroman10-italic.otf></home/kevin/.local/texlive/2015/texmf-dist/fon
-ts/opentype/public/lm-math/latinmodern-math.otf></home/kevin/.local/texlive/2015
-/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/kevin/.local/t
-exlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/kev
-in/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math
-.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmsans
-10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm
-/lmroman12-bold.otf>
-Output written on thesis.pdf (31 pages, 517314 bytes).
+ 60286 multiletter control sequences out of 65536+600000
+ 288 fonts using 80541959 bytes
+ 79i,30n,107p,2008b,2960s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-b
+olditalic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/
+lm/lmroman8-italic.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentyp
+e/public/lm/lmmono10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fon
+ts/opentype/public/lm/lmromancaps10-regular.otf></home/kevin/.local/texlive/2015
+/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/kevin/.loc
+al/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf><
+/home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman9-reg
+ular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lm
+roman6-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/pu
+blic/lm/lmroman10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/ope
+ntype/public/lm/lmroman8-regular.otf></home/kevin/.local/texlive/2015/texmf-dist
+/fonts/opentype/public/lm/lmroman10-italic.otf></home/kevin/.local/texlive/2015/
+texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/kevin/.loca
+l/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/
+kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.
+otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm-math/la
+tinmodern-math.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/pu
+blic/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/open
+type/public/lm/lmroman12-bold.otf>
+Output written on thesis.pdf (32 pages, 520194 bytes).
 
-PDF statistics: 1017 PDF objects out of 1200 (max. 8388607)
- 766 compressed objects within 8 object streams
- 119 named destinations out of 1000 (max. 131072)
+PDF statistics: 1028 PDF objects out of 1200 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 116 named destinations out of 1000 (max. 131072)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

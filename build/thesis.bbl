@@ -103,11 +103,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chin. Phys.}
+      \field{note}{090001}
       \field{title}{{Review of Particle Physics}}
       \field{volume}{C38}
       \field{year}{2014}
-      \field{pages}{090001}
-      \range{pages}{1}
       \verb{doi}
       \verb 10.1088/1674-1137/38/9/090001
       \endverb
@@ -212,6 +211,30 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1016/0370-2693(87)90637-X
+      \endverb
+    \endentry
+    \entry{BESIII}{article}{}
+      \name{author}{1}{}{%
+        {{hash=af1d4d31ea799ee641e0a75a0eb51a1a}{%
+           family={Collaboration},
+           family_i={C\bibinitperiod},
+           given={The\bibnamedelima BESIII},
+           given_i={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{af1d4d31ea799ee641e0a75a0eb51a1a}
+      \strng{fullhash}{af1d4d31ea799ee641e0a75a0eb51a1a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{note}{112007}
+      \field{title}{Search for the lepton flavor violation process $J/ψ\to eμ$ at BESIII}
+      \field{volume}{D87}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1304.3205
       \endverb
     \endentry
     \entry{lhc}{manual}{}
@@ -516,11 +539,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Phys. Rev. Lett.}
+      \field{note}{191601}
       \field{title}{{Measurement of the difference of time-integrated CP asymmetries in $D^0 \rightarrow K^{-} K^{+} $ and $D^0 \rightarrow π^{-} π^{+} $ decays}}
       \field{volume}{116}
       \field{year}{2016}
-      \field{pages}{191601}
-      \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevLett.116.191601
       \endverb
@@ -634,59 +656,31 @@
       \verb arXiv:1312.5000
       \endverb
     \endentry
-    \entry{sigmajpsi}{article}{}
+    \entry{fs}{article}{}
       \true{moreauthor}
       \name{author}{1}{}{%
-        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{%
+        {{hash=6eaaa5ef5815b121fb1c35ea78d343a1}{%
            family={Aaij},
            family_i={A\bibinitperiod},
-           given={R},
+           given={R.},
            given_i={R\bibinitperiod}}}%
       }
-      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
-      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
+      \strng{namehash}{7e857cdc5a004a585c6886907179a0a1}
+      \strng{fullhash}{7e857cdc5a004a585c6886907179a0a1}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J. High Energy Phys.}
-      \field{month}{05}
-      \field{number}{arXiv:1304.6977. CERN-PH-EP-2013-071. LHCB-PAPER-2013-016}
-      \field{title}{{Production of $J/\psi$ and $\Upsilon$ mesons in $pp$ collisions at $\sqrt{s}$ = 8 TeV}}
-      \field{volume}{06}
-      \field{year}{2013}
-      \field{pages}{064. 35 p}
-      \range{pages}{-1}
-      \verb{url}
-      \verb https://cds.cern.ch/record/1545745
+      \field{journaltitle}{Phys. Rev.}
+      \field{note}{032008}
+      \field{title}{Measurement of b hadron production fractions in 7 TeV pp collisions}
+      \field{volume}{D 85}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.85.032008
       \endverb
-    \endentry
-    \entry{sigmaB}{article}{}
-      \true{moreauthor}
-      \name{author}{1}{}{%
-        {{hash=fc900e0322a1c8b4986c2916a3e092b3}{%
-           family={Aaij},
-           family_i={A\bibinitperiod},
-           given={R},
-           given_i={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{f6fd12d569b0ebd9fecb5596aae83668}
-      \strng{fullhash}{f6fd12d569b0ebd9fecb5596aae83668}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J. High Energy Phys.}
-      \field{month}{07}
-      \field{note}{Comments: 13 pages, 12 figures, 1 table, submitted to JHEP}
-      \field{number}{arXiv:1306.3663. CERN-PH-EP-2013-095. LHCB-PAPER-2013-004}
-      \field{title}{{Measurement of $B$ meson production cross-sections in proton-proton collisions at $\sqrt{s}=$ 7 TeV}}
-      \field{volume}{08}
-      \field{year}{2013}
-      \field{pages}{117. 13 p}
-      \range{pages}{-1}
-      \verb{url}
-      \verb http://cds.cern.ch/record/1559246
+      \verb{eprint}
+      \verb arXiv:1111.2357
       \endverb
     \endentry
     \entry{biblatex}{manual}{}

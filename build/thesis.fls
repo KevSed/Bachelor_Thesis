@@ -640,8 +640,10 @@ INPUT Plots/IPATIAexp.pdf
 INPUT ./content/05_ergebnisse.tex
 INPUT ./content/05_ergebnisse.tex
 INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman8-italic.luc
-INPUT ./content/eid_versicherung.tex
-INPUT ./content/eid_versicherung.tex
+INPUT ./content/danksagung.tex
+INPUT ./content/danksagung.tex
+INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman17-regular.luc
+INPUT /home/kevin/.local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman10-bolditalic.luc
 INPUT build/thesis.aux
 INPUT build/thesis.aux
 INPUT build/thesis.toc
