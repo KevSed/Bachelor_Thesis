@@ -1,18 +1,18 @@
-[0] Config.pm:340> INFO - This is Biber 2.4
-[0] Config.pm:343> INFO - Logfile is 'build/thesis.blg'
-[31] biber:290> INFO - === Thu Jun 30, 2016, 22:49:58
-[43] Biber.pm:347> INFO - Reading 'build/thesis.bcf'
-[119] Biber.pm:741> INFO - Found 31 citekeys in bib section 0
-[128] Biber.pm:3150> INFO - Processing section 0
-[162] Biber.pm:3307> INFO - Looking for bibtex format file 'references.bib' for section 0
-[164] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
-[167] bibtex.pm:985> INFO - Found BibTeX data source 'references.bib'
-[407] Utils.pm:147> WARN - BibTeX subsystem: /tmp/Vld5had5wQ/references.bib_4155.utf8, line 305, warning: 43 characters of junk seen at toplevel
-[411] Utils.pm:147> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
-[631] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[631] UCollate.pm:65> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[631] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'de-DE'
-[631] Biber.pm:3031> INFO - No sort tailoring available for locale 'de-DE'
-[658] bbl.pm:519> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[662] bbl.pm:615> INFO - Output to build/thesis.bbl
-[662] Biber.pm:108> INFO - WARNINGS: 2
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'build/thesis.blg'
+[38] biber:290> INFO - === Mo Sep 12, 2016, 16:16:23
+[58] Biber.pm:351> INFO - Reading 'build/thesis.bcf'
+[151] Biber.pm:776> INFO - Found 31 citekeys in bib section 0
+[171] Biber.pm:3493> INFO - Processing section 0
+[188] Biber.pm:3657> INFO - Looking for bibtex format file 'references.bib' for section 0
+[197] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[202] bibtex.pm:1048> INFO - Found BibTeX data source 'references.bib'
+[241] Utils.pm:149> WARN - BibTeX subsystem: /tmp/dh44BZT8ul/references.bib_2218.utf8, line 305, warning: 43 characters of junk seen at toplevel
+[244] Utils.pm:149> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
+[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[273] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
+[273] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
+[295] bbl.pm:526> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[302] bbl.pm:619> INFO - Output to build/thesis.bbl
+[303] Biber.pm:108> INFO - WARNINGS: 2

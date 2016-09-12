@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.6 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{none/global}
+  \sortlist[entry]{none/global/}
     \entry{ba-maik}{thesis}{}
       \name{author}{1}{}{%
         {{hash=1d6966901767caa67ce40bc853263a96}{%
@@ -89,6 +89,7 @@
     \endentry
     \entry{pdg}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=e280547009da55f6adb450e346a8fdc6}{%
            family={Olive},
@@ -134,7 +135,7 @@
     \entry{zprime}{article}{}
       \name{author}{2}{}{%
         {{hash=9ffa5e64cadde5f4720c3f05df1092bd}{%
-           family={{J.\bibnamedelimi Bernabeu}},
+           family={{J. Bernabeu}},
            family_i={J\bibinitperiod},
            given={E.\bibnamedelimi Nardi},
            given_i={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
@@ -343,6 +344,7 @@
     \endentry
     \entry{lhcb}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=e8ca2760f32971353c7817af31129968}{%
            family={Antunes-Nobrega},
@@ -395,6 +397,7 @@
     \endentry
     \entry{tracker}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=f68a96e2074604c3b519239e972ac7cf}{%
            family={Barbosa-Marinho},
@@ -458,6 +461,7 @@
     \endentry
     \entry{evtgen}{misc}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=6f88b7965f246635f7c7115603643f3b}{%
            family={Ryd},
@@ -479,6 +483,7 @@
     \endentry
     \entry{geant4}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=1fa1785986425bed4463a184d407c5f5}{%
            family={Agostinelli},
@@ -525,6 +530,7 @@
     \endentry
     \entry{chi2}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=6eaaa5ef5815b121fb1c35ea78d343a1}{%
            family={Aaij},
@@ -658,6 +664,7 @@
     \endentry
     \entry{fs}{article}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=6eaaa5ef5815b121fb1c35ea78d343a1}{%
            family={Aaij},
@@ -685,6 +692,7 @@
     \endentry
     \entry{biblatex}{manual}{}
       \true{moreauthor}
+      \true{morelabelname}
       \name{author}{1}{}{%
         {{hash=97afecc8539f253db93a1c737d62212c}{%
            family={Lehman},
