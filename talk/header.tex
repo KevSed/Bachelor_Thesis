@@ -1,0 +1,62 @@
+\documentclass[aspectratio=1610, professionalfonts, 11pt]{beamer}
+
+% Lade das TU Dortund Theme von Max Nöthe
+\usefonttheme[onlymath]{serif}
+\usetheme[showtotalframes]{tudo}
+
+% Lade richtiges Sprachpaket
+\ifluatex
+    \usepackage{polyglossia}
+    \setmainlanguage{german}
+\else
+    \ifxetex
+        \usepackage{polyglossia}
+        \setmainlanguage{german}
+    \else
+        \usepackage[german]{babel}
+    \fi
+\fi
+
+% Lade wichtige Mathematikpakete
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{cancel}
+\usepackage[
+  locale=DE,                   % deutsche Einstellungen
+  separate-uncertainty=true,   % Immer Fehler mit \pm
+  per-mode=symbol-or-fraction, % m/s im Text, sonst Brüche
+]{siunitx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{framed}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{appendixnumberbeamer}
+\usepackage{tikz}
+
+
+% Lade Paket zur Nutzung von Schleifen
+\usepackage{forloop}
+
+% ------------------------- Präsentationsinformationen -------------------------
+
+% Titel:
+\title{\textbf{Suche nach dem Lepton-Flavor verletzenden Zerfall $\text{J}\pmb{/\psi\rightarrow e^{\pm}\mu^{\mp}}$ bei LHCb}}
+\subtitle{Normierungskonstante}
+
+% Autoren:
+\author{Kevin Sedlaczek}
+
+% Datum:
+\date{19. September 2016}
+
+% Lehrstuhl/Fakultät:
+\institute[Experimentelle Physik E5]{Fakultät Physik}
+
+% Titelgrafik:
+\titlegraphic{\includegraphics[width=0.25\textwidth]{lhcb-logo.png}\hfill\includegraphics[width=0.5\textwidth]{e5-logo.png}}
+
+% ------------------------------------------------------------------------------

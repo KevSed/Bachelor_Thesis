@@ -1,18 +1,18 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'build/thesis.blg'
-[38] biber:290> INFO - === Mo Sep 12, 2016, 16:16:23
-[58] Biber.pm:351> INFO - Reading 'build/thesis.bcf'
-[151] Biber.pm:776> INFO - Found 31 citekeys in bib section 0
-[171] Biber.pm:3493> INFO - Processing section 0
-[188] Biber.pm:3657> INFO - Looking for bibtex format file 'references.bib' for section 0
-[197] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[202] bibtex.pm:1048> INFO - Found BibTeX data source 'references.bib'
-[241] Utils.pm:149> WARN - BibTeX subsystem: /tmp/dh44BZT8ul/references.bib_2218.utf8, line 305, warning: 43 characters of junk seen at toplevel
-[244] Utils.pm:149> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
-[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[273] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[273] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
-[273] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
-[295] bbl.pm:526> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
-[302] bbl.pm:619> INFO - Output to build/thesis.bbl
-[303] Biber.pm:108> INFO - WARNINGS: 2
+[33] biber:290> INFO - === Di Sep 13, 2016, 10:41:06
+[49] Biber.pm:351> INFO - Reading 'build/thesis.bcf'
+[126] Biber.pm:776> INFO - Found 31 citekeys in bib section 0
+[138] Biber.pm:3493> INFO - Processing section 0
+[151] Biber.pm:3657> INFO - Looking for bibtex format file 'references.bib' for section 0
+[153] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[156] bibtex.pm:1048> INFO - Found BibTeX data source 'references.bib'
+[195] Utils.pm:149> WARN - BibTeX subsystem: /tmp/iRceOO3ESI/references.bib_6175.utf8, line 305, warning: 43 characters of junk seen at toplevel
+[198] Utils.pm:149> WARN - The field 'note' in entry 'extended' cannot be null, deleting it
+[231] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[232] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[232] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'de-DE'
+[232] Biber.pm:3310> INFO - No sort tailoring available for locale 'de-DE'
+[251] bbl.pm:526> INFO - Writing 'build/thesis.bbl' with encoding 'UTF-8'
+[257] bbl.pm:619> INFO - Output to build/thesis.bbl
+[258] Biber.pm:108> INFO - WARNINGS: 2

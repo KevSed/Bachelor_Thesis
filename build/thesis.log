@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.8.15)  12 SEP 2016 16:16
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.8.15)  13 SEP 2016 10:41
  restricted system commands enabled.
 **thesis.tex
 (./thesis.tex
@@ -411,8 +411,9 @@ Package: luaotfload 2016/06/16 v2.7 OpenType layout system
 Lua module: luaotfload-main 2016/06/16 2.70003 OpenType layout system.
 Lua module: lualibs 2016-04-06 2.4 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2016-04-06 2.4 ConTeXt Lua libraries -- extended co
-llection.(using cache: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/ge
-neric)
+llection.(using write cache: /home/kevin/.local/texlive/2016/texmf-var/luatex-ca
+che/generic)(using read cache: /home/kevin/.local/texlive/2016/texmf-var/luatex-
+cache/generic /home/kevin/.texlive2016/texmf-var/luatex-cache/generic)
 luaotfload | conf : Root cache directory is /home/kevin/.local/texlive/2016/texm
 f-var/luatex-cache/generic/names.
 luaotfload | init : Loading fontloader “fontloader-2016-06-16.lua” from kpse
@@ -438,7 +439,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.115 seconds)
+luaotfload | main : initialization completed in 0.120 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -734,13 +735,21 @@ Package microtype Info: Loading configuration file microtype.cfg.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
-)) (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)) (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/07/07 v1.2b Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
@@ -942,15 +951,15 @@ ernMath:mode=base;script=math;language=DFLT;+tlig;+ssty=1;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 51.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> EU2/LatinModernMath(0)/m/n on input line
- 51.
+ 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 51.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> EU2/LatinModernMath(0)/bx/n on input li
-ne 51.
+ne 54.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -996,15 +1005,15 @@ ig;+ssty=1;"
 . =179404.75sp\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 51.
+(Font)              `symbols' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> EU2/LatinModernMath(1)/m/n on input lin
-e 51.
+e 54.
 LaTeX Font Info:    Encoding `OMS' has changed to `EU2' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 51.
+(Font)              `symbols' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> EU2/LatinModernMath(1)/bx/n on input li
-ne 51.
+ne 54.
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1039,16 +1048,16 @@ ig;+ssty=1;"
 . \fontdimen 12\font =430571.4sp\relax \fontdimen 13\font =0pt\relax 
 .................................................
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 51
+(Font)              `largesymbols' in the math version `normal' on input line 54
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/m/n on input lin
-e 51.
+e 54.
 LaTeX Font Info:    Encoding `OMX' has changed to `EU2' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 51.
+(Font)              `largesymbols' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> EU2/LatinModernMath(2)/bx/n on input li
-ne 51.
+ne 54.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/l3packages/xfrac/xfrac.st
 y (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
@@ -1559,7 +1568,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box56
 )
-Package scrhack Info: loading float hack on input line 84.
+Package scrhack Info: loading float hack on input line 87.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2016/06/14 v3.21 KOMA-Script package (hacking package float)
@@ -2179,7 +2188,7 @@ File: biblatex.cfg
 ))
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 119.
+(scrhack)             need that hack, on input line 122.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
@@ -2305,33 +2314,33 @@ Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
 \openout1 = thesis.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 153.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 156.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 156.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2371,7 +2380,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Language ngerman already loaded; id is 8
-LaTeX Info: Redefining \microtypecontext on input line 153.
+LaTeX Info: Redefining \microtypecontext on input line 156.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2406,7 +2415,7 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[com
 pat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on i
-nput line 153.
+nput line 156.
 
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -2417,10 +2426,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 (./build/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 153.
-Package biblatex Info: Reference segment=0 on input line 153.
+Package biblatex Info: Reference section=0 on input line 156.
+Package biblatex Info: Reference segment=0 on input line 156.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 153.
+Package hyperref Info: Link coloring OFF on input line 156.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2431,34 +2440,40 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count407
 )
-LaTeX Info: Redefining \ref on input line 153.
-LaTeX Info: Redefining \pageref on input line 153.
-LaTeX Info: Redefining \nameref on input line 153.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
 \c__siunitx_mathsf_int=\count408
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LatinModernMath' (encoding: EU2).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 153.
+(Font)              scaled to size 10.95015pt on input line 156.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 153.
+(Font)              scaled to size 8.00012pt on input line 156.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 153.
+(Font)              scaled to size 6.00009pt on input line 156.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 153.
+(Font)              scaled to size 10.94983pt on input line 156.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 153.
+(Font)              scaled to size 7.99988pt on input line 156.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 153.
-LaTeX Font Info:    Try loading font information for U+msa on input line 153.
- (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+(Font)              scaled to size 5.99991pt on input line 156.
+
+(/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 156.
+
+(/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 153.
+LaTeX Font Info:    Try loading font information for U+msb on input line 156.
 
 (/home/kevin/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2479,7 +2494,7 @@ Package microtype Info: Loading generic settings for font family
 <logos/tu-logo.pdf, id=7, 339.2675pt x 55.20625pt>
 File: logos/tu-logo.pdf Graphic file (type pdf)
  <use logos/tu-logo.pdf>
-Package luatex.def Info: logos/tu-logo.pdf used on input line 157.
+Package luatex.def Info: logos/tu-logo.pdf used on input line 160.
 (luatex.def)             Requested size: 262.29283pt x 42.67912pt.
 (load luc: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman12-bold.luc)
@@ -2490,31 +2505,31 @@ Package microtype Info: Loading generic settings for font family
 (load luc: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/
 otl/lmsans10-bold.luc)
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 20.74031pt on input line 157.
+(Font)              scaled to size 20.74031pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 14.4002pt on input line 157.
+(Font)              scaled to size 14.4002pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 157.
+(Font)              scaled to size 12.00018pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 20.73969pt on input line 157.
+(Font)              scaled to size 20.73969pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 14.39977pt on input line 157.
+(Font)              scaled to size 14.39977pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 157.
+(Font)              scaled to size 11.99982pt on input line 160.
 (load luc: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 157.
+(Font)              scaled to size 10.00015pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 157.
+(Font)              scaled to size 7.0001pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 157.
+(Font)              scaled to size 9.99985pt on input line 160.
 LaTeX Font Info:    Font shape `EU2/LatinModernMath(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 157.
+(Font)              scaled to size 6.9999pt on input line 160.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 157.
+(hyperref)                removing `\new@ifnextchar' on input line 160.
 
 [1
 
@@ -2531,7 +2546,7 @@ al/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc)(l
 oad luc: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
 l/lmroman5-regular.luc)
 Language ngerman already loaded; id is 8) [3]
-Package tocbasic Info: character protrusion at toc deactivated on input line 163
+Package tocbasic Info: character protrusion at toc deactivated on input line 166
 .
  (./build/thesis.toc
 Language ngerman already loaded; id is 8
@@ -2650,7 +2665,7 @@ fonts/otl/lmroman8-italic.luc) [26] (./content/danksagung.tex(load luc: /home/ke
 vin/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regul
 ar.luc)(load luc: /home/kevin/.local/texlive/2016/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman10-bolditalic.luc))
-Underfull \hbox (badness 10000) in paragraph at lines 1--181
+Underfull \hbox (badness 10000) in paragraph at lines 1--184
 
  []
 
@@ -2658,33 +2673,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--181
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
  (./build/thesis.aux
 Language ngerman already loaded; id is 8
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.aux' has not changed.
-(rerunfilecheck)             Checksum: 37AA1B5250F3889ED39F64DEC9152F6A;20631.
+(rerunfilecheck)             Checksum: E1BAEC118B11FEAD426707E08A64C740;20631.
 Package rerunfilecheck Info: File `thesis.toc' has not changed.
 (rerunfilecheck)             Checksum: 51415738C79E6DC97C5737ADE35C5FA2;1715.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 
 \openout1 = thesis.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
 )
 
 Here is how much of LuaTeX's memory you used:
- 59557 strings out of 495118
+ 59888 strings out of 495118
  100000,1977958 words of node,token memory allocated
- 12523 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1432 glue, 1 kern, 485 attribute, 60 glue_spec, 485
+ 12671 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 1448 glue, 1 kern, 494 attribute, 60 glue_spec, 494
  attribute_list, 1 write, 15 pdf_action nodes
-   avail lists: 1:4,2:3340,3:1034,4:120,5:318,6:4389,7:739,8:103,9:515,10:30,11:
+   avail lists: 1:4,2:3340,3:1034,4:120,5:319,6:4397,7:739,8:103,9:515,10:30,11:
 628,12:4
- 61140 multiletter control sequences out of 65536+600000
- 196 fonts using 55444551 bytes
+ 61396 multiletter control sequences out of 65536+600000
+ 253 fonts using 58986091 bytes
  79i,30n,107p,8817b,2974s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroman10-b
 olditalic.otf></home/kevin/.local/texlive/2016/texmf-dist/fonts/opentype/public/
@@ -2706,7 +2721,7 @@ otf></home/kevin/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm-math/la
 tinmodern-math.otf></home/kevin/.local/texlive/2016/texmf-dist/fonts/opentype/pu
 blic/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2016/texmf-dist/fonts/open
 type/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (32 pages, 522117 bytes).
+Output written on thesis.pdf (32 pages, 522507 bytes).
 
 PDF statistics: 1028 PDF objects out of 1200 (max. 8388607)
  773 compressed objects within 8 object streams

@@ -37,6 +37,9 @@
 %------------------------------------------------------------------------------
 
 \usepackage{amsmath}
+\let\amsboldsymbol\boldsymbol
+\usepackage{bm}% ändert \boldsymbol
+\let\boldsymbol\amsboldsymbol
 \usepackage{amssymb}
 \usepackage{mathtools}
 
@@ -136,7 +139,7 @@
 %------------------------------------------------------------------------------
 
 \author{\vspace{3cm}\\Kevin Sedlaczek}
-\title{\texorpdfstring{Suche nach dem Lepton-Flavor verletzenden Zerfall $\signal$ bei LHCb}{J/Psi to e µ}}
+\title{\texorpdfstring{Suche nach dem Lepton-Flavor verletzenden Zerfall $\pmb{{\symup{J}/\symup{\psi}\rightarrow e^{\pm}\mu^{\mp}}}$ bei LHCb}{J/Psi to e µ}}
 \subtitle{Normierungskonstante}
 \date{2016}
 \birthplace{Dortmund}
